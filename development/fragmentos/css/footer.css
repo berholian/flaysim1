@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
+/*_ _ _ _ _ _ _ _ _/   FOOTER   \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
+/*$color_bg_dark_alt        : #72838B;*/
+/*$color_bg_light_alt       : darken($color_bg_light,5);*/
+/*1120px*/
+/*688 px*/
+/*464 px*/
+/*240 px*/
+/*$logo_ico                   : ;*/
+footer {
+  margin: 2%;
+  padding-bottom: .8em;
+}
+footer h3 {
+  margin-bottom: .2em;
+  font-family: "Alex Brush", Arial, sans-serif;
+  font-size: 2em;
+  text-transform: capitalize;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 2px 0 4px rgba(255, 255, 255, 0.8);
+}
+footer ul {
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+  /*margin: 0 auto;
+  float: none;*/
+  vertical-align: top;
+}
+footer ul li {
+  display: inline-block;
+  margin: .3em 2%;
+  padding: 15px;
+  font-size: 2em;
+  background-color: rgba(252, 208, 113, 0.9);
+  /*border-top: 1px solid rgba(132,87,147,.8);
+  border-right: 1px solid rgba(132,87,147,.8);
+  border-bottom: 1px solid rgba(51,26,59,.8);
+  border-left: 1px solid rgba(51,26,59,.8);*/
+  border-radius: 50%;
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.4);
+}
+footer ul li a {
+  line-height: 2em;
+  color: #a0a0a0;
+  /*display: block;
+  text-align: center;
+  margin: 0 auto;*/
+}
+@media screen and (max-width: 43em) {
+  footer ul li {
+    margin: 2em auto;
+  }
+}
+@media screen and (max-width: 43em) {
+  footer ul li {
+    margin: .5em 1%;
+  }
+}
+footer ul li:hover {
+  background-color: rgba(49, 58, 226, 0.1);
+}
+@media screen and (max-width: 580px) {
+  footer .contacto ol {
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  footer .contacto ol .contact {
+    margin: 0 auto;
+  }
+  footer ul {
+    width: 100%;
+  }
+}
+footer .notice {
+  width: 100%;
+  height: 10em;
+  background: rgba(254, 238, 203, 0.9);
+  float: right;
+}

@@ -1,0 +1,55 @@
+
+	POYECTO RESPONSIVE-DESIGN CURSO M13 
+
+	profesor: Luis Herrero.
+	Alumno:  Jose A. Estevez Sainz.
+	fecha de entrega: 17-1-2014
+
+	nombre: La Ille de Fragance Restaurante.
+
+	Descripción de la WEB:
+
+	La WEB consiste en 6 páginas con los contenidos fundamentales de información para el usuario, facilitandole en pocos gestos el acceso de forma sencilla a los contenidos básicos de interés: localización, carta, estética del local y calidad del servicio, así como una página de notícias con críticas actualizadas (AJAX en el futuro o introducción de CMS como WP), una galería con ejemplos de diversas posibles demandas del usuario (solo ejemplos, con posible ampliación a visualizador de fotos).
+
+	El planteamiento ha sido sobre todo Movile-fist para rápida captación de clientes en tres pasos: visión, localización, contacto-reserva.
+
+	Material entregado:
+
+	1-.zip con el contenido de la web.
+	  incluido: development y production.
+
+	2- URL: http://berholiannmckleder.besaba.com/production/
+	 
+	 - acceso admin: http://berholiannmckleder.besaba.com/production/admin
+	 	user: jochins@gmail.com
+	 	pass: tennor
+
+	Realización del proyecto:
+
+	He trabajado tanto en Windows como Mac usando programas de ambos entornos tales como:
+
+	- PrePros
+	- codeKit
+	- Sublime2
+	- Ilustrator
+	- Photosop
+	- Colormania
+	- servidores locales tales como Mampp, Xampp y EasyPHP server.
+	- Herremientas para desarroladores de Crome y Firefox.
+	- pageSpeed
+	- prototipos y ensallos con .git, Github, SourceTree,  
+
+	Los contenidos:
+
+	todo el trabajo y los contenidos son fictícios obteniendo los recursos de la red. Imagenes buscadas desde google, incluidas las fuentes e iconos. Patterns y otros siempre desde páginas gratuitas. Y otros que he realizado yo mismo (logo, etc).
+
+	También se ha usado páginas de consuta tales como:
+
+	- W3school
+	- CodeAcademy
+	- CanIUse
+	- Desarrolloweb
+	- framworks como Bootstrap, JQuery, 
+	- tutoriales de Youtube, Treehouse y foros.
+
+	Y por supuesto con los conocimientos y consultas a Luis Herrero y los compañeros del curso mediante mails, chats, tutorias y tertulias, gracias.

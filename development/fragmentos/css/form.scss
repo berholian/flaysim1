@@ -1,0 +1,105 @@
+/*_ _ _ _ _ _ _ _ _/  FORM  \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
+
+
+/*@import 'general';*/ 
+
+
+
+form                            
+{                                   
+    display: block;
+    padding: 1em 3%;
+    opacity: 0.2;
+    ul
+    {
+        width: 60%;
+        margin: .5em auto;
+        li
+        {
+            font-family: $font_family_heading;
+            list-style: none;
+            margin-bottom: .3em;
+            color: white;
+            text-transform: capitalize;
+            text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+
+        }
+    }
+    input, textarea
+    {
+        width: 200px;
+        background: rgba(0,0,0,.1);
+        display: inline-block;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 1px solid white;
+    }
+
+    textarea{
+        margin: 1em auto;
+    }
+
+    input[type="submit"], input[type="reset"]{
+        width: 100px;
+        display: inline-block;
+        font-family: $font_family_heading;
+        text-transform: uppercase;
+        color: white;
+        float: left;
+        border-right: 1px solid white;
+        margin-right: 2%;
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover{
+        cursor: pointer;
+    }
+
+    input[type="submit"]:active, input[type="reset"]:active{
+        background: white;
+        line-height: 1.8em;
+        color: black;
+    }
+
+    label{
+        display: inline-block;
+        width: 130px;
+        text-align: right;
+        padding-right: 10px;
+    }
+    span.success
+    {
+      color: green;
+    }
+
+    span.error
+    {
+      color: red;
+    }                               
+                                  
+@media screen and (max-width: $bp_medium )
+{
+    ul
+    {
+        width: 100%;
+        margin: .1em auto;
+    }
+    
+    input
+    {
+        font-size: 1.5em;
+    }
+    
+    .actioner
+    {
+        margin: 1em 0 0 1em;
+        font-size: 1.5em;
+        text-transform: capitalize;
+    }
+
+}
+}
+
+form:hover{
+    opacity: 1;
+}

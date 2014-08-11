@@ -1,0 +1,72 @@
+.col1 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 6.25%;
+}
+
+.col2 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 14.58333%;
+}
+
+.col3 {
+  float: left;
+  margin: .5em 1.04167%;
+  width: 22.91667%;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.col4 {
+  float: left;
+  margin: .1em 1.04167%;
+  width: 31.25%;
+}
+
+.col5 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 39.58333%;
+}
+
+.col6 {
+  /*float: left*/
+  margin: 0 1.04167%;
+  width: 47.91667%;
+}
+
+.col7 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 56.25%;
+}
+
+.col8 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 64.58333%;
+}
+
+.col9 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 72.91667%;
+}
+
+.col10 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 81.25%;
+}
+
+.col11 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 89.58333%;
+}
+
+.col12 {
+  float: left;
+  margin: 0 1.04167%;
+  width: 97.91667%;
+}

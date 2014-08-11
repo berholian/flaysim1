@@ -1,0 +1,58 @@
+.alert
+{
+	font-size: 1.2em;
+	text-align: left;
+	width: 60%;
+	border-radius: 3px;
+	padding: 8px 35px 8px 14px;
+}
+
+.alert .close 
+{
+	position: relative;
+	top: -2px;
+	right: -21px;
+	line-height: 20px;
+}
+
+button.close 
+{
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+	z-index: 1000;
+}
+
+.close
+{
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	text-shadow: 0 1px 0 #ffffff;
+	opacity: 0.2;
+}
+
+.alert-danger
+{
+	color: red;
+	background: rgba(255,0,0,.3);
+}
+.alert-info
+{
+	color:blue;
+	background: rgba(0,0,255,.3);
+}
+.alert-success
+{
+	color: green;
+	background: rgba(0,255,0,.2);
+}
+.alert-warning
+{
+	color: orange;
+	background: lighten(orange,.3);
+}

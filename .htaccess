@@ -1,0 +1,9 @@
+<Files *.js>
+#Compress
+SetOutputFilter DEFLATE
+</Files>
+
+<Files *.html>
+#Compress
+SetOutputFilter DEFLATE
+</Files>

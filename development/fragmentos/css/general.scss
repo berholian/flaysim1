@@ -1,0 +1,29 @@
+
+
+$color_text_body            : rgba(253,223,158,.9);
+$color_text_heading         : #FFF;
+$color_text_link            : #d3d3d3;
+
+$color_bg_nav               : rgba(49,58,226,.1);
+$color_bg_dark              : rgba(38,38,38,1);
+/*$color_bg_dark_alt        : #72838B;*/
+$color_bg_light             : #A1A4D6;
+/*$color_bg_light_alt       : darken($color_bg_light,5);*/
+$color_bg_wrapper              : #fff;
+
+$font_family_body           : Helvetica,"Miriad pro", Arial,  "sans-serif";
+$font_family_heading        : 'BankGothic Lt BT Light','Orbitron', Arial, sans-serif;
+$font_family_heading_alt    : 'Oswald', Arial, sans-serif;
+$font_family_tagline        : 'Abel', Arial, sans-serif;
+
+$max_width                  : 1900px;
+$bp_extralarge              : 70em; /*1120px*/
+$bp_large                   : 43em; /*688 px*/
+$bp_medium                  : 29em; /*464 px*/
+$bp_min                     : 15em; /*240 px*/
+
+/*$logo_ico                   : ;*/
+$logo_img                   : url(images/LogoFSsombra.png);
+
+
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush|Orbitron:400,500,700,900);

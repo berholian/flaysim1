@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/icon.jpg">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<title>cursos</title>
+</head>
+<body>
+		<header>
+			<div class="logo">
+				<a href="home.html"></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="instruccion.html">instrucción</a></li>
+					<li><a href="cursos.html">cursos</a></li>
+					<li><a href="desarrollo.html">desarrollo</a></li>
+					<li><a href="contacto.html">contacto</a></li>
+					<li><a href="somos.html">somos...</a></li>
+					<!--<li><div class="seach_nav.php"></div></li>-->
+				</ul>
+			</nav>
+	</header>
+	<section>
+    <div class="row carta">
+
+        <h3>cursos</h3>
+
+        <?php
+            include('admin/inc/config.php');
+            include('admin/classes/User.php');
+        ?>
+
+        <div class="paper col8">
+            <h4>
+                <a data-destino="#cursos">cursos</a>
+            </h4>
+            <ul id="cursos">
+
+                <div class="cursos"></div>
+
+                <?php
+                    $user = new User();
+                    $cursos = $user->getMenu('curse');
+                    foreach ($cursos as $curso) {
+                        $template = file_get_contents('templates/menu_item.html');
+                        $template = str_replace('#name#', $curso["name"], $template);
+                        $template = str_replace('#description#', $curso["description"], $template);
+                        echo $template;
+                    }
+                ?>
+
+            </ul>
+        </div>
+        
+    </div>
+	</section>
+
+	<footer>
+		
+	</footer>
+</body>
+</html>

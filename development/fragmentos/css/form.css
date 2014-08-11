@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
+/*_ _ _ _ _ _ _ _ _/  FORM  \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
+/*$color_bg_dark_alt        : #72838B;*/
+/*$color_bg_light_alt       : darken($color_bg_light,5);*/
+/*1120px*/
+/*688 px*/
+/*464 px*/
+/*240 px*/
+/*$logo_ico                   : ;*/
+form {
+  display: block;
+  padding: 1em 3%;
+  background: #3d3d3d;
+}
+form ul {
+  width: 60%;
+  margin: 1em auto;
+}
+form ul li {
+  list-style: none;
+  margin-bottom: 1em;
+  color: #bbbbbb;
+  text-transform: capitalize;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+form input, form textarea {
+  width: 200px;
+}
+form input[type="submit"], form input[type="reset"] {
+  width: 100px;
+}
+form label {
+  font-size: 1.5em;
+  display: inline-block;
+  width: 130px;
+  text-align: right;
+  padding-right: 10px;
+}
+form span.success {
+  color: green;
+}
+form span.error {
+  color: red;
+}
+@media screen and (max-width: 29em) {
+  form ul {
+    width: 100%;
+    margin: .1em auto;
+  }
+  form input {
+    font-size: 1.5em;
+  }
+  form .actioner {
+    margin: 1em 0 0 1em;
+    font-size: 1.5em;
+    text-transform: capitalize;
+  }
+}
