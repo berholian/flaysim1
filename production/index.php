@@ -10,6 +10,7 @@
 
     <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/jarallax-0.2.min.js"></script>
+    <script src="js/main.min.js"></script>
       <script>
         init = function(){
           /*alert('init fuction work');*/
@@ -26,6 +27,7 @@
   <body class="parallax-bg" onload="init()">
     <?php include('header_home.php') ?>
       <div class="parallax">
+        <canvas id="stela" width= '1600px' height="24px"></canvas>
         <div class="carte"></div>
         <div class="dark"></div>
         <div class="cloud4"></div>
