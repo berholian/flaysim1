@@ -19,7 +19,7 @@
           jarallax.addAnimation('.cloud1',[{progress:'0%', top:'120%'},{progress:'100%', top:'-20%'}]);
           jarallax.addAnimation('.cloud2',[{progress:'0%', top:'100%'},{progress:'100%', top:'-10%'}]);
           jarallax.addAnimation('.cloud3',[{progress:'0%', top:'80%'},{progress:'100%', top:'10%'}]);
-          jarallax.addAnimation('.cloud4',[{progress:'0%', top:'65%'},{progress:'100%', top:'25%'}]);
+          jarallax.addAnimation('.cloud4',[{progress:'0%', top:'70%'},{progress:'100%', top:'20%'}]);
         }
       </script>
   </head>
