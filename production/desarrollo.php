@@ -89,45 +89,48 @@
     </section>
 
     <!-- flipster-->
-    <div id="Main-content">
-      <div class="container">
-        <div class="flipster flipster-active flipster-carousel" style="visibility: visible; height: auto; display: block;">
-          <ul class="flip-items" style= "heigth: 240px; width: 380px;">
-            <li class="flip-item" title="flip-">
-              <div class="flip-content">
-                <a href="1" class="button block"><img src="images/sport-1.jpg" alt=""></a>
-              </div>
+    <div id="Main-Content">
+      <div class="Container">
+    <!-- Flipster List -->  
+        <div class="flipster">
+          <ul>
+            <li>
+              <img src="imges/Desarrollo.png">
             </li>
-            <li class="flip-item" title="flip-">
-              <div class="flip-content">
-                <a href="" class="button block"><img src="images/sport-2.jpg" alt=""></a>
-              </div>
+            <li>
+              <img src="imges/Sport-2.jpeg">
             </li>
-            <li class="flip-item" title="flip-">
-              <div class="flip-content">
-                <a href="" class="button block"><img src="images/sport-3.jpg" alt=""></a>
-              </div>
+            <li>
+              <img src="imges/Sport-3.jpeg">
             </li>
-            <li class="flip-item" title="flip-">
-              <div class="flip-content">
-                <a href="" class="button block"><img src="images/sport-4.jpg" alt=""></a>
-              </div>
+            <li>
+              <img src="imges/Sport-4.jpeg">
             </li>
-            <li class="flip-item" title="flip-">
-              <div class="flip-content">
-                <a href="" class="button block"><img src="images/sport-5.jpg" alt=""></a>
-              </div>
+            <li>
+              <img src="imges/Sport-5.jpeg">
             </li>
           </ul>
         </div>
+    <!-- End Flipster List -->
+
       </div>
     </div>
 
     <?php include('footer.php') ?>
   </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/js/jquery-1.10.2.min.js"><\/script>')</script>
-  <script src="/js/jquery.flipster.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <script>
+    <!--
+
+      $(function(){ 
+        $(".flipster").flipster({
+          style: 'carousel'
+        });
+      });
+
+    -->
+    </script>
 </body>
 </html>

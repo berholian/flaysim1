@@ -31,6 +31,7 @@
     <?php include('header_home.php') ?>
       <div class="parallax">
         <canvas id="stela" width= '1600px' height="24px"></canvas>
+        <div class="dot"></div>
         <div class="carte"></div>
         <div class="dark"></div>
         <div class="cloud4"></div>
@@ -45,5 +46,16 @@
 
     <script src="js/nav.min.js"></script>
     <script src="js/varios.min.js"></script>
+    <script>
+
+      $('.dot').each( coloca ).on('mouseenter', dentro).on('mouseleave', fuera)
+
+      function coloca (i)
+      {
+        var demora = 100 + (i * 50)
+        $(this).delay(demora).animate({ width: 1800 }, 90000);
+      }
+
+    </script>
   </body>
 </html>
