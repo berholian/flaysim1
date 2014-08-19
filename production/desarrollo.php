@@ -7,16 +7,16 @@
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
 <head>
-	<link rel="stylesheet" href="style.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="icon" href="images/icon.jpg">
-	<meta charset="UTF-8">
-	<title>desarrollo flysim</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="images/icon.jpg">
+  <meta charset="UTF-8">
+  <title>desarrollo flysim</title>
 </head>
 
 <body>
-	<div class="desarrollo">
-		<?php include('header.php') ?>
+  <div class="desarrollo">
+    <?php include('header.php') ?>
 
     <section>
       <h2>desarrollo</h2>
@@ -87,11 +87,47 @@
         </div>
       </div>
     </section>
-    <div class="flipster">
-    	
+
+    <!-- flipster-->
+    <div id="Main-content">
+      <div class="container">
+        <div class="flipster flipster-active flipster-carousel" style="visibility: visible; height: auto; display: block;">
+          <ul class="flip-items" style= "heigth: 240px; width: 380px;">
+            <li class="flip-item" title="flip-">
+              <div class="flip-content">
+                <a href="1" class="button block"><img src="images/sport-1.jpg" alt=""></a>
+              </div>
+            </li>
+            <li class="flip-item" title="flip-">
+              <div class="flip-content">
+                <a href="" class="button block"><img src="images/sport-2.jpg" alt=""></a>
+              </div>
+            </li>
+            <li class="flip-item" title="flip-">
+              <div class="flip-content">
+                <a href="" class="button block"><img src="images/sport-3.jpg" alt=""></a>
+              </div>
+            </li>
+            <li class="flip-item" title="flip-">
+              <div class="flip-content">
+                <a href="" class="button block"><img src="images/sport-4.jpg" alt=""></a>
+              </div>
+            </li>
+            <li class="flip-item" title="flip-">
+              <div class="flip-content">
+                <a href="" class="button block"><img src="images/sport-5.jpg" alt=""></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-		<?php include('footer.php') ?>
-	</div>
+    <?php include('footer.php') ?>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-1.10.2.min.js"><\/script>')</script>
+  <script src="/js/jquery.flipster.min.js"></script>
 </body>
 </html>
