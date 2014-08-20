@@ -30,7 +30,7 @@
   <body class="parallax-bg" onload="init()">
     <?php include('header_home.php') ?>
       <div class="parallax">
-        <canvas id="stela" width= '1600px' height="24px"></canvas>
+        <canvas id="stela" width= '2200px' height="24px"></canvas>
         <div class="dot"></div>
         <div class="carte"></div>
         <div class="dark"></div>
@@ -48,12 +48,12 @@
     <script src="js/varios.min.js"></script>
     <script>
 
-      $('.dot').each( coloca ).on('mouseenter', dentro).on('mouseleave', fuera)
+      $('.dot').each( coloca )
 
       function coloca (i)
       {
-        var demora = 100 + (i * 50)
-        $(this).delay(demora).animate({ width: 1800 }, 90000);
+        var demora = 100 + (i * 30)
+        $(this).delay(demora).animate({ width: 2000 }, 100000);
       }
 
     </script>

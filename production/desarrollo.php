@@ -95,19 +95,19 @@
         <div class="flipster">
           <ul>
             <li>
-              <img src="imges/Desarrollo.png">
+              <img src="images/Sport-1.jpeg">
             </li>
             <li>
-              <img src="imges/Sport-2.jpeg">
+              <img src="images/Sport-2.jpg">
             </li>
             <li>
-              <img src="imges/Sport-3.jpeg">
+              <img src="images/Sport-3.jpg">
             </li>
             <li>
-              <img src="imges/Sport-4.jpeg">
+              <img src="images/Sport-4.jpg">
             </li>
             <li>
-              <img src="imges/Sport-5.jpeg">
+              <img src="images/Sport-5.jpg">
             </li>
           </ul>
         </div>

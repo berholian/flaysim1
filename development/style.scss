@@ -32,7 +32,7 @@
 
 body
 {
-
+    background: rgb(0,0,0);
 }
 
 
@@ -54,6 +54,7 @@ ul, ol, li, a
 
 .parallax{
     background:url(images/HomeSky2.png) no-repeat;
+    overflow: hidden;
     width: 100%;
     height: 3216px;
     position: absolute;
@@ -71,13 +72,12 @@ ul, ol, li, a
 }*/
 
 #stela{
-    width: 100%;
+    width: 120%;
     height: .2em;
 /*    background: rgba(255,255,255,.2);*/
     position: relative;
     top: 20em;
     left: -8px;
-    overflow: hidden;
     transform:rotate(3deg);
 -ms-transform:rotate(3deg); /* IE 9 */
 -webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari */
@@ -91,7 +91,7 @@ ul, ol, li, a
     position: relative;
     top: 21em;
     border-radius: 0 20% 40% 0;
-    border-bottom: 2px solid rgba(255,255,255,.5)
+    border-bottom: 2px solid rgba(255,255,255,.5);
 }
 
 section{
@@ -110,34 +110,31 @@ section{
 }
 
 
-.instruccion{
-    height: 47.7em;
-    background: url(images/Instruccion.jpg) no-repeat center;
+
+.instruccion, .cursos, .contactar, .desarrollo, .somos{
+    height: auto;
+    overflow: hidden;
     background-size: cover;
+}
+
+.instruccion{
+    background: url(images/Instruccion.jpg) no-repeat center;
 }
 
 .cursos{
-    height: 47.7em;
     background: url(images/cursos.png) no-repeat center;
-    background-size: cover;
 }
 
 .contactar{
-    height: 47.7em;
     background: url(images/Contactar.jpg) no-repeat center;
-    background-size: cover;
 }
 
 .desarrollo{
-    height: 47.7em;
     background: url(images/Desarrollo.png) no-repeat center;
-    background-size: cover;
 }
 
 .somos{
-    height: 47.7em;
     background: url(images/somos.png) no-repeat center;
-    background-size: cover;
 }
 
 
