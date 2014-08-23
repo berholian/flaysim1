@@ -72,27 +72,69 @@ ul, ol, li, a
     overflow: hidden;
 }*/
 
-#stela{
+/*#stela{
     width: 120%;
     height: .2em;
 /*    background: rgba(255,255,255,.2);*/
-    position: relative;
+/*    position: relative;
     top: 20em;
     left: -8px;
     transform:rotate(3deg);
 -ms-transform:rotate(3deg); /* IE 9 */
--webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari */
+/*-webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari 
+}*/
+
+.stela
+{
+    width: 120%;
+    height: 1.5em;
+    margin: .4em 0;
+/*    background: rgba(255,255,255,.1);*/
+    overflow: visible;
+    position: fixed;
+/*    top: 24em;*/
+    left: -2em;
 }
 
 .dot
+{
+    width: .5em;
+    height: .3em;
+    overflow: visible;
+    display: inline-block;
+/*    margin: .4em 0;
+    background: rgba(255,255,255,.1);*/
+    position: relative;
+    z-index: -115;
+    left: .3em;
+    border-radius: 0 0 30% 0;
+    border-bottom: 2px solid rgba(255,255,255,.5);
+/*    background: rgba(0,0,0,.2);*/
+
+}
+
+.ident{
+    width: 30px;
+    height: 40px;
+    display: inline-block;
+    z-index: 10000;
+    background: url(images/identific.png) no-repeat right;
+    background-size: contain;
+}
+
+.dot1
 {
     width: .5em;
     height: .1em;
 /*    background: rgba(255,255,255,.1);*/
     position: relative;
     top: 21em;
+    left: -.5em;
     border-radius: 0 20% 40% 0;
     border-bottom: 2px solid rgba(255,255,255,.5);
+    transform:rotate(3deg);
+-ms-transform:rotate(3deg); /* IE 9 */
+-webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari */
 }
 
 section{
@@ -113,7 +155,7 @@ section{
 
 
 .instruccion, .cursos, .contactar, .desarrollo, .somos{
-    height: auto;
+    height: 46.7em;
     overflow: hidden;
     background-size: cover;
 }

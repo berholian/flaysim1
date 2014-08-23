@@ -12,3 +12,5 @@
     <div class="logo">
         <a href="index.php"></a>
     </div>
+
+    <script src="js/nav.min.js"></script>
