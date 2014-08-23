@@ -34,7 +34,7 @@
       <div class="parallax">
 <!--        <canvas id="stela" width= '2200px' height="24px"></canvas>-->
         <div class="stela"><div class="dot"></div><div class="ident"></div></div>
-<!--        <div class="stela"><div class="dot"></div><div class="ident"></div></div>-->
+        <div class="stela"><div class="dot sec"></div><div class="ident"></div></div>
         <div class="carte"></div>
         <div class="dark"></div>
         <div class="cloud4"></div>
@@ -55,7 +55,8 @@
     <script src="js/jquery.scrollpath.min.js"></script>
     <script>
 
-      $('.dot').each( coloca )
+      $('.dot').each( coloca );
+      $('.dot1').each( coloca );
 
       function coloca (i)
       {

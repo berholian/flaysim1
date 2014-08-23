@@ -2,11 +2,14 @@
 .flipster {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 49%;
+  padding: .1em;
+  background-color: rgba(0,0,0,.8);
   position: relative;
   overflow-x: hidden;
   overflow-y: visible;
 }
+
 .flip-items,
 .flip-item {
   display: block;

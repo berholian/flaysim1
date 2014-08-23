@@ -55,7 +55,8 @@ ul, ol, li, a
 
 .parallax{
     background:url(images/HomeSky2.png) no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     width: 100%;
     height: 3216px;
     position: absolute;
@@ -65,6 +66,7 @@ ul, ol, li, a
     padding: 0;
     margin: 0;
 }
+
 /*canvas{
     width: 100%;
     height: 1em;
@@ -93,7 +95,7 @@ ul, ol, li, a
     overflow: visible;
     position: fixed;
 /*    top: 24em;*/
-    left: -2em;
+    left: -3em;
 }
 
 .dot
@@ -109,6 +111,7 @@ ul, ol, li, a
     left: .3em;
     border-radius: 0 0 30% 0;
     border-bottom: 2px solid rgba(255,255,255,.5);
+    box-shadow: -1px 1px 1px rgba(0,0,0,.1);
 /*    background: rgba(0,0,0,.2);*/
 
 }
@@ -122,19 +125,25 @@ ul, ol, li, a
     background-size: contain;
 }
 
-.dot1
+.sec
 {
     width: .5em;
-    height: .1em;
-/*    background: rgba(255,255,255,.1);*/
+    height: .3em;
+    overflow: visible;
+    display: inline-block;
+/*    margin: .4em 0;
+    background: rgba(255,255,255,.1);*/
     position: relative;
-    top: 21em;
-    left: -.5em;
-    border-radius: 0 20% 40% 0;
-    border-bottom: 2px solid rgba(255,255,255,.5);
-    transform:rotate(3deg);
--ms-transform:rotate(3deg); /* IE 9 */
--webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari */
+    z-index: -115;
+    left: .3em;
+    border-radius: 0 0 30% 0;
+    border-bottom: 4px solid rgba(255,255,255,.6);
+    transform:rotate(-0.25deg);
+-ms-transform:rotate(-0.25deg); /* IE 9 */
+-webkit-transform:rotate(-0.25deg);
+-moz-transform: rotate(-0.25deg);
+-o-transform: rotate(-0.25deg);
+
 }
 
 section{
@@ -186,7 +195,7 @@ section{
 
 .row
 {
-    padding: 1em;
+    padding: 1em 1em 0 1em;
     overflow: hidden;
     color: white;
     .col3
