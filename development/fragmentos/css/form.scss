@@ -5,11 +5,13 @@
 
 
 
-form                            
-{                                   
+form
+{
     display: block;
+    width: 81.5%;
+    margin: 0 auto;
     padding: 1em 3%;
-    opacity: 0.2;
+    background-color: rgba(0,0,0,.8);
     ul
     {
         width: 60%;
@@ -22,9 +24,9 @@ form
             color: white;
             text-transform: capitalize;
             text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-
         }
     }
+
     input, textarea
     {
         width: 200px;
@@ -98,8 +100,4 @@ form
     }
 
 }
-}
-
-form:hover{
-    opacity: 1;
 }

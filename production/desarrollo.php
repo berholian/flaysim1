@@ -91,8 +91,9 @@
     <!-- flipster-->
     <div id="Main-Content">
       <div class="Container">
-    <!-- Flipster List -->  
+    <!-- Flipster List -->
         <div class="flipster">
+        <h4>galería</h4>
           <ul>
             <li>
               <img src="images/Sport-1.jpeg">
