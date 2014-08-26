@@ -41,7 +41,7 @@
 					<input type="tel" name="tel">
 				</li>
 				<li>
-					<label>Dirección: </label>
+					<label>correo@: </label>
 					<input type="text" name="address" >
 				</li>
 				<li>

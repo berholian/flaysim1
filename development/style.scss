@@ -49,8 +49,6 @@ ul, ol, li, a
     height: 3216px;
     font-family: $font_family_heading;
     color: rgb(0,0,0);
-    margin: 0;
-    padding: 0;
 }
 
 .parallax{
@@ -165,7 +163,8 @@ section{
 
 .instruccion, .cursos, .contactar, .desarrollo, .somos{
     height: 46.7em;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     background-size: cover;
 }
 

@@ -22,6 +22,26 @@
 
         <div class="paper col4 curss">
           <h4>
+            <a data-destino="#instruccion_basicaB737">instrucción básica b737-800NG</a>
+          </h4>
+          <ul id="instruccion_basicaB737">
+
+            <?php
+                $user = new User();
+                $instruccion_basicaB737 = $user->getMenu('instruccion_basicaB737');
+                foreach ($instruccion_basicaB737 as $curso) {
+                    $template = file_get_contents('templates/menu_item.html');
+                    $template = str_replace('#name#', $curso["name"], $template);
+                    $template = str_replace('#description#', $curso["description"], $template);
+                    echo $template;
+                }
+            ?>
+
+          </ul>
+        </div>
+
+        <div class="paper col4 curss">
+          <h4>
             <a data-destino="#iniciacion_vueloVirtual">iniciación al vuelo virtual</a>
           </h4>
           <ul id="iniciacion_vueloVirtual">
@@ -170,26 +190,6 @@
                 $user = new User();
                 $bautismoB737_800NG = $user->getMenu('bautismoB737_800NG');
                 foreach ($bautismoB737_800NG as $curso) {
-                    $template = file_get_contents('templates/menu_item.html');
-                    $template = str_replace('#name#', $curso["name"], $template);
-                    $template = str_replace('#description#', $curso["description"], $template);
-                    echo $template;
-                }
-            ?>
-
-          </ul>
-        </div>
-
-        <div class="paper col4 curss">
-          <h4>
-            <a data-destino="#instruccion_basicaB737">instrucción básica b737-800NG</a>
-          </h4>
-          <ul id="instruccion_basicaB737">
-
-            <?php
-                $user = new User();
-                $instruccion_basicaB737 = $user->getMenu('instruccion_basicaB737');
-                foreach ($instruccion_basicaB737 as $curso) {
                     $template = file_get_contents('templates/menu_item.html');
                     $template = str_replace('#name#', $curso["name"], $template);
                     $template = str_replace('#description#', $curso["description"], $template);
