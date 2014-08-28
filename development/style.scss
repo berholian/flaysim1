@@ -141,7 +141,14 @@ ul, ol, li, a
 -webkit-transform:rotate(-0.25deg);
 -moz-transform: rotate(-0.25deg);
 -o-transform: rotate(-0.25deg);
-
+    .ident2{
+        width: 30px;
+        height: 40px;
+        display: inline-block;
+        z-index: 10000;
+        background: url(images/identific1.png) no-repeat right!important;
+        background-size: contain;
+    }
 }
 
 section{
