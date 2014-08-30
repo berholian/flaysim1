@@ -5,11 +5,13 @@
 
 
 
-form                            
-{                                   
+form
+{
     display: block;
+    width: 81.5%;
+    margin: 0 auto;
     padding: 1em 3%;
-    opacity: 0.2;
+    background-color: rgba(0,0,0,.8);
     ul
     {
         width: 60%;
@@ -22,14 +24,16 @@ form
             color: white;
             text-transform: capitalize;
             text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-
         }
     }
+
     input, textarea
     {
         width: 200px;
         background: rgba(0,0,0,.1);
         display: inline-block;
+        font-family: $font_family_heading;
+        color: white;
         border-top: 0px;
         border-right: 0px;
         border-left: 0px;
@@ -37,7 +41,9 @@ form
     }
 
     textarea{
-        margin: 1em auto;
+        margin: 2em auto;
+        margin-left: 2.4em;
+        width: 45%;
     }
 
     input[type="submit"], input[type="reset"]{
@@ -48,7 +54,7 @@ form
         color: white;
         float: left;
         border-right: 1px solid white;
-        margin-right: 2%;
+        margin-left: 2.4em;
     }
 
     input[type="submit"]:hover, input[type="reset"]:hover{
@@ -77,29 +83,24 @@ form
       color: red;
     }                               
                                   
-@media screen and (max-width: $bp_medium )
-{
-    ul
+    @media screen and (max-width: $bp_medium )
     {
-        width: 100%;
-        margin: .1em auto;
+        ul
+        {
+            width: 100%;
+            margin: .1em auto;
+        }
+        
+        input
+        {
+            font-size: 1.5em;
+        }
+        
+        .actioner
+        {
+            margin: 10em 0 0 1em;
+            font-size: 1.5em;
+            text-transform: capitalize;
+        }
     }
-    
-    input
-    {
-        font-size: 1.5em;
-    }
-    
-    .actioner
-    {
-        margin: 1em 0 0 1em;
-        font-size: 1.5em;
-        text-transform: capitalize;
-    }
-
-}
-}
-
-form:hover{
-    opacity: 1;
 }

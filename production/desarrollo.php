@@ -7,16 +7,16 @@
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
 <head>
-	<link rel="stylesheet" href="style.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="icon" href="images/icon.jpg">
-	<meta charset="UTF-8">
-	<title>desarrollo flysim</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="images/icon.jpg">
+  <meta charset="UTF-8">
+  <title>desarrollo flysim</title>
 </head>
 
 <body>
-	<div class="desarrollo">
-		<?php include('header.php') ?>
+  <div class="desarrollo">
+    <?php include('header.php') ?>
 
     <section>
       <h2>desarrollo</h2>
@@ -87,11 +87,51 @@
         </div>
       </div>
     </section>
-    <div class="flipster">
-    	
+
+    <!-- flipster-->
+    <div id="Main-Content">
+      <div class="Container">
+    <!-- Flipster List -->
+        <div class="flipster">
+        <h4>galería</h4>
+          <ul>
+            <li>
+              <img src="images/Sport-1.jpeg">
+            </li>
+            <li>
+              <img src="images/Sport-2.jpg">
+            </li>
+            <li>
+              <img src="images/Sport-3.jpg">
+            </li>
+            <li>
+              <img src="images/Sport-4.jpg">
+            </li>
+            <li>
+              <img src="images/Sport-5.jpg">
+            </li>
+          </ul>
+        </div>
+    <!-- End Flipster List -->
+
+      </div>
     </div>
 
-		<?php include('footer.php') ?>
-	</div>
+    <?php include('footer.php') ?>
+  </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <script>
+    <!--
+
+      $(function(){ 
+        $(".flipster").flipster({
+          style: 'carousel'
+        });
+      });
+
+    -->
+    </script>
 </body>
 </html>

@@ -9,7 +9,9 @@
 @import 'fragmentos/css/social_fontelo';
 @import 'fragmentos/css/developerInfo';
 @import 'fragmentos/css/footer';
+@import 'fragmentos/css/scrollpath';
 @import 'fragmentos/grids';
+@import 'fragmentos/css/flipster';
 
 @font-face {
         font-family:'BankGothic Lt BT Light';
@@ -31,7 +33,7 @@
 
 body
 {
-
+    background: rgb(0,0,0);
 }
 
 
@@ -40,6 +42,7 @@ ul, ol, li, a
     list-style: none;
     text-decoration: none;
 }
+scroll
 
 
 .wrapper
@@ -47,12 +50,12 @@ ul, ol, li, a
     height: 3216px;
     font-family: $font_family_heading;
     color: rgb(0,0,0);
-    margin: 0;
-    padding: 0;
 }
 
 .parallax{
     background:url(images/HomeSky2.png) no-repeat;
+    overflow-x: hidden;
+    overflow-y: visible;
     width: 100%;
     height: 3216px;
     position: absolute;
@@ -62,6 +65,7 @@ ul, ol, li, a
     padding: 0;
     margin: 0;
 }
+
 /*canvas{
     width: 100%;
     height: 1em;
@@ -69,17 +73,88 @@ ul, ol, li, a
     overflow: hidden;
 }*/
 
-#stela{
-    width: 100%;
-    height: 1em;
-    background: rgba(255,255,255,.2);
-    position: relative;
+/*#stela{
+    width: 120%;
+    height: .2em;
+/*    background: rgba(255,255,255,.2);*/
+/*    position: relative;
     top: 20em;
+<<<<<<< HEAD
     z-index: -2;
     overflow: hidden;
+=======
+    left: -8px;
+>>>>>>> canvas_stela
     transform:rotate(3deg);
 -ms-transform:rotate(3deg); /* IE 9 */
--webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari */
+/*-webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari 
+}*/
+
+.stela
+{
+    width: 120%;
+    height: 1.5em;
+    margin: .4em 0;
+/*    background: rgba(255,255,255,.1);*/
+    overflow: visible;
+    position: fixed;
+/*    top: 24em;*/
+    left: -3em;
+}
+
+.dot
+{
+    width: .5em;
+    height: .3em;
+    overflow: visible;
+    display: inline-block;
+/*    margin: .4em 0;
+    background: rgba(255,255,255,.1);*/
+    position: relative;
+    z-index: -115;
+    left: .3em;
+    border-radius: 0 0 30% 0;
+    border-bottom: 2px solid rgba(255,255,255,.5);
+    box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+/*    background: rgba(0,0,0,.2);*/
+
+}
+
+.ident{
+    width: 30px;
+    height: 40px;
+    display: inline-block;
+    z-index: 10000;
+    background: url(images/identific.png) no-repeat right;
+    background-size: contain;
+}
+
+.sec
+{
+    width: .5em;
+    height: .3em;
+    overflow: visible;
+    display: inline-block;
+/*    margin: .4em 0;
+    background: rgba(255,255,255,.1);*/
+    position: relative;
+    z-index: -115;
+    left: .3em;
+    border-radius: 0 0 30% 0;
+    border-bottom: 4px solid rgba(255,255,255,.6);
+    transform:rotate(-0.25deg);
+-ms-transform:rotate(-0.25deg); /* IE 9 */
+-webkit-transform:rotate(-0.25deg);
+-moz-transform: rotate(-0.25deg);
+-o-transform: rotate(-0.25deg);
+    .ident2{
+        width: 30px;
+        height: 40px;
+        display: inline-block;
+        z-index: 10000;
+        background: url(images/identific1.png) no-repeat right!important;
+        background-size: contain;
+    }
 }
 
 section{
@@ -98,34 +173,32 @@ section{
 }
 
 
-.instruccion{
-    height: 47.7em;
-    background: url(images/Instruccion.jpg) no-repeat center;
+
+.instruccion, .cursos, .contactar, .desarrollo, .somos{
+    height: 46.7em;
+    overflow-x: hidden;
+    overflow-y: visible;
     background-size: cover;
+}
+
+.instruccion{
+    background: url(images/Instruccion.jpg) no-repeat center;
 }
 
 .cursos{
-    height: 47.7em;
     background: url(images/cursos.png) no-repeat center;
-    background-size: cover;
 }
 
 .contactar{
-    height: 47.7em;
     background: url(images/Contactar.jpg) no-repeat center;
-    background-size: cover;
 }
 
 .desarrollo{
-    height: 47.7em;
     background: url(images/Desarrollo.png) no-repeat center;
-    background-size: cover;
 }
 
 .somos{
-    height: 47.7em;
     background: url(images/somos.png) no-repeat center;
-    background-size: cover;
 }
 
 
@@ -134,7 +207,7 @@ section{
 
 .row
 {
-    padding: 1em;
+    padding: 1em 1em 0 1em;
     overflow: hidden;
     color: white;
     .col3
@@ -408,7 +481,7 @@ section{
 
 /*_ _ _ _ _ _ _ _ _/ HOME-INDEX \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
 
-.home .col4
+/*.home .col4
 {
     background-size: 60%;
     min-height:7em;
@@ -421,7 +494,7 @@ section{
         display: block;
         padding: 2% 20% 2% 2%;
     }
-}
+}*/
 
 
 
