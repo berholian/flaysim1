@@ -23,11 +23,11 @@ function animar(){
 	img.src = "../images/rastro.png";
 	contexto.drawImage(img,x,y);*/
 	
-	x++;
+/*	x++;
 
 	setTimeout("animar()",1000);
 }
-=======
+=======*/
 	/*context.clearRect('0,0,2000,24');*/
 /*	context.fillStyle ="rgba(255,255,255,.1)";
 	context.fillRect(x,y,18,50);
@@ -38,4 +38,5 @@ function animar(){
 }*/
 
 /*----------------/ \-------------------*/
->>>>>>> canvas_stela
+/*>>>>>>> canvas_stela
+*/

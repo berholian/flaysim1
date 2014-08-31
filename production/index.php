@@ -51,9 +51,9 @@
     <script src="js/nav.min.js"></script>
     <script src="js/varios.min.js"></script>
     <script src="js/main_scrollpath.min.js"></script>
-    <!--<script src="js/lib/prefixfree.min.js"></script>
+    <script src="js/lib/prefixfree.min.js"></script>
     <script src="js/lib/jquery.easing.min.js"></script>
-    <script src="js/jquery.scrollpath.min.js"></script>-->
+    <script src="js/jquery.scrollpath.min.js"></script>
     <script>
 
       $('.dot').each( coloca );
@@ -62,7 +62,7 @@
       function coloca (i)
       {
         var demora = 5000 + (i * 70000)
-        $(this).delay(demora).animate({ width: 2000 }, 180000);
+        $(this).delay(demora).animate({ width: 2000 }, 160000);
       }
 
     </script>
