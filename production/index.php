@@ -3,7 +3,7 @@
   <head>
   <!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/icon.jpg">
+    <link rel="icon" href="images/favicon1.png">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <title>flysim index</title>

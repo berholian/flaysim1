@@ -9,7 +9,7 @@
 
     </nav>
 
-    <div class="logo">
+    <div class="logoHome">
         <a href="index.php"></a>
     </div>
 

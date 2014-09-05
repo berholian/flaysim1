@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="images/icon.jpg">
+	<link rel="icon" href="images/favicon1.png">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta charset="UTF-8">
 	<title>somos flysim</title>

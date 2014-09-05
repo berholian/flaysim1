@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="icon" href="images/icon.jpg">
+    <link rel="icon" href="images/favicon1.png">
     <meta charset="UTF-8">
     <title>Cursos FlySim</title>
 </head>
