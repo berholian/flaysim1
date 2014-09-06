@@ -8,11 +8,11 @@
             <li><a href="reserva.php">contacto</a></li>
             <li><a href="galery.php">somos...</a></li>
         </ul>
-    </div>
+    </div>-->
 
     <nav>
 
-    </nav>-->
+    </nav>
 
     <div class="logo">
         <a href="index.php"></a>

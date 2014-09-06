@@ -62,7 +62,7 @@
 
         <div class="paper col4 curss">
           <h4>
-            <a data-destino="#planificacion_vueloNav">planificación de vuelo y navegación</a>
+            <a data-destino="#planificacion_vueloNav">planificación vuelo y navegación</a>
           </h4>
           <ul id="planificacion_vueloNav">
 
