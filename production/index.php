@@ -32,6 +32,7 @@
     <?php include('header_home.php') ?>
 
       <div class="carte"></div>
+      <div class="logoCarte"></div>
 
       <div class="parallax">
 <!--        <canvas id="stela" width= '2200px' height="24px"></canvas>-->
