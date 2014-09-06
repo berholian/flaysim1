@@ -18,16 +18,29 @@
     }
 }*/
 
-
-
-
-/*_ _ _ _ _ _ _ _ _/  LOGO  \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
-
 /*.heroe
 { 
     height:20em;
     overflow: hidden;
 }*/
+
+h1{
+    font-family: $font_family_heading;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    top: 1.3em;
+    left: 1.4em;
+    span{
+        display: block;
+        font-size: .5em;
+        position:relative;
+    }
+}
+
+/*_ _ _ _ _ _ _ _ _/  LOGO  \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
 
 .logo
 {
@@ -93,6 +106,8 @@
         left: 2em;
     }
 }
+
+/*------------------/ pantalla de inicio \------------*/
 
 .carte,.logoCarte{
     background-size: 100%;

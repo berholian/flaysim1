@@ -4,6 +4,7 @@
 
     <div class="iconfont mini">
     </div>
+    <h1>flysim ng<span>simuladores de vuelo</span></h1>
 
     <nav>
 
