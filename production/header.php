@@ -10,10 +10,6 @@
         </ul>
     </div>-->
 
-    <nav>
-
-    </nav>
-
     <div class="logo">
         <a href="index.php"></a>
     </div>

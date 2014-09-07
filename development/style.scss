@@ -301,7 +301,16 @@ section{
     {
         padding: 1em;
         margin:.5em auto;
-        background: rgba(0,0,0,.8);
+/*        background: rgba(0,0,0,.8);*/
+        border-left: 1px solid rgba(0,0,0,.3);
+        border-bottom: 1px solid rgba(0,0,0,.3);
+        border-top: 1px solid rgba(255,255,255,.2);
+        border-right: 1px solid rgba(255,255,255,.2);
+        background: -webkit-gradient(radial, 0 0, 0 100%, from(white), to(rgba(49,58,226,.1)));
+        background: -webkit-radial-gradient(white, rgba(49,58,226,.1));
+        background: -moz-radial-gradient(white, rgba(49,58,226,.1));
+        background: -o-radial-gradient(white, rgba(49,58,226,.1));
+        background: radial-gradient(white, rgba(49,58,226,.1));
         border-bottom: solid 1px rgba(0,0,0,.1);
         position: relative;
         h4
@@ -313,7 +322,8 @@ section{
             font-family: $font_family_heading;
             a
             {
-                color: white;
+                color: rgba(85,139,228,.9);
+                text-shadow: 1px -1px 1px rgba(0,0,0,.9) inset;
             }
         }
         h4:hover
@@ -327,7 +337,7 @@ section{
             font-size: 1em;
             text-transform: capitalize;
             position: relative;
-            color: white;
+            color: black;
             p
             {
                 font-size: .9em;
@@ -517,7 +527,7 @@ section{
 .boton
 {
     background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.48) 52%, rgba(255,255,255,0.47) 53%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(52%,rgba(255,255,255,0.48)), color-stop(53%,rgba(255,255,255,0.47)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(52%,rgba(255,255,255,0.48)), color-stop(53%,rgba(255,255,255,0.47)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
 background: -o-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* IE10+ */
