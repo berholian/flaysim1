@@ -8,9 +8,8 @@
     <title>Cursos FlySim</title>
 </head>
 
-<body>
+<body class="cursos">
 
-  <div class="cursos">
     <?php include('header.php') ?>
     <section>
       <h2>cursos</h2>
@@ -223,7 +222,6 @@
     </section>
 
     <?php include('footer.php') ?>
-  </div>
 
 </body>
 </html>

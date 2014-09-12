@@ -21,7 +21,7 @@
       <div class="parallax">
 <!--        <canvas id="stela" width= '2200px' height="24px"></canvas>-->
         <div class="stela"><div class="dot"></div><div class="ident"></div></div>
-        <div class="stela"><div class="dot sec"></div><div class="ident"></div></div>
+        <div class="stela"><div class="dot sec"></div><div class="identDos"></div></div>
         <div class="dark"></div>
         <div class="cloud4"></div>
         <div class="cloud3"></div>

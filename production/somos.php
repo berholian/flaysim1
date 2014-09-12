@@ -8,9 +8,7 @@
 	<title>somos flysim</title>
 </head>
 
-<body>
-
-	<div class="somos">
+<body class="somos">
 
 		<?php include('header.php') ?>
 
@@ -37,7 +35,6 @@
 				</div>
 			</div>
 		</section>
-	</div>
 
 	<?php include('footer.php') ?>	
 

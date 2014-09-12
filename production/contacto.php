@@ -8,8 +8,8 @@
 	<title>contacto flysim</title>
 </head>
 
-<body>	
-	<div class="contactar">
+<body class="contactar">	
+
 	<?php include('header.php') ?>
 	<section>
 		<h2 >contacto</h2>
@@ -59,7 +59,7 @@
 			
 		</form>
 	</section>
-</div>
+
 	<?php include('footer.php') ?>
 
 

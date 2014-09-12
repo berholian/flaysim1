@@ -10,8 +10,8 @@
 
 </head>
 
-<body>
-  <div class="instruccion">
+<body class="instruccion">
+<!--  <div class="instruccion">-->
 
     <?php include('header.php') ?>
 
@@ -83,6 +83,6 @@
 
     <?php include('footer.php') ?>
 
-  </div>
+<!--  </div>-->
 </body>
 </html>

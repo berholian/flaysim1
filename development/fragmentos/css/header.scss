@@ -195,6 +195,9 @@ z-index:-200;
     height: 100%;
     background-size: 100%;
     position: absolute;
+-webkit-transition: visibility 2s; /* Safari */
+transition: visibility 2s;
+    
     top:0%;
     z-index: 450;
 @media screen and (min-width: 1900px){

@@ -1,6 +1,12 @@
-/*--------------------/ menu carta \---------------------------*/
+/*-----------------/ menu carta \--------------------*/
 
 $(document).ready(function(){
+
+/*-------------/ animación logo-carta \--------------*/
+
+    $('.logoCarte').fadeIn(1000);
+/*-------------/ FIN animación logo-carta \--------------*/
+
 
     $("#reserva_form").submit(function(e){
       
