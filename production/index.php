@@ -68,5 +68,10 @@
       }
 
     </script>
+    <script>/*-------------/ animación logo-carta \--------------*/
+
+        $(".logoCarte").hide().delay(5000).fadeIn(800).fadeOut(800).fadeIn(800).fadeOut(800).fadeIn(800);
+
+    </script>
   </body>
 </html>
