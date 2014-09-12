@@ -72,6 +72,8 @@
 
         $(".logoCarte").hide().delay(5000).fadeIn(800).fadeOut(800).fadeIn(800).fadeOut(800).fadeIn(800);
 
+        $("h1").hide().delay(9000).fadeIn(2000);
+
     </script>
   </body>
 </html>
