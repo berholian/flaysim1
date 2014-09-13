@@ -150,14 +150,14 @@ ul, ol, li, a
 -webkit-transform:rotate(-0.25deg);
 -moz-transform: rotate(-0.25deg);
 -o-transform: rotate(-0.25deg);
-    .identDos{
+/*    .identDos{
         width: 30px;
         height: 40px;
         display: inline-block;
         z-index: 10000;
         background: url(images/identific1.png) no-repeat right!important;
         background-size: contain;
-    }
+    }*/
 }
 
 section{
@@ -331,7 +331,7 @@ section{
             font-family: $font_family_heading;
             a
             {
-                color: rgba(85,139,228,.9);
+                color: rgba(25,46,129,.9);
                 text-shadow: 1px -1px 1px rgba(0,0,0,.9) inset;
             }
         }
