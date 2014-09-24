@@ -311,10 +311,10 @@ section{
         padding: 1em;
         margin:.5em auto;
 /*        background: rgba(0,0,0,.8);*/
-        border-left: 1px solid rgba(0,0,0,.3);
+        border-right: 1px solid rgba(0,0,0,.3);
         border-bottom: 1px solid rgba(0,0,0,.3);
         border-top: 1px solid rgba(255,255,255,.2);
-        border-right: 1px solid rgba(255,255,255,.2);
+        border-left: 1px solid rgba(255,255,255,.2);
         background: -webkit-gradient(radial, 0 0, 0 100%, from(white), to(rgba(49,58,226,.1)));
         background: -webkit-radial-gradient(white, rgba(49,58,226,.1));
         background: -moz-radial-gradient(white, rgba(49,58,226,.1));
