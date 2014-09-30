@@ -1,9 +1,7 @@
 /*_ _ _ _ _ _ _ _ _/  FORM  \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
 
 
-/*@import 'general';*/ 
-
-
+/*@import 'general';*/
 
 form
 {
@@ -11,10 +9,20 @@ form
     width: 81.5%;
     margin: 0 auto;
     padding: 1em 3%;
-    background-color: rgba(0,0,0,.8);
+/*    background-color: rgba(0,0,0,.8);*/
+    border-right: 1px solid rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-left: 1px solid rgba(255,255,255,.2);
+    background: -webkit-gradient(radial, 0 0, 0 100%, from(white), to(rgba(49,58,226,.1)));
+    background: -webkit-radial-gradient(white, rgba(49,58,226,.1));
+    background: -moz-radial-gradient(white, rgba(49,58,226,.1));
+    background: -o-radial-gradient(white, rgba(49,58,226,.1));
+    background: radial-gradient(white, rgba(49,58,226,.1));
+    border-bottom: solid 1px rgba(0,0,0,.1);
     ul
     {
-        width: 60%;
+        width: 60%; 
         margin: .5em auto;
         li
         {
@@ -89,18 +97,22 @@ form
         width: 100%;
         margin: .1em auto;
     }
-    
+
+    label{
+        font-size: 1.2em;
+    }
     input
     {
-        font-size: 1.5em;
+        width: 100%;
+        font-size: 45px;
     }
     
     .actioner
     {
-        margin: 1em 0 0 1em;
-        font-size: 1.5em;
+        margin: .5em auto .5em;
+        width: 100%!important;
+        font-size: 45px;
         text-transform: capitalize;
     }
-
 }
 }

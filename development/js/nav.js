@@ -11,7 +11,7 @@
 	}
 
 /*-------------------/   nav action+mini  \------------------------------------*/
-
+/*alert("running");*/
 var desplegable = document.querySelector('#desple');
 var minimenu = document.querySelector('.iconfont.mini');
 

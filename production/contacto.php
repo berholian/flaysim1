@@ -59,9 +59,7 @@
 			
 		</form>
 	</section>
-
-	<?php include('footer.php') ?>
-
-
+	<script src="js/varios.min.js"></script>
+	<script src="js/jquery-2.0.3.min.js"></script>
 </body>
 </html>

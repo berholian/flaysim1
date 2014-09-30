@@ -126,6 +126,7 @@ ul, ol, li, a
 .identDos{
     width: 30px;
     height: 40px;
+    margin-top: .8em;
     display: inline-block;
     z-index: 10000;
     background: url(images/identific1.png) no-repeat right;
@@ -138,16 +139,16 @@ ul, ol, li, a
     height: .3em;
     overflow: visible;
     display: inline-block;
-/*    margin: .4em 0;
-    background: rgba(255,255,255,.1);*/
+    margin-top: .8em;
+/*    background: rgba(255,255,255,.1);*/
     position: relative;
     z-index: -115;
     left: .3em;
     border-radius: 0 0 30% 0;
     border-bottom: 4px solid rgba(255,255,255,.6);
-    transform:rotate(-0.25deg);
+/*    transform:rotate(-0.25deg);
 -ms-transform:rotate(-0.25deg); /* IE 9 */
--webkit-transform:rotate(-0.25deg);
+/*-webkit-transform:rotate(-0.25deg);*//*
 -moz-transform: rotate(-0.25deg);
 -o-transform: rotate(-0.25deg);
 /*    .identDos{
@@ -253,6 +254,11 @@ section{
     .map
     {
         width: 90%;
+        margin: 1em auto;
+
+    @media screen and (min-width: $bp_medium)
+    {
+        width: 90%;
         margin: 1.5em auto;
         iframe
         {
@@ -266,6 +272,7 @@ section{
             width: 100%;
             opacity: 1;
         }
+    }
     }
 
     small
@@ -306,8 +313,7 @@ section{
         }
     }
 
-    .paper
-    {
+    .paper{
         padding: 1em;
         margin:.5em auto;
 /*        background: rgba(0,0,0,.8);*/
@@ -457,6 +463,10 @@ section{
         float: left;
         margin: 1.04167%;
         width: 47.90%;
+        left: 0;
+    }
+    .curss{
+        width: 90%;
     }
 
     .paper
@@ -517,17 +527,17 @@ section{
 .contacto
 {
     text-align: center;
+    display: block;
     width: 100%;
     margin: 0 auto;
     padding: 1em 0;
-    background: rgba(0,0,0,.1);
     ol
     {
         text-align: center;
         width: 25%;
-        /*margin: 0 auto;*/
-        color: rgba(0,0,0,.9);
-        display: inline-block;
+        margin: 0 auto;
+        color: white;
+
         font-size: .8em;
     }
 }
@@ -615,25 +625,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .contact {
-    text-transform: uppercase;
     font-size: 1.5em;
     max-width: 200px;
     text-align: center;
     margin: .5em auto; 
     height: 40px;
-    padding: 10px 0;
-    background: -webkit-gradient(radial, 0 0, 0 100%, from(white), to(#AAC3AA));
+    padding: 5px 0;
+    /*background: -webkit-gradient(radial, 0 0, 0 100%, from(white), to(#AAC3AA));
     /*background: -webkit-radial-gradient(white, #AAC3AA);*/
-    background: -moz-radial-gradient(white, #AAC3AA);
+    /*background: -moz-radial-gradient(white, #AAC3AA);
     background: -o-radial-gradient(white, #AAC3AA);
     background: radial-gradient(white, #AAC3AA);
-    border-radius: 8px;
+    border-radius: 8px;*/
     a
     {
         text-decoration: none;
         text-align: center;
         display: block;
-        color: darken($color_text_link,9);
+        color: white;
     }
 
 @media screen and (min-width: $bp_medium)

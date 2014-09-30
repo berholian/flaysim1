@@ -56,10 +56,10 @@
 /*.iconfont.accessibility:before { content: '\e808'; } /* '' */
 .iconfont.mini:before 
 { 
-    content: '\e801'; 
+    content: '\e801';
+    cursor: pointer;
     color: white;
     padding: 1em;
-    background-color: rgba(0,0,0,.2);
     border-radius: 25% 25% 0 0;
 } /* '' */
 

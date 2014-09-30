@@ -6,8 +6,11 @@
     margin: .7em auto;
     height: 2em;
     padding: .5em .5em;
-    background: lighten($color_text_body,9);
-    color: darken($color_text_link,40);
+    background: url(images/matrix1.png) center no-repeat;
+    background-color: rgba(0,0,0,.9);
+    background-size: cover;
+    box-shadow: 0 1px 3px rgba(0,0,0,.6) inset; 
+    color: white;
     .copyrigth
     {
         display: inline-block;
@@ -18,7 +21,7 @@
             font-size: 1.2em;
             margin-left: .5em;
             padding-left: .5em;
-            border-left: 1px solid rgba(0,0,0,.3);
+            border-left: 1px solid rgba(255,255,255,.8);
         }
     @media screen and (max-width: 430px)
     {

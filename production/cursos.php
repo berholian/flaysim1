@@ -11,6 +11,7 @@
 <body class="cursos">
 
     <?php include('header.php') ?>
+
     <section>
       <h2>cursos</h2>
       <div class="row carta">

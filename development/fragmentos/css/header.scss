@@ -62,9 +62,12 @@ h1{
 
 @media screen and (max-width: $bp_medium)
     {
-        position: fixed;
-        top: 8em;
-        left: 2em;
+        position: relative;
+        display: block;
+        width: 90%;
+        height: 10em;
+        margin: .5em auto;
+        background-size: contain;
     }
 @media screen and (min-width: $bp_extralarge)
     {
@@ -184,7 +187,12 @@ z-index:-200;
     position: absolute;
     top:0%;
     z-index: 400;
-@media screen and (min-width: 1900px){
+@media screen and (max-width: $bp_medium)
+    {
+        top: -10%;
+    }
+@media screen and (min-width: 1900px)
+    {
     background-size: contain;
     }
 }
@@ -197,7 +205,12 @@ z-index:-200;
     position: absolute;
     top:0%;
     z-index: 450;
-@media screen and (min-width: 1900px){
+@media screen and (max-width: $bp_medium)
+    {
+        top: -10%;
+    }
+@media screen and (min-width: 1900px)
+    {
     background-size: contain;
     }
 }

@@ -7,21 +7,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <title>flysim index</title>
-
-
   </head>
 
   <body class="parallax-bg" onload="init()">
 
+      <div class="logoCarte"></div>
+
     <?php include('header_home.php') ?>
 
       <div class="carte"></div>
-      <div class="logoCarte"></div>
 
       <div class="parallax">
 <!--        <canvas id="stela" width= '2200px' height="24px"></canvas>-->
-        <div class="stela"><div class="dot"></div><div class="ident"></div></div>
-        <div class="stela"><div class="dot sec"></div><div class="identDos"></div></div>
+        <div class="stela">
+          <div class="dot"></div>
+          <div class="ident"></div>
+        </div>
+        <div class="stela">
+          <div class="dot sec"></div>
+          <div class="identDos"></div>
+        </div>
         <div class="dark"></div>
         <div class="cloud4"></div>
         <div class="cloud3"></div>
@@ -29,20 +34,50 @@
         <div class="cloud1"></div>
       </div>
 
-      <!--<?php /*include('footer.php')*/ ?> incluir con JQ desde el boton-->
+<!--<?php /*include('footer.php')*/ ?>-->
+    <footer>
+
+      <section class="contacto">
+
+        <ol>
+          <li>--*********--</li>
+          <li>jpuset@flaysim.com</li>
+          <li>+33 1 322 45 65</li>
+          <div class="contact">
+            <a href="contacto.php">contacto</a>
+          </div>
+        </ol>
+
+        <ul class="social">
+          <li>
+            <a class="iconfont twitter" href="https://twitter.com/"></a>
+          </li>
+          <li>
+            <a class="iconfont facebook" href="https://www.facebook.com/"></a>
+          </li>
+          <li>
+            <a class="iconfont googleplus" href="https://plus.google.com/"></a>
+          </li>
+          <li>
+            <a class="iconfont mail" href=""></a>
+          </li>
+        </ul>
+      </section>
+
+      <div class="develop">
+
+        <div class="copyrigth">©2014 FlySIM
+          <span>-*-*-*-*-*-</span>
+        </div>
+
+        <div class="development">
+          <a href="https://www.linkedin.com/pub/jose-a-est%C3%A9vez/84/5aa/242">development</a>
+        </div>
+
+      </div>
+    </footer>
 
     </div>
-
-    <script src="js/nav.min.js"></script>
-    <script src="js/varios.min.js"></script>
-    <script src="js/main_scrollpath.min.js"></script>
-    <script src="js/lib/prefixfree.min.js"></script>
-    <script src="js/lib/jquery.easing.min.js"></script>
-    <script src="js/jquery.scrollpath.min.js"></script>
-    <script src="js/jquery-1.7.1.min.js"></script>
-    <script src="js/jarallax-0.2.min.js"></script>
-<!--    <script src="js/jarallax-0.2.3.min.js"></script>-->
-    <script src="js/main.min.js"></script>
 
     <script>
       init = function(){
@@ -56,6 +91,24 @@
         jarallax.addAnimation('.stela',[{progress:'0%', top:'40%'},{progress:'100%', top:'10%'}]);
       }
     </script>
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/nav.min.js"></script>
+    <script src="js/varios.min.js"></script>
+    <script src="js/main_scrollpath.min.js"></script>
+    <script src="js/lib/prefixfree.min.js"></script>
+    <script src="js/lib/jquery.easing.min.js"></script>
+    <script src="js/jquery.scrollpath.min.js"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jarallax-0.2.min.js"></script>
+<!--    <script src="js/jarallax-0.2.3.min.js"></script>-->
+    <script src="js/main.min.js"></script>
+    <script>/*-------------/ animación logo-carta \--------------*/
+
+        $(".logoCarte").hide().delay(5000).fadeIn(800).fadeOut(800).fadeIn(800).fadeOut(800).fadeIn(800);
+
+        $("h1").hide().delay(9000).fadeIn(2000);
+
+    </script>
     <script>
 
       $('.dot').each( coloca );
@@ -68,12 +121,7 @@
       }
 
     </script>
-    <script>/*-------------/ animación logo-carta \--------------*/
 
-        $(".logoCarte").hide().delay(5000).fadeIn(800).fadeOut(800).fadeIn(800).fadeOut(800).fadeIn(800);
 
-        $("h1").hide().delay(9000).fadeIn(2000);
-
-    </script>
   </body>
 </html>

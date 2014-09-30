@@ -41,7 +41,7 @@
                       echo $template;
                   }
               ?>
-
+<!--              <li><?php /*include('flipster.php')*/ ?></li>-->
             </ul>
           </div>
 
