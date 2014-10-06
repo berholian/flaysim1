@@ -41,7 +41,9 @@
                       echo $template;
                   }
               ?>
-<!--              <li><?php /*include('flipster.php')*/ ?></li>-->
+              <li class="enlace_galery">
+                <a href="flipster.php">galery</a>
+              </li>
             </ul>
           </div>
 
@@ -61,7 +63,9 @@
                       echo $template;
                   }
               ?>
-
+              <li class="enlace_galery">
+                <a href="flipster.php">galery</a>
+              </li>
             </ul>
           </div>
 
@@ -81,6 +85,9 @@
                       echo $template;
                   }
               ?>
+              <li class="enlace_galery">
+                <a href="flipster.php">galery</a>
+              </li>
 
             </ul>
           </div>
@@ -88,14 +95,17 @@
       </section>
 
           <!-- flipster-->
-      <div id="Main-Content">
-        <div class="Container">
+<!--      <div id="Main-Content" class="galery_3">
+        <div class="Container">-->
           <!-- Flipster List -->
-          <div class="flipster">
+<!--          <div class="flipster">
             <div class="galeria">galería</div>
             <ul class="marco">
               <li>
                 <img src="images/Sport-1.jpeg">
+              </li>
+              <li>
+                <img src="images/Sport-2.jpg">
               </li>
               <li>
                 <img src="images/Sport-2.jpg">
@@ -110,16 +120,22 @@
                 <img src="images/Sport-5.jpg">
               </li>
             </ul>
-          </div>
+          </div>-->
           <!-- End Flipster List -->
-        </div>
-      </div>
+<!--        </div>
+      </div>-->
           <!-- End flipster-->
 
       <?php include('footer.php') ?>
 
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/jquery-2.0.3.min.js"></script>
       <script src="js/jquery.flipster.min.js"></script>
+<!--      <script>
+
+        $( "#componentes_reales" ).append( ".galery_3" );
+
+      </script>
+
       <script>
 
         $(function(){ 
@@ -128,6 +144,6 @@
           });
         });
 
-      </script>
+      </script>-->
   </body>
 </html>

@@ -2,8 +2,8 @@
 .flipster {
   display: block;
   margin: 0 auto;
-  width: 49%;
-  padding: .1em;
+  width: 80%;
+  padding: 1em;
   background-color: rgba(0,0,0,.5);
   position: relative;
   overflow-x: hidden;
@@ -15,6 +15,14 @@
     text-transform: capitalize;
     color: $color_text_heading;
     margin: .5em 0;
+  }
+  @media screen and (max-width: $bp_large)
+  {
+    width: 100%;
+    ul{
+      padding: 0;
+      margin: 0 auto;
+    }
   }
 }
 

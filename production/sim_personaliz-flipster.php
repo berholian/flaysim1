@@ -7,7 +7,7 @@
 <!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
   <head>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="no-scale width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="images/favicon1.png">
     <meta charset="UTF-8">
     <title>desarrollo flysim</title>
