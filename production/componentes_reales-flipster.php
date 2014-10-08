@@ -24,22 +24,22 @@
         <div class="Container">
           <!-- Flipster List -->
           <div class="flipster">
-            <div class="galeria">simuladores personalizados</div>
+            <div class="galeria">componentes reales</div>
             <ul class="marco">
               <li>
-                <img class="simu1" src="images/Sport-1.jpg">
+                <img class="components1" src="images/Sport-1.jpg">
               </li>
               <li>
-                <img class="simu2" src="images/Sport-2.jpg">
+                <img class="components2" src="images/Sport-2.jpg">
               </li>
               <li>
-                <img class="simu3" src="images/Sport-3.jpg">
+                <img class="components3" src="images/Sport-3.jpg">
               </li>
               <li>
-                <img class="simu4" src="images/Sport-4.jpg">
+                <img class="components4" src="images/Sport-4.jpg">
               </li>
               <li>
-                <img class="simu5" src="images/Sport-5.jpg">
+                <img class="components5" src="images/Sport-5.jpg">
               </li>
             </ul>
           </div>

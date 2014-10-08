@@ -112,7 +112,7 @@ h1{
 
 /*------------------/ pantalla de inicio \------------*/
 
-.carte,.logoCarte{
+.logoCarte{
     background-size: 100%;
     width: 100%;
     height: 100%;
@@ -182,6 +182,7 @@ z-index:-200;
 .carte{
     background: url(images/cartaPortada5.png) no-repeat center;
     margin: 0 auto;
+    width: 100%;
     height: 100%;
     background-size: 100%;
     position: absolute;

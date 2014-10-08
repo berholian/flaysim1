@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="images/favicon1.png">
     <meta charset="UTF-8">
-    <title>desarrollo flysim</title>
+    <title>mantenimiento y ampliación flysim</title>
   </head>
 
   <body class="desarrollo">
@@ -24,22 +24,22 @@
         <div class="Container">
           <!-- Flipster List -->
           <div class="flipster">
-            <div class="galeria">simuladores personalizados</div>
+            <div class="galeria">mantenimiento y ampliación</div>
             <ul class="marco">
               <li>
-                <img class="simu1" src="images/Sport-1.jpg">
+                <img class="mantenimiento1" src="images/Sport-1_630.png">
               </li>
               <li>
-                <img class="simu2" src="images/Sport-2.jpg">
+                <img class="mantenimiento2" src="images/Sport-1_630.png">
               </li>
               <li>
-                <img class="simu3" src="images/Sport-3.jpg">
+                <img class="mantenimiento3" src="images/Sport-1_630.png">
               </li>
               <li>
-                <img class="simu4" src="images/Sport-4.jpg">
+                <img class="mantenimiento4" src="images/Sport-1_630.png">
               </li>
               <li>
-                <img class="simu5" src="images/Sport-5.jpg">
+                <img class="mantenimiento5" src="images/Sport-1_630.png">
               </li>
             </ul>
           </div>

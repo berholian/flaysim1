@@ -5,7 +5,7 @@ footer
 {
     width: 100%;
     position: absolute;
-    bottom: -112em;
+    bottom: -2120px;
 /*    margin: 2%;
     padding-bottom: .8em;*/
     h3
@@ -88,3 +88,5 @@ footer
         float: right;
     }
 }
+@media all and (orientation:portrait) {}
+@media all and (orientation:landscape) {}

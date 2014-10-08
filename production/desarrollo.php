@@ -42,7 +42,7 @@
                   }
               ?>
               <li class="enlace_galery">
-                <a href="flipster.php">galery</a>
+                <a href="sim_personaliz-flipster.php">galery</a>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@
                   }
               ?>
               <li class="enlace_galery">
-                <a href="flipster.php">galery</a>
+                <a href="mantenimiento_ampliacion-flipster.php">galery</a>
               </li>
             </ul>
           </div>
@@ -86,7 +86,7 @@
                   }
               ?>
               <li class="enlace_galery">
-                <a href="flipster.php">galery</a>
+                <a href="componentes_reales-flipster.php">galery</a>
               </li>
 
             </ul>

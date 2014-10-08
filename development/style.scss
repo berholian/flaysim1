@@ -13,11 +13,11 @@
 @import 'fragmentos/grids';
 @import 'fragmentos/css/flipster';
 
-@font-face {
+/*@font-face {
         font-family:'BankGothic Lt BT Light';
         src: url('fonts/BankGothic Lt BT Light.ttf');
 }
-
+*/
 @font-face {
         font-family: 'fontello';
         src: url('fonts/fontello.eot?9998728');
@@ -33,7 +33,7 @@
 
 body
 {
-    background: url(images/FondoResponsive) center no-repeat rgb(0,0,0);
+    background: url(images/fondoResponsive.png) center no-repeat rgba(0,0,0,.5);
     background-size: cover;
 }
 
@@ -49,7 +49,8 @@ ul, ol, li, a
 {
     height: 3216px;
     font-family: $font_family_heading;
-    color: rgb(0,0,0);
+    color: rgba(0,0,0,.1);
+
 }
 
 .parallax{
@@ -129,7 +130,7 @@ ul, ol, li, a
 }
 
 .identDos{
-    width: 30px;
+    width: 28px;
     height: 40px;
     margin-top: .8em;
     display: inline-block;
@@ -150,7 +151,7 @@ ul, ol, li, a
     z-index: -115;
     left: .3em;
     border-radius: 0 0 30% 0;
-    border-bottom: 4px solid rgba(255,255,255,.6);
+    border-bottom: 2.8px solid rgba(255,255,255,.6);
 /*    transform:rotate(-0.25deg);
 -ms-transform:rotate(-0.25deg); /* IE 9 */
 /*-webkit-transform:rotate(-0.25deg);*//*
@@ -168,7 +169,7 @@ ul, ol, li, a
 
 section{
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
     display: block;
     position: relative;
     h2{
@@ -181,20 +182,25 @@ section{
     }
     @media screen and (max-width: $bp_large)
     {
-        width: 95%;
+        width: 99%;
         margin: 0 auto;
     }
 }
 
-
+.companys{
+    width: 90%;
+    height: 50%;
+    background: url(images/CAereasMed.png) no-repeat center;
+    background-size: contain;
+}
 
 .instruccion, .cursos, .contactar, .desarrollo, .somos{
-    height: 46.7em;
+/*    height: 46.7em;*/
     overflow-x: hidden;
     overflow-y: visible;
     background-size: cover;
 @media screen and (max-width: $bp_large){
-    background: url(images/FondoResponsive.jpg)no-repeat center center fixed;
+    background: url(images/sky.JPG)no-repeat center center fixed;
     }
 }
 
@@ -340,7 +346,6 @@ section{
         background: -moz-radial-gradient(white, rgba(49,58,226,.1));
         background: -o-radial-gradient(white, rgba(49,58,226,.1));
         background: radial-gradient(white, rgba(49,58,226,.1));
-        border-bottom: solid 1px rgba(0,0,0,.1);
         position: relative;
         h4
         {
