@@ -189,9 +189,20 @@ section{
 
 .companys{
     width: 90%;
-    height: 50%;
-    background: url(images/CAereasMed.png) no-repeat center;
-    background-size: contain;
+    height: 200px;
+    margin: 0 auto;
+    background: url(images/CompaniasAereas.png) no-repeat center;
+    background-size: cover;
+    @media screen and (max-width: $bp_large)
+    {
+        width: 99%;
+        background: url(images/CAereasMed.png) no-repeat center;
+    }
+    @media screen and (max-width: $bp_large)
+    {
+        width: 99%;
+        background: url(images/CAereasPeq.png) no-repeat center;
+    }
 }
 
 .instruccion, .cursos, .contactar, .desarrollo, .somos{
@@ -199,30 +210,51 @@ section{
     overflow-x: hidden;
     overflow-y: visible;
     background-size: cover;
-@media screen and (max-width: $bp_large){
+    @media screen and (max-width: $bp_large)
+    {
     background: url(images/sky.JPG)no-repeat center center fixed;
     }
 }
 
 .instruccion{
     background: url(images/Instruccion.jpg) no-repeat center center fixed;
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/sky.JPG)no-repeat center center fixed;
+    }
 }
 
 .cursos{
     background: url(images/cursos.png) no-repeat center center fixed;
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/sky.JPG)no-repeat center center fixed;
+    }
 }
 
 .contactar{
     background: url(images/Contactar.jpg) no-repeat center center fixed;
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/sky.JPG)no-repeat center center fixed;
+    }
 }
 
 .desarrollo{
     background: url(images/Desarrollo.png) no-repeat center center fixed;
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/sky.JPG)no-repeat center center fixed;
+    }
 }
 
 .somos{
     background: url(images/FondoSomos.jpg) no-repeat center center fixed;
     /*background-color: rgba(0,0,0,.9);*/
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/sky.JPG)no-repeat center center fixed;
+    }
 }
 
 
@@ -275,13 +307,15 @@ section{
     {
         width: 90%;
         margin: 1em auto;
+        iframe{
+            width: 100%;
+        }
 
-    @media screen and (min-width: $bp_medium)
+    @media screen and (min-width: $bp_large)
     {
         width: 90%;
         margin: 1.5em auto;
-        iframe
-        {
+        iframe{
             margin: 0 auto;
             width: 40%;
             -webkit-transition: width 2s; /* Safari */

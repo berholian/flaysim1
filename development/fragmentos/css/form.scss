@@ -29,7 +29,7 @@ form
             font-family: $font_family_heading;
             list-style: none;
             margin-bottom: .3em;
-            color: white;
+            color: rgba(25,46,129,.9);
             text-transform: capitalize;
             text-shadow: 0 -1px 0 rgba(0,0,0,.5);
         }
@@ -41,7 +41,7 @@ form
         background: rgba(0,0,0,.1);
         display: inline-block;
         font-family: $font_family_heading;
-        color: white;
+        color: rgba(25,46,129,.9);
         border-top: 0px;
         border-right: 0px;
         border-left: 0px;
