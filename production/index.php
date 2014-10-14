@@ -27,11 +27,11 @@
           <div class="dot sec"></div>
           <div class="identDos"></div>
         </div>
-        <div class="dark"></div>
+<!--        <div class="dark"></div>
         <div class="cloud4"></div>
         <div class="cloud3"></div>
         <div class="cloud2"></div>
-        <div class="cloud1"></div>
+        <div class="cloud1"></div>-->
       </div>
 
 <!--<?php /*include('footer.php')*/ ?>-->
@@ -43,9 +43,9 @@
           <li>--*********--</li>
           <li>jpuset@flaysim.com</li>
           <li>+33 1 322 45 65</li>
-          <div class="contact">
+<!--          <div class="contact">
             <a href="contacto.php">contacto</a>
-          </div>
+          </div>-->
         </ol>
 
         <ul class="social">
@@ -94,14 +94,14 @@
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/nav.min.js"></script>
     <script src="js/varios.min.js"></script>
-    <script src="js/main_scrollpath.min.js"></script>
-    <script src="js/lib/prefixfree.min.js"></script>
-    <script src="js/lib/jquery.easing.min.js"></script>
-    <script src="js/jquery.scrollpath.min.js"></script>
+<!--    <script src="js/lib/prefixfree.min.js"></script>
+    <script src="js/lib/jquery.easing.min.js"></script>-->
+<!--    <script src="js/main_scrollpath.min.js"></script>-->
+<!--    <script src="js/jquery.scrollpath.min.js"></script>-->
     <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/jarallax-0.2.min.js"></script>
-<!--    <script src="js/jarallax-0.2.3.min.js"></script>-->
-    <script src="js/main.min.js"></script>
+    <script src="js/jarallax-0.2.3b.min.js"></script>
+<!--    <script src="js/main.min.js"></script>-->
     <script>/*-------------/ animación logo-carta \--------------*/
 
         $(".logoCarte").hide().delay(5000).fadeIn(2200).fadeOut(800);

@@ -51,7 +51,12 @@ form
     textarea{
         margin: 1em auto;
         width: 50%;
+        color: inherit;
     }
+    ::-webkit-input-placeholder { color:rgba(25,46,129,.9); }
+    ::-moz-placeholder { color:rgba(25,46,129,.9); } /* firefox 19+ */
+    :-ms-input-placeholder { color:rgba(25,46,129,.9); } /* ie */
+    input:-moz-placeholder { color:rgba(25,46,129,.9); }
 
     input[type="submit"], input[type="reset"]{
         width: 100px;

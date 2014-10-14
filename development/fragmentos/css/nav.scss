@@ -53,6 +53,12 @@ nav
     padding: 0;
 }
 
+@media screen and (max-width: 1455px )
+{
+    .tablet{
+        padding: 0 1.5em;
+    }
+}
 @media screen and (max-width: 1060px )
 {
     .tablet{

@@ -4,7 +4,7 @@
 .develop
 {
     margin: .7em auto;
-    height: 2em;
+    height: 1.5em;
     padding: .5em .5em;
     background: url(images/matrix1.png) center no-repeat;
     background-color: rgba(0,0,0,.9);
@@ -15,10 +15,11 @@
     {
         display: inline-block;
         text-align: left;
+        font-size: .8em;
         text-transform: capitalize;
         span
         {
-            font-size: 1.2em;
+            font-size: .8em;
             margin-left: .5em;
             padding-left: .5em;
             border-left: 1px solid rgba(255,255,255,.8);
@@ -29,6 +30,7 @@
         {
             display: block;
             padding: .5em 0;
+            border-left: 0px;
         }
     }
     }
@@ -36,7 +38,8 @@
     {
         display: inline;
         float: right;
-        margin: .2em auto;      
+        font-size:.5em;
+        margin: .2em auto;
         border-left: 15px solid rgba(0,0,0,.2);
         border-bottom: 4px solid rgba(255,255,255,.5);
         border-top: 4px solid rgba(255,255,255,.6);
@@ -55,19 +58,19 @@
         border-top: 4px solid rgba(0,0,0,.2);
         position: relative;
         right: 10px;
-        bottom: -50px;
+        top: 5px;
         
     }
     @media screen and (max-width: 440px)
     {
         position: relative;
-        top: 60px;
+        top: 50px;
         right: 3px;
     } 
     }
     @media screen and (max-width: 430px)
     {
-        height: 3em;
+        height: 2em;
     }
 
 }

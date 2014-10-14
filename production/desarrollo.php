@@ -3,7 +3,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
 <!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
 <head>
   <link rel="stylesheet" href="style.css">
@@ -42,7 +42,7 @@
                   }
               ?>
               <li class="enlace_galery">
-                <a href="sim_personaliz-flipster.php">galery</a>
+                <a href="sim_personaliz-flipster.php">galería</a>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@
                   }
               ?>
               <li class="enlace_galery">
-                <a href="mantenimiento_ampliacion-flipster.php">galery</a>
+                <a href="mantenimiento_ampliacion-flipster.php">galería</a>
               </li>
             </ul>
           </div>
@@ -86,7 +86,7 @@
                   }
               ?>
               <li class="enlace_galery">
-                <a href="componentes_reales-flipster.php">galery</a>
+                <a href="componentes_reales-flipster.php">galería</a>
               </li>
 
             </ul>

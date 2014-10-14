@@ -1,0 +1,70 @@
+.instruccion{ 
+    @media screen and (max-width: $bp_extralarge)
+    {
+    background: url(images/responsive/BackgroundInstruccion1200.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/responsive/BackgroundInstruccion700.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_medium)
+    {
+    background: url(images/responsive/BackgroundInstruccion500.jpg)no-repeat center center fixed;
+    }
+}
+.cursos{
+    @media screen and (max-width: $bp_extralarge)
+    {
+    background: url(images/responsive/BackgroundCursos1200.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/responsive/BackgroundCursos700.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_medium)
+    {
+    background: url(images/responsive/BackgroundCursos500.jpg)no-repeat center center fixed;
+    }
+}
+.contactar{
+    @media screen and (max-width: $bp_extralarge)
+    {
+    background: url(images/responsive/BackgroundContacto1200.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/responsive/BackgroundContacto700.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_medium)
+    {
+    background: url(images/responsive/BackgroundContacto500.jpg)no-repeat center center fixed;
+    }
+}
+.desarrollo{
+    @media screen and (max-width: $bp_extralarge)
+    {
+    background: url(images/responsive/BackgroundDesarrollo1200.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/responsive/BackgroundDesarrollo700.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_medium)
+    {
+    background: url(images/responsive/BackgroundDesarrollo500.jpg)no-repeat center center fixed;
+    }
+}
+.somos{
+    @media screen and (max-width: $bp_extralarge)
+    {
+    background: url(images/responsive/FondoSomos1200.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_large)
+    {
+    background: url(images/responsive/FondoSomos700.jpg)no-repeat center center fixed;
+    }
+    @media screen and (max-width: $bp_medium)
+    {
+    background: url(images/responsive/FondoSomos500.jpg)no-repeat center center fixed;
+    }
+}

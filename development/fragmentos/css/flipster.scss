@@ -1,4 +1,14 @@
 /* @group Base Flipster Styles */
+.main-content{
+  .container{
+    margin: 0 auto;
+  }
+  @media screen and (max-width: $bp_large)
+  {
+      width: 90%;
+      margin: 0 auto;
+  }
+}
 .flipster {
   display: block;
   width: 80%;
@@ -66,7 +76,6 @@
   position: absolute;
   opacity: 0.99;
   /* Fix for strange clipping behavior on rotated elements in Chrome. */
-
 }
 .flip-past,
 .flip-future,
@@ -77,6 +86,11 @@
 .flip-item img {
   display: block;
   width: 100%;
+  @media screen and (max-width: $bp_large)
+  {
+      width: 80%;
+      margin: 0 auto;
+  }
 }
 /* @end */
 /* @group Coverflow Style */

@@ -131,7 +131,7 @@ padding:20px;
 margin:0 auto;
 }
 
-.cloud1, .cloud2, .cloud3, .cloud4{
+/*.cloud1, .cloud2, .cloud3, .cloud4{
 position:fixed;
 width:2000px;
 margin-left:-1000px;
@@ -177,7 +177,7 @@ height:100%;
 top:100%;
 background:rgba(0,0,0,0.3);
 z-index:-200;
-}
+}*/
 
 .carte{
     background: url(images/cartaPortada5.png) no-repeat center;
@@ -188,10 +188,22 @@ z-index:-200;
     position: absolute;
     top:0%;
     z-index: 400;
+@media screen and (max-width: $bp_extralarge)
+    {
+    background: url(images/responsive/CartaHome1200.png)no-repeat center center;
+    background-size: contain;
+    }
+@media screen and (max-width: $bp_large)
+{
+    top: -10%;
+    background: url(images/responsive/CartaHome700.png)no-repeat center center;
+    background-size: contain;
+    }
 @media screen and (max-width: $bp_medium)
     {
-        top: -10%;
-        display: none;
+    top: -10%;
+    background: url(images/responsive/CartaHome500.png)no-repeat center center;
+    background-size: contain;
     }
 @media screen and (min-width: 1900px)
     {
@@ -205,11 +217,25 @@ z-index:-200;
     height: 100%;
     background-size: 100%;
     position: absolute;
-    top:0%;
+    top: 0%;
     z-index: 450;
+@media screen and (max-width: $bp_extralarge)
+    {
+    top: 9.5%;
+    background: url(images/responsive/LetrasFlysimHome1200.png)no-repeat center center;
+    background-size: contain;
+    }
+@media screen and (max-width: $bp_large)
+    {
+    top: -10.5%;
+    background: url(images/responsive/LetrasFlysimHome700.png)no-repeat center center;
+    background-size: contain;
+    }
 @media screen and (max-width: $bp_medium)
     {
-        top: -10%;
+    top: -10%;
+    background: url(images/responsive/LetrasFlysimHome500.png)no-repeat center center;
+    background-size: contain;
     }
 @media screen and (min-width: 1900px)
     {
