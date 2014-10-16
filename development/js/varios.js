@@ -48,6 +48,7 @@ $(document).ready(function(){
         }
     });
 
+
 /*-------------------/  JQ especialidad:before  \---------------------------------*/
 
     $('.deco:before').toggle();
@@ -65,6 +66,27 @@ $(document).ready(function(){
         }
     });
 });
+
+/*----------Q font-size "adjust" (body)  ---------------
+
+    function setFontSize()
+    {
+        var winWidth=$('html').width();
+                    switch (winWidth) {
+                      case winWidth<600:
+                      fontSize=14px;
+                      break;
+
+                      case winWidth>600 and winWidth<800:
+                      fontSize=16px;
+                      break;
+
+                      default:
+                      fontSize=18px;
+                      break; }
+
+        $('body').css('font-size',fontSize);
+    }*/
 
 /*----------------/ control de luz \--------------------
 
