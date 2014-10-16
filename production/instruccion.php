@@ -1,17 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-<!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="icon" href="images/favicon1.png">
-  <title>instrucción flysim</title>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon1.png">
+    <title>instrucción flysim</title>
+  </head>
 
-</head>
-
-<body class="instruccion">
-<!--  <div class="instruccion">-->
+  <body class="instruccion">
+  <!--  <div class="instruccion">-->
 
     <?php include('header.php') ?>
 

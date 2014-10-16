@@ -1,9 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <!--[if lt IE 9]><script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>![endif]-->
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon1.png">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <title>flysim index</title>
@@ -81,14 +80,14 @@
 
     <script>
       init = function(){
-        /*alert('init fuction work');*/
+        /*alert('init fuction work');
         var jarallax = new Jarallax();
         jarallax.addAnimation('.dark',[{progress:'0%', top:'100%'},{progress:'100%', top:'0%'}]);
         jarallax.addAnimation('.cloud1',[{progress:'0%', top:'120%'},{progress:'100%', top:'-20%'}]);
         jarallax.addAnimation('.cloud2',[{progress:'0%', top:'100%'},{progress:'100%', top:'-10%'}]);
         jarallax.addAnimation('.cloud3',[{progress:'0%', top:'80%'},{progress:'100%', top:'10%'}]);
         jarallax.addAnimation('.cloud4',[{progress:'0%', top:'70%'},{progress:'100%', top:'20%'}]);
-        jarallax.addAnimation('.stela',[{progress:'0%', top:'40%'},{progress:'100%', top:'10%'}]);
+        jarallax.addAnimation('.stela',[{progress:'0%', top:'40%'},{progress:'100%', top:'10%'}]);*/
       }
     </script>
     <script src="js/jquery-2.0.3.min.js"></script>
@@ -117,7 +116,7 @@
       function coloca (i)
       {
         var demora = 300 + (i * 50000)
-        $(this).delay(demora).animate({ width: 2000 }, 100000);
+        $(this).delay(demora).animate({ width: 2200}, 100000);
       }
 
     </script>
