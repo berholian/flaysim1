@@ -210,15 +210,17 @@ section{
     margin: 0 auto;
     background: url(images/CompaniasAereas.png) no-repeat center;
     background-size: cover;
+    @media screen and (max-width: $bp_extralarge)
+    {
+        width: 95%;
+        background: url(images/CAereasMed.png) no-repeat center;
+        background-size: contian;
+    }
     @media screen and (max-width: $bp_large)
     {
-        width: 99%;
-        background: url(images/CAereasMed.png) no-repeat center;
-    }
-    @media screen and (max-width: $bp_medium)
-    {
-        width: 99%;
+        width: 95%;
         background: url(images/CAereasPeq.png) no-repeat center;
+        background-size: cover;
     }
 }
 
@@ -330,7 +332,7 @@ section{
 .somos{
     @media screen and (max-width: $bp_extralarge)
     {
-    background: url(images/responsive/FondoSomos1200.jpg)no-repeat center center;
+    background: url(images/responsive/FondoSomos1200.jpg)no-repeat center center fixed;
     background-size: cover;
     }
     @media screen and (max-width: $bp_large)
