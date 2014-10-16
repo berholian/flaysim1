@@ -1,7 +1,7 @@
 
 
 /*@import 'fragmentos/normalize';*/
-/*@import 'fragmentos/reset';*/
+@import 'fragmentos/reset';
 @import 'fragmentos/css/general';
 @import 'fragmentos/css/header';
 @import 'fragmentos/css/nav';
@@ -9,7 +9,7 @@
 @import 'fragmentos/css/social_fontelo';
 @import 'fragmentos/css/developerInfo';
 @import 'fragmentos/css/footer';
-@import 'fragmentos/css/scrollpath';
+/*@import 'fragmentos/css/scrollpath';*/
 @import 'fragmentos/grids';
 @import 'fragmentos/css/flipster';
 
@@ -36,6 +36,18 @@
 body{
     background: rgba(8,39,132,.9);
     font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -ms-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+}
+
+ul, ol, li, a{
+    list-style: none;
+    text-decoration: none;
 }
 
 .parallax-bg{
@@ -43,23 +55,11 @@ body{
     background-size: cover;
 }
 
-/*._parallax-bg{
-    background: url(images/sky.jpg) center center no-repeat fixed rgba(8,39,132,.9);
-}*/
-
-
-ul, ol, li, a{
-    list-style: none;
-    text-decoration: none;
-}
-
-
-/*.wrapper
-{
+/*.wrapper{
     height: auto;
+    background-color: rgba(8,39,132,.9);
     font-family: $font_family_heading;
     color: rgba(0,0,0,.1);
-
 }*/
 
 /*.parallax{
