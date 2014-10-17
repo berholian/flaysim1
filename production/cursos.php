@@ -8,7 +8,8 @@
     <title>Cursos FlySim</title>
 </head>
 
-<body class="cursos">
+<body>
+  <div class="cursos"></div>
 
     <?php include('header.php') ?>
 

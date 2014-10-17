@@ -1,5 +1,5 @@
 
-    <div class="iconfont mini">
+    <div class="iconfont mini"><span>menu</span>
       <ul id="desple">
       	<li>
       		<a href="instruccion.php">instrucción</a>

@@ -8,8 +8,8 @@
     <title>instrucción flysim</title>
   </head>
 
-  <body class="instruccion">
-  <!--  <div class="instruccion">-->
+  <body>
+    <div class="instruccion">
 
     <?php include('header.php') ?>
 

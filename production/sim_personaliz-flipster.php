@@ -9,7 +9,8 @@
     <title>desarrollo flysim</title>
   </head>
 
-  <body class="desarrollo">
+  <body>
+    <div class="desarrollo"></div>
 
       <?php include('header.php') ?>
 

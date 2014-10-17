@@ -89,7 +89,6 @@ nav
 }
 
 
-
                 /*-----------/ mini-NAV \----------*/
 .mini
 {
@@ -102,6 +101,13 @@ nav
     top: 2em;
     right: 5%;
     z-index: 10100;
+/*    span{
+        font-size: .5em;
+        color: white;
+        position: relative;
+        left: -51.5px;
+        bottom: -12px;
+    }*/
     ul
     {
         display: none;
