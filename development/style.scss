@@ -626,7 +626,7 @@ section{
     }
     }*/
 
-@media screen and (max-width: $bp_large)
+@media screen and (max-width: $bp_extralarge)
 {
     .col1, .col2, .col7, .col9, .col10, .col11, .col12
     {
@@ -639,7 +639,7 @@ section{
     {
         float: left;
         margin: 1.04167%;
-        width: 47.90%;
+        width: 80%;
         left: 0;
     }
     .curss{
@@ -660,7 +660,7 @@ section{
 }
 
 
-@media screen and (max-width: $bp_medium )
+@media screen and (max-width: $bp_large )
 {
     .col4, .col3
     {
