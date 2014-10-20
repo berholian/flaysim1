@@ -40,7 +40,7 @@ body{
     background: rgba(8,39,132,.9);
     font-size: 20px;
     -ms-font-size: 24px;
-    font-weight: bold;
+    font-weight: 300;
     font-style: normal;
     -webkit-font-smoothing:antialiased;
 }
@@ -51,7 +51,7 @@ ul, ol, li, a{
 }
 
 .parallax-bg{
-    background: url(images/sky.jpg) center center no-repeat fixed rgba(8,39,132,.9);
+    background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -113,7 +113,7 @@ ul, ol, li, a{
 
 .dot{
     width: .5em;
-    height: .3em;
+    height: 40px;
     overflow: visible;
     display: inline-block;
     /*background: rgba(255,255,255,.1);*/
@@ -121,7 +121,7 @@ ul, ol, li, a{
     z-index: -115;
     bottom: 0px;
     left: .3em;
-    border-radius: 0 0 30% 0;
+    border-radius: 0 0 5% 0;
     border-bottom: 2px double rgba(255,255,255,.5);
     box-shadow: -1px 1px 1px rgba(0,0,0,.1);
 /*    background: rgba(0,0,0,.2);*/
@@ -129,7 +129,7 @@ ul, ol, li, a{
 
 .sec{
     width: .5em;
-    height: .3em;
+    height: 40px;
     overflow: visible;
     display: inline-block;
     margin-top: .8em;
@@ -137,7 +137,7 @@ ul, ol, li, a{
     position: relative;
     z-index: -115;
     left: .3em;
-    border-radius: 0 0 30% 0;
+    border-radius: 0 0 5% 0;
     border-bottom: 2.8px double rgba(255,255,255,.6);
 }
 
@@ -230,7 +230,7 @@ section{
     background-color: rgba(8,39,132,.9);
     overflow-x: hidden;
     overflow-y: hidden;*/
-    background-size: contain;
+    background-size: cover;
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -241,32 +241,28 @@ section{
 }
 
 .instruccion{
-    background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat center center fixed;
-        background-size: contain;
+    background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat top left;
+        background-size: cover;
 }
 
 .cursos{
-    background: url(images/responsive/BackgroundCursos.jpg) no-repeat center center fixed;
-        background-size: contain;
+    background: url(images/responsive/BackgroundCursos.jpg) no-repeat top center;
+        background-size: cover;
 }
 
-
-
-
-
 .contactar{
-    background: url(images/responsive/BackgroundContacto.jpg) no-repeat center center fixed;
-        background-size: contain;
+    background: url(images/responsive/BackgroundContacto.jpg) no-repeat top right;
+        background-size: cover;
 }
 
 .desarrollo{
-    background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat center center fixed;
-        background-size: contain;
+    background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat top center;
+        background-size: cover;
 }
 
 .somos{
-    background: url(images/responsive/FondoSomos.jpg) no-repeat center center fixed;
-        background-size: contain;
+    background: url(images/responsive/FondoSomos.jpg) no-repeat top right;
+        background-size: cover;
     /*background-color: rgba(0,0,0,.9);*/
 }
 
@@ -274,18 +270,18 @@ section{
 .instruccion{ 
     @media screen and (max-width: $bp_extralarge)
     {
-    background: url(images/responsive/BackgroundInstruccion1200.jpg) no-repeat top center;
-    background-size: contain;
+    background: url(images/responsive/BackgroundInstruccion1200.jpg) no-repeat top left;
+    background-size: cover;
     }
     @media screen and (max-width: $bp_large)
     {
-    background: url(images/responsive/BackgroundInstruccion700.jpg) no-repeat top center;
+    background: url(images/responsive/BackgroundInstruccion700.jpg) no-repeat top left;
     background-size: contain;
     position: relative;
     }
     @media screen and (max-width: $bp_medium)
     {
-    background: url(images/responsive/BackgroundInstruccion500.jpg) no-repeat top center;
+    background: url(images/responsive/BackgroundInstruccion500.jpg) no-repeat top left;
     background-size: contain;
     }
 }
@@ -293,7 +289,7 @@ section{
     @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundCursos1200.jpg) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     }
     @media screen and (max-width: $bp_large)
     {
@@ -312,7 +308,7 @@ section{
     @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundContacto1200.jpg) no-repeat top center;
-    background-size: contain;
+    background-size: cover;
     }
     @media screen and (max-width: $bp_large)
     {
@@ -331,7 +327,7 @@ section{
     @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundDesarrollo1200.jpg) no-repeat top center;
-    background-size: contain;
+    background-size: cover;
     }
     @media screen and (max-width: $bp_large)
     {
@@ -349,38 +345,35 @@ section{
 .somos{
     @media screen and (max-width: $bp_extralarge)
     {
-    background: url(images/responsive/FondoSomos1200.jpg) no-repeat top center fixed;
-    background-size: contain;
+    background: url(images/responsive/FondoSomos1200.jpg) no-repeat top right;
+    background-size: cover;
     }
     @media screen and (max-width: $bp_large)
     {
     background: url(images/responsive/FondoSomos700.jpg) no-repeat top center;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     top:0px;
     }
     @media screen and (max-width: $bp_medium)
     {
     background: url(images/responsive/FondoSomos500.jpg) no-repeat top center;
-    background-size: contain;
+    background-size: cover;
     }
 }
 
 /*_ _ _ _ _ _ _ _ _/ ROW & COL \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
 
-.row
-{
+.row{
     padding: 1em 1em 0 1em;
     overflow: hidden;
     color: white;
-    .col3
-    {   
+    .col3{
         float: left;
         margin:.5em 1.04167%;
         width: 22.91667%;
         background-color: rgba(0,255,0,.1);
-        a
-        {
+        a{
             font-family: $font_family_heading;
             color: $color_text_body;
             background: rgba(0,0,0,.5);
@@ -393,16 +386,12 @@ section{
         }
     } 
 
-
-    .col6
-    {
+    .col6{
         margin: 0 1.04167%; 
         width: 47.91667%;
     }
 
-
-    h3
-    {
+    h3{
         font-family: $font_family_heading;
         color: black;
         font-size: 1.5em;
@@ -417,30 +406,28 @@ section{
         iframe{
             width: 100%;
         }
-
-    @media screen and (min-width: $bp_extralarge)
-    {
-        width: 90%;
-        margin: 1.5em auto;
-        iframe{
-            margin: 0 auto;
-            width: 40%;
-            -webkit-transition: width 2s;/* Safari */
-            -moz-transition: width 2s;
-            -ms-transition: width 2s;
-            -o-transition: width 2s; 
-            transition: width 2s;
-            opacity: 0.4;
-        }
-        iframe:hover{
-            width: 100%;
-            opacity: 1;
+        @media screen and (min-width: $bp_extralarge)
+        {
+            width: 90%;
+            margin: 1.5em auto;
+            iframe{
+                margin: 0 auto;
+                width: 40%;
+                -webkit-transition: width 2s;/* Safari */
+                -moz-transition: width 2s;
+                -ms-transition: width 2s;
+                -o-transition: width 2s; 
+                transition: width 2s;
+                opacity: 0.4;
+            }
+            iframe:hover{
+                width: 100%;
+                opacity: 1;
+            }
         }
     }
-    }
 
-    small
-    {
+/*    small{
         display: block;
         a
         {
@@ -449,23 +436,21 @@ section{
             padding: 1em;
             text-align: left;
         }
-    }
+    }*/
 
-    .col8
-    {
+    .col8{
         margin: 0 auto;
         float: none!important;
         li{
             padding: 1%;
         }
-        p
-        {
+        p{
             display: block;
             margin: .5em 2%;
         }
-        @media screen and (max-width: $bp_large)
+        @media screen and (max-width: $bp_extralarge)
         {
-            width: 90%;
+            width: 95%;
             margin: 0 1.04167%;
         }
         @media screen and (max-width: $bp_medium)
@@ -498,6 +483,7 @@ section{
             font-size: 1.5em;
             padding: 0 .5em  0em;
             font-family: $font_family_heading;
+            font-weight: 600;
             a
             {
                 color: rgba(25,46,129,.9);
@@ -511,16 +497,19 @@ section{
         li
         {
             margin: 2% auto;
-            font-family: $font_family_heading;
-            font-size: 1em;
+            font-family: $font_family_heading_alt;
+            font-size: .8em;
             text-transform: capitalize;
-            text-shadow: 0 0 1px rgba(51,51,51,0.3);
+/*            text-shadow: 0 0 1px rgba(51,51,51,0.2);*/
             position: relative;
             color: black;
+            -webkit-font-smoothing:antialiased!important;
             p
             {
-                font-size: .9em;
+                font-size: 1.1em;
                 text-transform: none;
+/*                text-shadow: 0 0 1px rgba(51,51,51,0.9);*/
+                -webkit-font-smoothing:antialiased!important;
                 padding: 1em;
             }
         }
@@ -541,7 +530,7 @@ section{
 
     .col4
     {
-        float: left;
+/*        float: left;*/
         margin: .2em .25em; 
         width: 31.25%;
         position: relative;
@@ -566,114 +555,64 @@ section{
         padding: .5em;
     }
 
-/*    .especialidad
+    @media screen and (max-width: $bp_extralarge!important)
     {
-        margin-bottom: 1em;
-        padding: 1em ;
-        border-radius: 5px;
-        box-shadow: 1px 1px 1px 1px rgba(160,164,214,.8) inset,
-                    0 2px 10px rgba(0,0,0,.4) inset;
-        h4
+        .col1, .col2, .col7, .col9, .col10, .col11, .col12
         {
-            text-transform: capitalize;
+            float: none;
+            margin: 0 1.04167%;
+            width: 97.91667%;
         }
 
-        li
+        .col4, .col3
         {
-            text-align: left;
+            float: none;
+            display: block;
+            margin: 0 1.04167%;
+            width: 97%;
+            left: 0;
         }
-        
-        li.deco:before
+        .curss
         {
-            content: "";
-            width: 21px;
-            height: 10px;
-            display: inline-block;
-            margin: 0 2px;
-            background: url(images/deco_l.png) no-repeat center;
-            background-size: cover;
-        }
-
-        a
-        {
-            margin-left: .2em;
-            font-family: $font_family_heading;
-            color: black;
-            font-size: 1.5em;
-            text-shadow: 0 2px 4px rgba(0,0,0,.4);
+            float: none;
+            display: block;
+            margin: 0 1.04167%;
+            width: 97%;
+            left: 0;
         }
 
-
-    @media screen and (max-width: $bp_large)
-    {
-        margin: 1em auto;
-        ol
+        .paper
         {
-            margin: 0 auto;
+            float: none!important;
+            display: block!important;
+            margin: 0 1.04167%!important;
+            width: 97%!important;
+            left: 0!important;
         }
-        a
+
+        .col6
         {
-            margin: 0 auto;
+            float: none;
+            margin: 0 1.04167%;
+            /*width: 47.90%;*/
         }
     }
+
 
     @media screen and (max-width: $bp_medium)
     {
-        li
+        .col4, .col3
         {
-            margin: .5em 0;
+            float: none;
+            margin: 1.04167%;
+            width: 97.91667%;
+        }
+
+        .paper
+        {
+            margin: 0 1.04167%;
         }
     }
-    }*/
-
-@media screen and (max-width: $bp_extralarge)
-{
-    .col1, .col2, .col7, .col9, .col10, .col11, .col12
-    {
-        float: none;
-        margin: 0 1.04167%;
-        width: 97.91667%;
-    }
-
-    .col4, .col3
-    {
-        float: left;
-        margin: 1.04167%;
-        width: 80%;
-        left: 0;
-    }
-    .curss{
-        width: 90%;
-    }
-
-    .paper
-    {
-        margin: 0 1.04167%;
-    }
-
-    .col6
-    {
-        float: none;
-        margin: 0 1.04167%;
-        /*width: 47.90%;*/
-    }
-}
-
-
-@media screen and (max-width: $bp_large )
-{
-    .col4, .col3
-    {
-        float: none;
-        margin: 1.04167%;
-        width: 97.91667%;
-    }
-
-    .paper
-    {
-        margin: 0 1.04167%;
-    }
-}
 }
 
 

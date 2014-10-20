@@ -13,7 +13,7 @@ $color_bg_wrapper              : #fff;
 
 $font_family_body           : Helvetica,"Miriad pro", Arial,  "sans-serif";
 $font_family_heading        : 'Orbitron', Arial, sans-serif;
-$font_family_heading_alt    : 'Oswald', Arial, sans-serif;
+$font_family_heading_alt    : 'Rajdhani','Oswald', Arial, sans-serif;
 $font_family_tagline        : 'Abel', Arial, sans-serif;
 
 $max_width                  : 1900px;
@@ -24,7 +24,7 @@ $bp_medium                  : 464 px;/* 29em*/
 $bp_min                     : 240 px;/* 15em*/
 
 /*$logo_ico                   : ;*/
-$logo_img                   : url(images/LogoFSsombra.png);
+$logo_img                   : url(images/logoBlanco.png);
 
 
-@import url(http://fonts.googleapis.com/css?family=Alex+Brush|Orbitron:400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush|Orbitron:400,500,700|Rajdhani:500,600);

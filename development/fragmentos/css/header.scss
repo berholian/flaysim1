@@ -46,8 +46,8 @@ h1{
 {
     width: 13.75em;
     height: 7.75em;
-    background: $logo_img no-repeat center;
-    background-size: 90%;
+    background: $logo_img no-repeat center center;
+    background-size: contain;
     position: fixed;
     left: 0;
     top: 1em;
@@ -60,9 +60,11 @@ h1{
         text-indent: -9999px;
     }
 
-@media screen and (max-width: $bp_medium)
+@media screen and (max-width: $bp_large)
     {
         position: relative;
+        top: 5px;
+        left: auto;
         display: block;
         width: 90%;
         height: 10em;

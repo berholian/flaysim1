@@ -97,17 +97,18 @@ nav
     line-height: 3.2em;
     margin: .5em  auto;
     width: 85%;
-    position: fixed;
-    top: 2em;
+    position: absolute;
+    top: 1.05em;
     right: 5%;
     z-index: 10100;
-/*    span{
-        font-size: .5em;
+    span{
+        font-size: .4em;
+        font-family: $font_family_heading;
         color: white;
         position: relative;
         left: -51.5px;
         bottom: -12px;
-    }*/
+    }
     ul
     {
         display: none;
