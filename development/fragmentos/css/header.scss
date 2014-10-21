@@ -60,17 +60,28 @@ h1{
         text-indent: -9999px;
     }
 
-@media screen and (max-width: $bp_large)
+/*@media screen and (max-width: $bp_large)
     {
         position: relative;
         top: 5px;
+        display: block;
         left: auto;
+        width: 90%;
+        height: 10em;
+        margin: .5em auto;
+        background-size: contain;
+    }*/
+
+@media screen and (max-width: $bp_medium)
+    {
+        position: relative;
         display: block;
         width: 90%;
         height: 10em;
         margin: .5em auto;
         background-size: contain;
     }
+
 @media screen and (min-width: $bp_extralarge)
     {
         position: fixed;
