@@ -1,20 +1,38 @@
 /* @group Base Flipster Styles */
 .flipster {
   display: block;
-  margin: 0 auto;
-  width: 49%;
-  padding: .1em;
-  background-color: rgba(0,0,0,.8);
+  width: 80%;
+  margin: auto;
+  margin-top: 6em;
+  padding: 1em 3em;
+  background: -webkit-gradient(radial, 0 0, 0 100%, from(white), to(rgba(49,58,226,.1)));
+  background: -webkit-radial-gradient(white, rgba(49,58,226,.1));
+  background: -moz-radial-gradient(white, rgba(49,58,226,.1));
+  background: -o-radial-gradient(white, rgba(49,58,226,.1));
+  background: radial-gradient(white, rgba(49,58,226,.1));
+  background-position: center;
+  border-right: 1px solid rgba(0,0,0,.3);
+  border-bottom: 1px solid rgba(0,0,0,.3);
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-left: 1px solid rgba(255,255,255,.2);
   position: relative;
   overflow-x: hidden;
   overflow-y: visible;
-  h4{
+  .galeria{
     text-align: center;
     font-family: $font_family_heading;
     font-size: 1.5em;
     text-transform: capitalize;
     color: $color_text_heading;
     margin: .5em 0;
+  }
+  @media screen and (max-width: $bp_large)
+  {
+    width: 100%;
+    ul{
+      padding: 0;
+      margin: 0 auto;
+    }
   }
 }
 

@@ -1,6 +1,6 @@
-		<footer>
+<!--		<footer>
 
-<!--			<section class="contacto">
+			<section class="contacto">
 
 				<ol>
 					<li>--*********--</li>
@@ -37,11 +37,11 @@
 					<a href="https://www.linkedin.com/pub/jose-a-est%C3%A9vez/84/5aa/242">development</a>
 				</div>
 
-			</div>-->
+			</div>
 
 
-		</footer>
+		</footer>-->
 
 	<script src="js/jquery-2.0.3.min.js"></script>
-	<script src="js/nav.min.js"></script>
+<!--	<script src="js/nav.min.js"></script>-->
 	<script src="js/varios.min.js"></script>

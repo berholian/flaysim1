@@ -4,15 +4,15 @@
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta charset="UTF-8">
-	<link rel="icon" href="images/icon.jpg">
+	<link rel="icon" href="images/favicon1.png">
 	<title>contacto flysim</title>
 </head>
 
-<body>	
-	<div class="contactar">
+<body class="contactar">	
+
 	<?php include('header.php') ?>
 	<section>
-		<h2>contacto</h2>
+		<h2 >contacto</h2>
 		<div class="hero">
 			<div class="row">
 				<div class="map">
@@ -33,19 +33,19 @@
 					<span class="msg"></span>
 				</li>
 				<li>
-					<label>Nombre: </label>
+					<label>Nombre : </label>
 					<input type="text" name="nombre" value="" required/>
 				</li>
 				<li>
-					<label>Tlfn: </label>
+					<label>Tlfn : </label>
 					<input type="tel" name="tel">
 				</li>
 				<li>
-					<label>correo@: </label>
+					<label>correo@ : </label>
 					<input type="text" name="address" >
 				</li>
 				<li>
-						<textarea rows="2" cols="50" placeholder='Solicite información'></textarea>
+						<textarea rows="2" cols="150" placeholder='Solicite información'></textarea>
 					</li>
 				<li>
 
@@ -59,9 +59,7 @@
 			
 		</form>
 	</section>
-</div>
-	<?php include('footer.php') ?>
-
-
+	<script src="js/varios.min.js"></script>
+	<script src="js/jquery-2.0.3.min.js"></script>
 </body>
 </html>

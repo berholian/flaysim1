@@ -3,15 +3,15 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="icon" href="images/icon.jpg">
+    <link rel="icon" href="images/favicon1.png">
     <meta charset="UTF-8">
     <title>Cursos FlySim</title>
 </head>
 
-<body>
+<body class="cursos">
 
-  <div class="cursos">
     <?php include('header.php') ?>
+
     <section>
       <h2>cursos</h2>
       <div class="row carta">
@@ -62,7 +62,11 @@
 
         <div class="paper col4 curss">
           <h4>
+<<<<<<< HEAD
             <a data-destino="#planificacion_vueloNav">planificación y navegación</a>
+=======
+            <a data-destino="#planificacion_vueloNav">planificación vuelo y navegación</a>
+>>>>>>> canvas_stela
           </h4>
           <ul id="planificacion_vueloNav">
 
@@ -223,7 +227,6 @@
     </section>
 
     <?php include('footer.php') ?>
-  </div>
 
 </body>
 </html>

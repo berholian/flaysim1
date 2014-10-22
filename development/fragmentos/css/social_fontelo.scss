@@ -56,10 +56,10 @@
 /*.iconfont.accessibility:before { content: '\e808'; } /* '' */
 .iconfont.mini:before 
 { 
-    content: '\e801'; 
+    content: '\e801';
+    cursor: pointer;
     color: white;
     padding: 1em;
-    background-color: rgba(0,0,0,.2);
     border-radius: 25% 25% 0 0;
 } /* '' */
 
@@ -69,9 +69,9 @@
 .iconfont.twitter:before 
 {
     content: '\e805';
-    font-size: 125%;
-    margin-right: 0.2em;
-    text-indent: -5px;
+    font-size: 119%;
+    position: relative;
+    top: 2px;
 } /* '' */
 
 .iconfont.facebook:before { content: '\e804'; } /* '' */
@@ -81,5 +81,4 @@
 .iconfont.mail:before 
 { 
     content: '\e806';
-    text-indent: 5px;
 } /* '' */

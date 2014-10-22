@@ -5,13 +5,13 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="icon" href="images/icon.jpg">
+  <link rel="icon" href="images/favicon1.png">
   <title>instrucción flysim</title>
 
 </head>
 
-<body>
-  <div class="instruccion">
+<body class="instruccion">
+<!--  <div class="instruccion">-->
 
     <?php include('header.php') ?>
 
@@ -41,6 +41,7 @@
                         echo $template;
                     }
                 ?>
+                <div class="companys"></div>
 
               </ul>
             </div>
@@ -83,6 +84,6 @@
 
     <?php include('footer.php') ?>
 
-  </div>
+<!--  </div>-->
 </body>
 </html>
