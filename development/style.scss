@@ -364,7 +364,8 @@ section{
 
 /*_ _ _ _ _ _ _ _ _/ ROW & COL \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
 
-.row{
+.row
+{
     padding: 1em 1em 0 1em;
     overflow: hidden;
     color: white;
@@ -453,14 +454,15 @@ section{
             width: 95%;
             margin: 0 1.04167%;
         }
-        @media screen and (max-width: $bp_medium)
+/*        @media screen and (max-width: $bp_medium)
         {
             ol, h3
             {
                 display: none;
             }
-        }
+        }*/
     }
+
 
     .paper{
         padding: 1em;
@@ -554,8 +556,8 @@ section{
     {
         padding: .5em;
     }
-
-    @media screen and (max-width: $bp_large)
+}
+    @media screen and (max-width: $bp_extralarge)
     {
         .col1, .col2, .col7, .col9, .col10, .col11, .col12
         {
@@ -569,13 +571,8 @@ section{
             float: none;
             display: block;
             margin: 0 1.04167%;
-            width: 47%;
-            left: 0;
-        }
-
-        .curss
-        {
-            width: 90%;
+            width: 94%!important;
+            left: 0!important;
         }
 
         .paper
@@ -592,21 +589,21 @@ section{
     }
 
 
-@media screen and (max-width: $bp_medium)
-{
-    .col4, .col3
+    @media screen and (max-width: $bp_medium)
     {
-        float: none;
-        margin: 1.04167%;
-        width: 97.91667%;
+        .col4, .col3
+        {
+            float: none;
+            margin: 1.04167%;
+            width: 97.91667%;
+        }
+
+        .paper
+        {
+            margin: 0 1.04167%;
+        }
     }
 
-    .paper
-    {
-        margin: 0 1.04167%;
-    }
-}
-}
 
 
 
