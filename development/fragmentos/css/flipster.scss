@@ -36,6 +36,29 @@
     color: $color_text_heading;
     margin: .5em 0;
   }
+  .volver{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    padding: 1em;
+    a{
+        margin: 0 auto;
+        padding: 1em;
+        font-family: $font_family_heading_alt;
+        font-size: 1em;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: black;
+        border: 1px solid rgba(255,255,255,.3);
+        box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+                    0 1px 3px rgba(0,0,0,.6) ;
+    }
+    a:active{
+        box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+                    0 1px 3px rgba(0,0,0,.6) inset;
+    }
+}
   @media screen and (max-width: $bp_extralarge)
   {
     width: 100%;

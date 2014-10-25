@@ -520,12 +520,19 @@ section{
             margin: 0 auto;
             text-align: center;
             padding: 1em;
-            color: white;
             a{
                 margin: 0 auto;
                 padding: 1em;
-                color: white;
+                font-size: 1.4em;
+                font-weight: 600;
+                color: black;
                 border: 1px solid rgba(255,255,255,.3);
+                box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+                            0 1px 3px rgba(0,0,0,.6) ;
+            }
+            a:active{
+                box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+                            0 1px 3px rgba(0,0,0,.6) inset;
             }
         }
     }
@@ -759,4 +766,25 @@ footer ul
 {
     display: inline-block;
 }
+}
+
+.flipster .flipster-active .flipster-carousel #volver{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    a{
+        margin: 0 auto;
+        padding: 1em;
+        font-size: 1.4em;
+        font-weight: 600;
+        color: black;
+        border: 1px solid rgba(255,255,255,.3);
+        box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+                    0 1px 3px rgba(0,0,0,.6) ;
+    }
+    a:active{
+        box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+                    0 1px 3px rgba(0,0,0,.6) inset;
+    }
 }

@@ -39,11 +39,15 @@
                 <img class="simu5" src="images/Sport-5.jpg">
               </li>
             </ul>
+            <div class="volver">
+              <a href="desarrollo.php">volver</a>
+            </div>
           </div>
           <!-- End Flipster List -->
         </div>
       </div>
       <!-- End flipster-->
+      <div class="comeback">volver</div>
     </section>
 
           <?php include('footer.php') ?>
