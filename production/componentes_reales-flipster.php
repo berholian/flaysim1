@@ -19,25 +19,9 @@
       <div id="Main-Content">
         <div class="Container">
           <!-- Flipster List -->
-          <div class="flipster">
+          <div class="flipster compReal">
             <div class="galeria">componentes reales</div>
-            <ul class="marco">
-              <li>
-                <img class="components1" src="images/Sport-1.jpg">
-              </li>
-              <li>
-                <img class="components2" src="images/Sport-2.jpg">
-              </li>
-              <li>
-                <img class="components3" src="images/Sport-3.jpg">
-              </li>
-              <li>
-                <img class="components4" src="images/Sport-4.jpg">
-              </li>
-              <li>
-                <img class="components5" src="images/Sport-5.jpg">
-              </li>
-            </ul>
+
             <div class="volver">
               <a href="desarrollo.php">volver</a>
             </div>

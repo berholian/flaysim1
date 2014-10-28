@@ -21,25 +21,9 @@
       <div id="Main-Content">
         <div class="Container">
           <!-- Flipster List -->
-          <div class="flipster">
+          <div class="flipster mantAmp">
             <div class="galeria">mantenimiento y ampliación</div>
-            <ul class="marco">
-              <li>
-                <img class="mantenimiento1" src="images/Sport-1_630.png">
-              </li>
-              <li>
-                <img class="mantenimiento2" src="images/Sport-1_630.png">
-              </li>
-              <li>
-                <img class="mantenimiento3" src="images/Sport-1_630.png">
-              </li>
-              <li>
-                <img class="mantenimiento4" src="images/Sport-1_630.png">
-              </li>
-              <li>
-                <img class="mantenimiento5" src="images/Sport-1_630.png">
-              </li>
-            </ul>
+
             <div class="volver">
               <a href="desarrollo.php">volver</a>
             </div>
@@ -48,7 +32,6 @@
         </div>
       </div>
       <!-- End flipster-->
-      <div class="comeback">volver</div>
     </section>
 
           <?php include('footer.php') ?>

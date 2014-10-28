@@ -43,14 +43,10 @@
           <input type="text" name="address" >
         </li>
         <li>
-            <textarea rows="2" cols="150" placeholder='Solicite información'></textarea>
+            <textarea rows="3" placeholder='Solicite información'></textarea>
           </li>
         <li>
-
           <input class="actioner" type="submit" value="confirm"/>
-        </li>
-        <li>
-
           <input class="actioner" type="reset" value="resset">
         </li>
       </ul>

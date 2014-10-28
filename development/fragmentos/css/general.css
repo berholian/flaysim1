@@ -24,13 +24,3 @@ $bp_min                     : 15em; /*240 px*/
 
 /*$logo_ico                   : ;*/
 $logo_img                   : url(images/logoAmari.png);
-
-
-@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
-@import 'fragmentos/css/header';
-@import 'fragmentos/css/nav';
-@import 'fragmentos/css/form';
-@import 'fragmentos/css/social_fontelo';
-@import 'fragmentos/css/developerInfo';
-@import 'fragmentos/css/footer';
-@import 'fragmentos/grids';

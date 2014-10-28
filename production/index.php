@@ -103,9 +103,9 @@
 <!--    <script src="js/main.min.js"></script>-->
     <script>/*-------------/ animación logo-carta \--------------*/
 
-        $(".logoCarte").hide().delay(5000).fadeIn(2200).fadeOut(800);
+        $(".logoCarte").hide().delay(1000).fadeIn(2200).fadeOut(800);
 
-        $("h1").hide().delay(9000).fadeIn(2000);
+        $("h1").hide().delay(3000).fadeIn(2000);
 
     </script>
     <script>

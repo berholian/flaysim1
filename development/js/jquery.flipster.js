@@ -19,7 +19,7 @@ $.fn.flipster = function(options) {
             enableTouch:      true, // Enable swipe navigation for touch devices
             
             enableNav:        false, // If true, flipster will insert an unordered list of the slides
-            enableNavButtons: false, // If true, flipster will insert Previous / Next buttons
+            enableNavButtons: true, // If true, flipster will insert Previous / Next buttons
             
             onItemSwitch:     $.noop, // Callback function when items are switches
             disableRotation:  false,

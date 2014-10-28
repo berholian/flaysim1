@@ -1,7 +1,7 @@
 
 
 /*@import 'fragmentos/normalize';*/
-@import 'fragmentos/reset';
+/*@import 'fragmentos/reset';*/
 @import 'fragmentos/css/general';
 @import 'fragmentos/css/header';
 @import 'fragmentos/css/nav';
@@ -198,8 +198,7 @@ section{
         text-align: center;
         color: white;
     }
-    @media screen and (max-width: $bp_large)
-    {
+@media screen and (max-width: $bp_large){
         width: 99%;
         margin: 0 auto;
     }
@@ -413,13 +412,13 @@ section{
             margin: 1.5em auto;
             iframe{
                 margin: 0 auto;
-                width: 40%;
+/*                width: 40%;
                 -webkit-transition: width 2s;/* Safari */
-                -moz-transition: width 2s;
+/*                -moz-transition: width 2s;
                 -ms-transition: width 2s;
                 -o-transition: width 2s; 
                 transition: width 2s;
-                opacity: 0.4;
+                opacity: 0.4;*/
             }
             iframe:hover{
                 width: 100%;
@@ -547,6 +546,10 @@ section{
     }
 
     .curss{
+        background: -webkit-radial-gradient(white, rgba(49,58,226,.7));
+        background: -moz-radial-gradient(white, rgba(49,58,226,.7));
+        background: -o-radial-gradient(white, rgba(49,58,226,.7));
+        background: radial-gradient(white, rgba(49,58,226,.7));
         h4{font-size: .9em;}
     }
 
