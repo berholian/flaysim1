@@ -11,10 +11,14 @@
 <body>
   <div class="cursos"></div>
 
-    <?php include('header.php') ?>
+  <div class="logo" style="background-color: rgba(0,0,0,.3)">
+    <a href="index.php"></a>
+  </div>
+
+<!--    <?php /*include('header.php')*/ ?>-->
 
     <section>
-      <h2>cursos</h2>
+      <h2 class="tituCurso">cursos</h2>
       <div class="row carta">
         <?php
             include('admin/inc/config.php');

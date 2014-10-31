@@ -37,7 +37,7 @@
 }*/
 
 body{
-    background: rgba(8,39,132,.9);
+    background: black;
     font-size: 20px;
     -ms-font-size: 24px;
     font-weight: 300;
@@ -186,7 +186,7 @@ ul, ol, li, a{
 
 
 section{
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -202,6 +202,10 @@ section{
         width: 99%;
         margin: 0 auto;
     }
+}
+
+.tituCurso{
+    background: rgba(0,0,0,.4)
 }
 
 .companys{
@@ -237,36 +241,41 @@ section{
     position: absolute;
     top:0%;
 /*    z-index: 400;*/
+    @media screen and (max-width: 688px)
+    {
+    background: url(images/sky.jpg) center center no-repeat fixed;
+    background-size: cover;
+    }
 }
 
 .instruccion{
     background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat top left;
-        background-size: cover;
+    background-size: cover;
 }
 
 .cursos{
     background: url(images/responsive/BackgroundCursos.jpg) no-repeat top center;
-        background-size: cover;
+    background-size: cover;
 }
 
 .contactar{
     background: url(images/responsive/BackgroundContacto.jpg) no-repeat top right;
-        background-size: cover;
+    background-size: cover;
 }
 
 .desarrollo{
     background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat top center;
-        background-size: cover;
+    background-size: cover;
 }
 
 .somos{
     background: url(images/responsive/FondoSomos.jpg) no-repeat top right;
-        background-size: cover;
+    background-size: cover;
     /*background-color: rgba(0,0,0,.9);*/
 }
 
 
-.instruccion{ 
+.instruccion{
     @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundInstruccion1200.jpg) no-repeat top left;
@@ -278,11 +287,11 @@ section{
     background-size: contain;
     position: relative;
     }
-    @media screen and (max-width: $bp_medium)
+/*    @media screen and (max-width: $bp_medium)
     {
-    background: url(images/responsive/BackgroundInstruccion500.jpg) no-repeat top left;
-    background-size: contain;
-    }
+    background: url(images/sky.jpg) center center no-repeat fixed;
+    background-size: cover;
+    }*/
 }
 .cursos{
     @media screen and (max-width: $bp_extralarge)
@@ -297,11 +306,11 @@ section{
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+/*    @media screen and (max-width: $bp_medium)
     {
-    background: url(images/responsive/BackgroundCursos500.jpg) no-repeat top center;
-    background-size: contain;
-    }
+    background: url(images/sky.jpg) center center no-repeat fixed;
+    background-size: cover;
+    }*/
 }
 .contactar{
     @media screen and (max-width: $bp_extralarge)
@@ -316,11 +325,11 @@ section{
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+/*    @media screen and (max-width: $bp_medium)
     {
-    background: url(images/responsive/BackgroundContacto500.jpg) no-repeat top center;
-    background-size: contain;
-    }
+    background: url(images/sky.jpg) center center no-repeat fixed;
+    background-size: cover;
+    }*/
 }
 .desarrollo{
     @media screen and (max-width: $bp_extralarge)
@@ -335,11 +344,11 @@ section{
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+/*    @media screen and (max-width: $bp_medium)
     {
-    background: url(images/responsive/BackgroundDesarrollo500.jpg) no-repeat top center;
-    background-size: contain;
-    }
+    background: url(images/sky.jpg) center center no-repeat fixed;
+    background-size: cover;
+    }*/
 }
 .somos{
     @media screen and (max-width: $bp_extralarge)
@@ -354,11 +363,11 @@ section{
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+/*    @media screen and (max-width: $bp_medium)
     {
-    background: url(images/responsive/FondoSomos500.jpg) no-repeat top center;
+    background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
-    }
+    }*/
 }
 
 /*_ _ _ _ _ _ _ _ _/ ROW & COL \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
@@ -366,6 +375,7 @@ section{
 .row
 {
     padding: 1em 1em 0 1em;
+    width: 100%;
     overflow: hidden;
     color: white;
     .col3{
@@ -789,5 +799,13 @@ footer ul
     a:active{
         box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
                     0 1px 3px rgba(0,0,0,.6) inset;
+    }
+}
+
+@media screen and (max-width: $bp_large!important)
+{
+    .instruccion, .desarrollo, .cursos, .contacto, .somos{
+        background: url(images/sky.jpg) center center no-repeat fixed;
+        background-size: cover;
     }
 }

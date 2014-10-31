@@ -46,11 +46,10 @@ h1{
 {
     width: 13.75em;
     height: 7.75em;
+    margin: 0 auto;
     background: $logo_img no-repeat center center;
     background-size: contain;
-    position: fixed;
-    left: 0;
-    top: 1em;
+    position: relative;
     z-index: 10000;
     a
     {
