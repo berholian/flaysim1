@@ -20,7 +20,7 @@
       <div id="Main-Content">
         <div class="Container">
           <!-- Flipster List -->
-          <div class="flipster simPers">
+          <div class="flipster" id="simPer">
             <div class="galeria">simuladores personalizados</div>
 
             <div class="volver">
@@ -35,7 +35,6 @@
 
           <?php include('footer.php') ?>
 
-      <script src="js/jquery-2.0.3.min.js"></script>
       <script src="js/jquery.flipster.min.js"></script>
 <!--      <script>
 
@@ -44,6 +43,7 @@
       </script>-->
 
       <script>
+        setGalerySimPer();
 
         $(function(){ 
           $(".flipster").flipster({
@@ -52,5 +52,24 @@
         });
 
       </script>
+<!--      <script>
+        $(document).ready(function(){
+          var flip_mv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+
+          var flip_tablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+
+          var flip_desk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+
+          var anchoPantalla = window.innerWidth;
+
+          if( anchoPantalla<564 ){
+            document.querySelector('.flipster.simPers').innerHTML = flip_mv;
+          }else if( anchoPantalla>1700 ){
+            document.querySelector('.flipster.simPers').innerHTML = flip_desk;
+          }else{
+            document.querySelector('.flipster.simPers').innerHTML = flip_tablet;
+          }
+        });
+      </script>-->
   </body>
 </html>

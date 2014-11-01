@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     });
 
-/*-------------------/  JQ carta menu \---------------------------------*/
+/*-------------------/  JQ carta cursos \---------------------------------*/
 
     $('.carta ul').hide();
 
@@ -69,57 +69,65 @@ $(document).ready(function(){
 
 /*----------------------/ flipster-responsive-componentes-reales\-----------------------------------------*/
 
-  var flipMv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+  function setGaleryCompReal(){
+      var flipMv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var flipTablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipTablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var flipDesk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipDesk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var anchoPantalla = window.innerWidth;
+      var winWidth=$('html').width();
 
-  if( anchoPantalla<564 ){
-    document.querySelector('.flipster.compReal').innerHTML = flipMv;
-  }else if( anchoPantalla>1700 ){
-    document.querySelector('.flipster.compReal').innerHTML = flipDesk;
-  }else{
-    document.querySelector('.flipster.compReal').innerHTML = flipTablet;
-  }
+        if (winWidth<=564) {
+            $('.flipster#compReal').html( flipMv );
+          }else if (winWidth>564 && winWidth<1500) {
+            $('.flipster#compReal').html( flipTablet );
+          }else{
+            $('.flipster#compReal').html( flipDesk );
+          }
+        }
 
-  /*---------/ flipster-responsive mantenimiento_ampliación \-----------------------------------------*/
 
-  var flipMv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+/*---------/ flipster-responsive mantenimiento_ampliación \-----------------------------------------*/
 
-  var flipTablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+  function setGaleryMantAmp(){
+      var flipMv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var flipDesk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipTablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var anchoPantalla = window.innerWidth;
+      var flipDesk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  if( anchoPantalla<564 ){
-    document.querySelector('.flipster.simPers').innerHTML = flipMv;
-  }else if( anchoPantalla>1700 ){
-    document.querySelector('.flipster.simPers').innerHTML = flipDesk;
-  }else{
-    document.querySelector('.flipster.simPers').innerHTML = flipTablet;
-  }
+      var winWidth=$('html').width();
+
+        if (winWidth<=564) {
+            $('.flipster#mantAmp').html( flipMv );
+          }else if (winWidth>564 && winWidth<1500) {
+            $('.flipster#mantAmp').html( flipTablet );
+          }else{
+            $('.flipster#mantAmp').html( flipDesk );
+          }
+        }
+
 
 /*--------/ flipster-responsive sim_personaliz \-----------------------------------------*/
 
-  var flipMv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+  function setGalerySimPer(){
+      var flipMv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var flipTablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipTablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var flipDesk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipDesk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-  var anchoPantalla = window.innerWidth;
+      var winWidth=$('html').width();
 
-  if( anchoPantalla<564 ){
-    document.querySelector('.flipster.mantAmp').innerHTML = flipMv;
-  }else if( anchoPantalla>1700 ){
-    document.querySelector('.flipster.mantAmp').innerHTML = flipDesk;
-  }else{
-    document.querySelector('.flipster.mantAmp').innerHTML = flipTablet;
-  }
+        if (winWidth<=564) {
+            $('.flipster#simPer').html( flipMv );
+          }else if (winWidth>564 && winWidth<1500) {
+            $('.flipster#simPer').html( flipTablet );
+          }else{
+            $('.flipster#simPer').html( flipDesk );
+          }
+        }
 
 
 /*----------Q font-size "adjust" (body)  ---------------

@@ -115,7 +115,7 @@
 .flipster .flipto-prev,
 .flipster .flipto-next {
   position: absolute;
-  top: 50%;
+  top: 10%;
   z-index: 999;
   display: block;
   padding: 10px;

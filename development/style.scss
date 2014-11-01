@@ -197,6 +197,9 @@ section{
         font-size: 3em;
         text-align: center;
         color: white;
+        @media screen and (max-width: $bp_extralarge){
+            padding-top: 0;
+        }
     }
 @media screen and (max-width: $bp_large){
         width: 99%;
@@ -276,7 +279,7 @@ section{
 
 
 .instruccion{
-    @media screen and (max-width: $bp_extralarge)
+/*    @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundInstruccion1200.jpg) no-repeat top left;
     background-size: cover;
@@ -287,14 +290,14 @@ section{
     background-size: contain;
     position: relative;
     }
-/*    @media screen and (max-width: $bp_medium)
+    @media screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .cursos{
-    @media screen and (max-width: $bp_extralarge)
+/*    @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundCursos1200.jpg) no-repeat center center;
     background-size: cover;
@@ -306,14 +309,14 @@ section{
     position: relative;
     top:0px;
     }
-/*    @media screen and (max-width: $bp_medium)
+    @media screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .contactar{
-    @media screen and (max-width: $bp_extralarge)
+/*    @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundContacto1200.jpg) no-repeat top center;
     background-size: cover;
@@ -325,14 +328,14 @@ section{
     position: relative;
     top:0px;
     }
-/*    @media screen and (max-width: $bp_medium)
+    @media screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .desarrollo{
-    @media screen and (max-width: $bp_extralarge)
+/*    @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundDesarrollo1200.jpg) no-repeat top center;
     background-size: cover;
@@ -344,14 +347,14 @@ section{
     position: relative;
     top:0px;
     }
-/*    @media screen and (max-width: $bp_medium)
+    @media screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .somos{
-    @media screen and (max-width: $bp_extralarge)
+/*    @media screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/FondoSomos1200.jpg) no-repeat top right;
     background-size: cover;
@@ -363,7 +366,7 @@ section{
     position: relative;
     top:0px;
     }
-/*    @media screen and (max-width: $bp_medium)
+    @media screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -525,7 +528,7 @@ section{
             }
         }
         .enlace_galery{
-            width: 100%;
+/*            width: 100%;*/
             margin: 0 auto;
             text-align: center;
             padding: 1em;
@@ -576,7 +579,7 @@ section{
     {
         padding: .5em;
     }
-}
+
     @media screen and (max-width: $bp_extralarge)
     {
         .col1, .col2, .col7, .col9, .col10, .col11, .col12
@@ -597,7 +600,7 @@ section{
 
         .paper
         {
-            margin: 0 1.04167%!important;
+            margin: 0 !important;
         }
 
         .col6
@@ -609,7 +612,18 @@ section{
     }
 
 
-    @media screen and (max-width: $bp_medium)
+    @media screen and ( max-width: $bp_large )
+    {
+        padding: 0;
+        .carta{
+            width: 100%;
+        }
+        .col4{
+            margin: 1.04167%;
+            width: 95.91667%;
+        }
+    }
+    @media screen and ( max-width: $bp_medium   )
     {
         .col4, .col3
         {
@@ -623,7 +637,7 @@ section{
             margin: 0 1.04167%;
         }
     }
-
+}
 
 
 
@@ -673,12 +687,11 @@ section{
 {
     background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.48) 52%, rgba(255,255,255,0.47) 53%, rgba(255,255,255,0) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(52%,rgba(255,255,255,0.48)), color-stop(53%,rgba(255,255,255,0.47)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* IE10+ */
-background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.48) 52%,rgba(255,255,255,0.47) 53%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     position: fixed;
     bottom: 0;
     left: 47%;
@@ -753,32 +766,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 @media screen and ( max-width: 688px)
 {
-.foto
-{
+    .foto
+    {
 
-    float: none;
-    margin: 1.04167%;
-    width: 97.91667% !important;
-}
+        float: none;
+        margin: 1.04167%;
+        width: 97.91667% !important;
+    }
 }
 
 @media screen and (max-width: $bp_medium)
 {
-.social.col6
-{
-    display: block;
-    float: none;
-    margin: 1.04167%;
-    width: 97.91667%;
-}
+    .social.col6
+    {
+        display: block;
+        float: none;
+        margin: 1.04167%;
+        width: 97.91667%;
+    }
 }
 
 @media screen and (max-width: 780px)
 {
-footer ul
-{
-    display: inline-block;
-}
+    footer ul
+    {
+        display: inline-block;
+    }
 }
 
 .flipster .flipster-active .flipster-carousel #volver{
@@ -802,7 +815,7 @@ footer ul
     }
 }
 
-@media screen and (max-width: $bp_large!important)
+@media screen and (max-width: $bp_large)
 {
     .instruccion, .desarrollo, .cursos, .contacto, .somos{
         background: url(images/sky.jpg) center center no-repeat fixed;

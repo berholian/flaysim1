@@ -9,8 +9,8 @@
     <title>desarrollo flysim</title>
   </head>
 
-  <body class="desarrollo">
-
+  <body>
+    <div class="desarrollo"></div>
       <?php include('header.php') ?>
 
     <section>
@@ -19,7 +19,7 @@
       <div id="Main-Content">
         <div class="Container">
           <!-- Flipster List -->
-          <div class="flipster compReal">
+          <div class="flipster" id="compReal">
             <div class="galeria">componentes reales</div>
 
             <div class="volver">
@@ -41,8 +41,8 @@
         $( "#componentes_reales" ).append( ".galery_3" );
 
       </script>-->
-
       <script>
+      setGaleryCompReal ();
 
         $(function(){ 
           $(".flipster").flipster({
@@ -51,5 +51,24 @@
         });
 
       </script>
+<!--      <script>
+        $(document).ready(function(){
+          var flip_Mv = '<ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li> <li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li><li><img src="images/Sport-5_210.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+
+          var flip_Tablet = '<ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li><li><img src="images/Sport-5.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+
+          var flip_Desk = '<ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li><li><img src="images/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+
+          var anchoPantalla = window.innerWidth;
+
+          if( anchoPantalla<564 ){
+            document.querySelector('.flipster.compReal').innerHTML = flip_Mv;
+          }else if( anchoPantalla>1700 ){
+            document.querySelector('.flipster.compReal').innerHTML = flip_Desk;
+          }else{
+            document.querySelector('.flipster.compReal').innerHTML = flip_Tablet;
+          }
+        });
+      </script>-->
   </body>
 </html>
