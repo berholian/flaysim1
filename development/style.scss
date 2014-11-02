@@ -183,7 +183,15 @@ ul, ol, li, a{
     background-size: contain;
 }
 
-
+.velo{
+    height: 30%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
 
 section{
     width: 90%;
@@ -207,9 +215,9 @@ section{
     }
 }
 
-.tituCurso{
+/*.tituCurso{
     background: rgba(0,0,0,.4)
-}
+}*/
 
 .companys{
     width: 90%;
@@ -377,7 +385,7 @@ section{
 
 .row
 {
-    padding: 1em 1em 0 1em;
+    padding-top: 1em;
     width: 100%;
     overflow: hidden;
     color: white;
@@ -614,7 +622,7 @@ section{
 
     @media screen and ( max-width: $bp_large )
     {
-        padding: 0;
+        padding: 0!important;
         .carta{
             width: 100%;
         }
@@ -794,7 +802,7 @@ section{
     }
 }
 
-.flipster .flipster-active .flipster-carousel #volver{
+.flipster .flipster-active .flipster-carousel .volver{
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -817,7 +825,7 @@ section{
 
 @media screen and (max-width: $bp_large)
 {
-    .instruccion, .desarrollo, .cursos, .contacto, .somos{
+.instruccion, .desarrollo, .cursos, .contacto, .somos{
         background: url(images/sky.jpg) center center no-repeat fixed;
         background-size: cover;
     }

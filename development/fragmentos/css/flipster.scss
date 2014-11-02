@@ -11,7 +11,7 @@
 }
 .flipster {
   display: block;
-  width: 80%;
+/*  width: 80%;*/
   margin: auto;
   margin-top: 6em;
   padding: 1em 3em;
@@ -58,10 +58,11 @@
         box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
                     0 1px 3px rgba(0,0,0,.6) inset;
     }
-}
+  }
+
   @media screen and (max-width: $bp_extralarge)
   {
-    width: 100%;
+    margin-top: 2em;
     ul{
       padding: 0;
       margin: 0 auto;
@@ -109,10 +110,9 @@
 .flip-item img {
   display: block;
   width: 100%;
-  @media screen and (max-width: $bp_large)
-  {
-      width: 80%;
-      margin: 0 auto;
+  @media screen and (max-width: $bp_large) {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 /* @end */
@@ -396,3 +396,44 @@
   transition-duration: 0ms !important;
 }
 /* @end */
+.flipster .flipto-prev {
+  position: absolute;
+  padding: .5em 1em;
+  margin-bottom: 1em;
+  font-family: $font_family_heading_alt;
+  left: 15%;
+  bottom: 0;
+  font-weight: 600;
+  color: black;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 50% 0 0 50%;
+  box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+              0 1px 3px rgba(0,0,0,.6) ;
+}
+
+.flipster .flipto-next {
+  position: absolute;
+  padding: .5em 1em;
+  margin-bottom: 1em;
+  font-family: $font_family_heading_alt;
+  right: 15%;
+  bottom: 0;
+  font-weight: 600;
+  color: black;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 0 50% 50% 0;
+  box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+              0 1px 3px rgba(0,0,0,.6) ;
+}
+
+.flipto-next:active, .flipto-prev:active {
+    box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+                0 1px 3px rgba(0,0,0,.6) inset;
+}
+
+@media screen and (min-width: $bp_large)
+{
+.flipto-next, .flipto-prev {
+    display: none!important;
+  }
+}

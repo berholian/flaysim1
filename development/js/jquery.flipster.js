@@ -26,7 +26,7 @@ $.fn.flipster = function(options) {
 
             navPosition:      'before', // [before|after] Changes the position of the navigation before or after the flipsterified items - case-insensitive
 
-            prevText:         'Previous',       // Changes the text for the Previous button
+            prevText:         'Prev',       // Changes the text for the Previous button
             nextText:         'next'            // Changes the text for the Next button
         };
         var settings = $.extend({}, defaults, options);

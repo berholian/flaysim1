@@ -10,7 +10,7 @@
 
 <body>
   <div class="cursos"></div>
-
+  <div class="velo"></div>
   <div class="logo" style="background-color: rgba(0,0,0,.3)">
     <a href="index.php"></a>
   </div>
