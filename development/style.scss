@@ -75,7 +75,7 @@ ul, ol, li, a{
     z-index: -1;
     padding: 0;
     margin: 0;
-@media screen and (max-width: $bp_large){
+@media only screen and (max-width: $bp_large){
         display:none;
     }
 
@@ -205,11 +205,11 @@ section{
         font-size: 3em;
         text-align: center;
         color: white;
-        @media screen and (max-width: $bp_extralarge){
+        @media only screen and (max-width: $bp_extralarge){
             padding-top: 0;
         }
     }
-@media screen and (max-width: $bp_large){
+@media only screen and (max-width: $bp_large){
         width: 99%;
         margin: 0 auto;
     }
@@ -225,13 +225,13 @@ section{
     margin: 0 auto;
     background: url(images/CompaniasAereas.png) no-repeat center;
     background-size: contain;
-    @media screen and (max-width: $bp_extralarge)
+    @media only screen and (max-width: $bp_extralarge)
     {
         width: 95%;
         background: url(images/CAereasMed.png) no-repeat center;
         background-size: contain;
     }
-    @media screen and (max-width: $bp_large)
+    @media only screen and (max-width: $bp_large)
     {
         width: 95%;
         background: url(images/CAereasPeq.png) no-repeat center;
@@ -252,7 +252,7 @@ section{
     position: absolute;
     top:0%;
 /*    z-index: 400;*/
-    @media screen and (max-width: 688px)
+    @media only screen and (max-width: 688px)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -287,94 +287,94 @@ section{
 
 
 .instruccion{
-/*    @media screen and (max-width: $bp_extralarge)
+/*    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundInstruccion1200.jpg) no-repeat top left;
     background-size: cover;
     }
-    @media screen and (max-width: $bp_large)
+    @media only screen and (max-width: $bp_large)
     {
     background: url(images/responsive/BackgroundInstruccion700.jpg) no-repeat top left;
     background-size: contain;
     position: relative;
     }
-    @media screen and (max-width: $bp_medium)
+    @media only screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .cursos{
-/*    @media screen and (max-width: $bp_extralarge)
+/*    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundCursos1200.jpg) no-repeat center center;
     background-size: cover;
     }
-    @media screen and (max-width: $bp_large)
+    @media only screen and (max-width: $bp_large)
     {
     background: url(images/responsive/BackgroundCursos700.jpg)  no-repeat top center;
     background-size: contain;
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+    @media only screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .contactar{
-/*    @media screen and (max-width: $bp_extralarge)
+/*    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundContacto1200.jpg) no-repeat top center;
     background-size: cover;
     }
-    @media screen and (max-width: $bp_large)
+    @media only screen and (max-width: $bp_large)
     {
     background: url(images/responsive/BackgroundContacto700.jpg) no-repeat top center;
     background-size: contain;
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+    @media only screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .desarrollo{
-/*    @media screen and (max-width: $bp_extralarge)
+/*    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundDesarrollo1200.jpg) no-repeat top center;
     background-size: cover;
     }
-    @media screen and (max-width: $bp_large)
+    @media only screen and (max-width: $bp_large)
     {
     background: url(images/responsive/BackgroundDesarrollo700.jpg) no-repeat top center;
     background-size: contain;
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+    @media only screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }*/
 }
 .somos{
-/*    @media screen and (max-width: $bp_extralarge)
+/*    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/FondoSomos1200.jpg) no-repeat top right;
     background-size: cover;
     }
-    @media screen and (max-width: $bp_large)
+    @media only screen and (max-width: $bp_large)
     {
     background: url(images/responsive/FondoSomos700.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
     top:0px;
     }
-    @media screen and (max-width: $bp_medium)
+    @media only screen and (max-width: $bp_medium)
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -427,7 +427,7 @@ section{
         iframe{
             width: 100%;
         }
-        @media screen and (min-width: $bp_extralarge)
+        @media only screen and (min-width: $bp_extralarge)
         {
             width: 90%;
             margin: 1.5em auto;
@@ -469,12 +469,12 @@ section{
             display: block;
             margin: .5em 2%;
         }
-        @media screen and (max-width: $bp_extralarge)
+        @media only screen and (max-width: $bp_extralarge)
         {
             width: 95%;
             margin: 0 1.04167%;
         }
-/*        @media screen and (max-width: $bp_medium)
+/*        @media only screen and (max-width: $bp_medium)
         {
             ol, h3
             {
@@ -588,7 +588,7 @@ section{
         padding: .5em;
     }
 
-    @media screen and (max-width: $bp_extralarge)
+    @media only screen and (max-width: $bp_extralarge)
     {
         .col1, .col2, .col7, .col9, .col10, .col11, .col12
         {
@@ -620,7 +620,7 @@ section{
     }
 
 
-    @media screen and ( max-width: $bp_large )
+    @media only screen and ( max-width: $bp_large )
     {
         padding: 0!important;
         .carta{
@@ -631,7 +631,7 @@ section{
             width: 95.91667%;
         }
     }
-    @media screen and ( max-width: $bp_medium   )
+    @media only screen and ( max-width: $bp_medium   )
     {
         .col4, .col3
         {
@@ -772,7 +772,7 @@ section{
 }
 
 
-@media screen and ( max-width: 688px)
+@media only screen and ( max-width: 688px)
 {
     .foto
     {
@@ -783,7 +783,7 @@ section{
     }
 }
 
-@media screen and (max-width: $bp_medium)
+@media only screen and (max-width: $bp_medium)
 {
     .social.col6
     {
@@ -794,7 +794,7 @@ section{
     }
 }
 
-@media screen and (max-width: 780px)
+@media only screen and (max-width: 780px)
 {
     footer ul
     {
@@ -823,7 +823,7 @@ section{
     }
 }
 
-@media screen and (max-width: $bp_large)
+@media only screen and (max-width: $bp_large)
 {
 .instruccion, .desarrollo, .cursos, .contacto, .somos{
         background: url(images/sky.jpg) center center no-repeat fixed;

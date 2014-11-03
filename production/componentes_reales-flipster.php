@@ -20,7 +20,6 @@
         <div class="Container">
           <!-- Flipster List -->
           <div class="flipster" id="compReal">
-            <div class="galeria">componentes reales</div>
 
             <div class="volver">
               <a href="desarrollo.php">volver</a>

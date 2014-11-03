@@ -22,7 +22,7 @@
         <div class="Container">
           <!-- Flipster List -->
           <div class="flipster" id="mantAmp">
-            <div class="galeria">mantenimiento y ampliación</div>
+
 
             <div class="volver">
               <a href="desarrollo.php">volver</a>

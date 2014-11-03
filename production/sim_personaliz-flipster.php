@@ -21,7 +21,6 @@
         <div class="Container">
           <!-- Flipster List -->
           <div class="flipster" id="simPer">
-            <div class="galeria">simuladores personalizados</div>
 
             <div class="volver">
               <a href="desarrollo.php">volver</a>

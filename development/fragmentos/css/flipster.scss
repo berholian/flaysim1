@@ -3,7 +3,7 @@
   .container{
     margin: 0 auto;
   }
-  @media screen and (max-width: $bp_large)
+  @media only screen and (max-width: $bp_large)
   {
       width: 90%;
       margin: 0 auto;
@@ -32,9 +32,10 @@
     text-align: center;
     font-family: $font_family_heading;
     font-size: 1.5em;
+    font-weight: 600;
     text-transform: capitalize;
-    color: $color_text_heading;
-    margin: .5em 0;
+    color: rgba(25,46,129,0.9);
+    margin: 0 0 1em 0;
   }
   .volver{
 /*    width: 100%;*/
@@ -60,7 +61,7 @@
     }
   }
 
-  @media screen and (max-width: $bp_extralarge)
+  @media only screen and  (max-width: $bp_extralarge)
   {
     margin-top: 2em;
     ul{
@@ -110,7 +111,7 @@
 .flip-item img {
   display: block;
   width: 100%;
-  @media screen and (max-width: $bp_large) {
+  @media only screen and  (max-width: $bp_large) {
     margin: 0 auto;
     width: 80%;
   }
