@@ -259,30 +259,32 @@ section{
     }
 }
 
-.instruccion{
-    background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat top left;
-    background-size: cover;
-}
+@media only screen and (min-width: 688px){
+    .instruccion{
+        background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat top left;
+        background-size: cover;
+    }
 
-.cursos{
-    background: url(images/responsive/BackgroundCursos.jpg) no-repeat top center;
-    background-size: cover;
-}
+    .cursos{
+        background: url(images/responsive/BackgroundCursos.jpg) no-repeat top center;
+        background-size: cover;
+    }
 
-.contactar{
-    background: url(images/responsive/BackgroundContacto.jpg) no-repeat top right;
-    background-size: cover;
-}
+    .contactar{
+        background: url(images/responsive/BackgroundContacto.jpg) no-repeat top right;
+        background-size: cover;
+    }
 
-.desarrollo{
-    background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat top center;
-    background-size: cover;
-}
+    .desarrollo{
+        background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat top center;
+        background-size: cover;
+    }
 
-.somos{
-    background: url(images/responsive/FondoSomos.jpg) no-repeat top right;
-    background-size: cover;
-    /*background-color: rgba(0,0,0,.9);*/
+    .somos{
+        background: url(images/responsive/FondoSomos.jpg) no-repeat top right;
+        background-size: cover;
+        /*background-color: rgba(0,0,0,.9);*/
+    }
 }
 
 

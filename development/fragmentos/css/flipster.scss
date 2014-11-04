@@ -428,13 +428,6 @@
 }
 
 .flipto-next:active, .flipto-prev:active {
-    box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
-                0 1px 3px rgba(0,0,0,.6) inset;
-}
-
-@media screen and (min-width: $bp_large)
-{
-.flipto-next, .flipto-prev {
-    display: none!important;
-  }
+  box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
+              0 1px 3px rgba(0,0,0,.6) inset;
 }
