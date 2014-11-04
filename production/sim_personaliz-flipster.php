@@ -9,8 +9,8 @@
     <title>desarrollo flysim</title>
   </head>
 
-  <body>
-    <div class="desarrollo"></div>
+  <body class="parallax-bg desarrollo">
+<!--    <div class="desarrollo"></div>-->
 
       <?php include('header.php') ?>
 

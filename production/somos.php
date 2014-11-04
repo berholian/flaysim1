@@ -8,9 +8,9 @@
     <title>somos flysim</title>
 </head>
 
-<body>
+<body class="parallax-bg somos">
 
-  <div class="somos"></div>
+<!--  <div class="somos"></div>-->
 
   <?php include('header.php') ?>
 

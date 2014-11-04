@@ -36,13 +36,16 @@
     text-transform: capitalize;
     color: rgba(25,46,129,0.9);
     margin: 0 0 1em 0;
+    @media only screen and (max-width: 320px) {
+      font-size: 1em;
+    }
   }
   .volver{
 /*    width: 100%;*/
     margin: 0 auto;
     margin-top: 1em;
     text-align: center;
-    padding: 1em;
+    padding: .5em 1em;
     a{
         margin: 0 auto;
         padding: 1em;
@@ -63,7 +66,7 @@
 
   @media only screen and  (max-width: $bp_extralarge)
   {
-    margin-top: 2em;
+    margin-top: 0em;
     ul{
       padding: 0;
       margin: 0 auto;

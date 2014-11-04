@@ -8,10 +8,14 @@
     <title>Cursos FlySim</title>
 </head>
 
-<body>
-  <div class="cursos"></div>
+<body class="parallax-bg cursos">
+<!--  <div class="cursos"></div>-->
   <div class="velo"></div>
-  <div class="logo" style="background-color: rgba(0,0,0,.3)">
+  <div class="logo" style=" background-color: -webkit-gradient(radial, 0 0, 0 100%, from(black), to(transparent));
+        background-color: -webkit-radial-gradient(black, transparent);
+        background-color: -moz-radial-gradient(black, transparent);
+        background-color: -o-radial-gradient(black, transparent);
+        background-color: radial-gradient(black, transparent);">
     <a href="index.php"></a>
   </div>
 

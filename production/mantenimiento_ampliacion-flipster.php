@@ -9,9 +9,9 @@
     <title>mantenimiento y ampliación flysim</title>
   </head>
 
-  <body>
+  <body class="parallax-bg desarrollo">
 
-    <div class="desarrollo"></div>
+<!--    <div class="desarrollo"></div>-->
 
       <?php include('header.php') ?>
 

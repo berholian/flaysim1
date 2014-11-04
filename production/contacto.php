@@ -8,8 +8,8 @@
   <title>contacto flysim</title>
 </head>
 
-<body>
-  <div class="contactar"></div>
+<body class="parallax-bg contactar">
+<!--  <div class="contactar"></div>-->
 
   <?php include('header.php') ?>
 

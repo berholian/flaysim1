@@ -305,7 +305,7 @@ class User{
         $headers .= "Content-type: text/html;  charset=utf-8\r\n";
 
         //dirección del remitente
-        $headers .= "From: Jose <info@remitente.com>\r\n";
+        $headers .= "From: Jose <j.a.esteveza1@gmail.com>\r\n";
        
         //dirección de respuesta, si queremos  que sea distinta que la del remitente
         //$headers .= "Reply-To: info@remitente.com\r\n";

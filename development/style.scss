@@ -37,12 +37,15 @@
 }*/
 
 body{
-    background: black;
+    
     font-size: 20px;
     -ms-font-size: 24px;
     font-weight: 300;
     font-style: normal;
     -webkit-font-smoothing:antialiased;
+    @media only screen and (min-width: $bp_large) {
+        background: black;
+    }
 }
 
 ul, ol, li, a{
@@ -186,11 +189,17 @@ ul, ol, li, a{
 .velo{
     height: 30%;
     width: 100%;
-    background: rgba(0,0,0,.7);
     position: absolute;
     z-index: 0;
     top: 0;
     left: 0;
+    @media only screen and (min-width: 688px) {
+        background: -webkit-gradient(radial, 0 0, 0 100%, from(black), to(transparent));
+        background: -webkit-radial-gradient(black, transparent);
+        background: -moz-radial-gradient(black, transparent);
+        background: -o-radial-gradient(black, transparent);
+        background: radial-gradient(black, transparent);
+    }
 }
 
 section{
@@ -253,8 +262,7 @@ section{
     position: absolute;
     top:0%;
 /*    z-index: 400;*/
-    @media only screen and (max-width: 688px)
-    {
+    @media only screen and (max-width: 688px){
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
     }
@@ -262,35 +270,35 @@ section{
 
 @media only screen and (min-width: 688px){
     .instruccion{
-        background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat top left;
+        background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat center left fixed;
         background-size: cover;
     }
 
     .cursos{
-        background: url(images/responsive/BackgroundCursos.jpg) no-repeat top center;
+        background: url(images/responsive/BackgroundCursos.jpg) no-repeat top center fixed;
         background-size: cover;
     }
 
     .contactar{
-        background: url(images/responsive/BackgroundContacto.jpg) no-repeat top right;
+        background: url(images/responsive/BackgroundContacto.jpg) no-repeat top right fixed;
         background-size: cover;
     }
 
     .desarrollo{
-        background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat top center;
+        background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat top center fixed;
         background-size: cover;
     }
 
     .somos{
-        background: url(images/responsive/FondoSomos.jpg) no-repeat top right;
+        background: url(images/responsive/FondoSomos.jpg) no-repeat top right fixed;
         background-size: cover;
         /*background-color: rgba(0,0,0,.9);*/
     }
 }
 
 
-.instruccion{
-/*    @media only screen and (max-width: $bp_extralarge)
+/*.instruccion{
+    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundInstruccion1200.jpg) no-repeat top left;
     background-size: cover;
@@ -305,10 +313,10 @@ section{
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
-    }*/
+    }
 }
 .cursos{
-/*    @media only screen and (max-width: $bp_extralarge)
+    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundCursos1200.jpg) no-repeat center center;
     background-size: cover;
@@ -324,10 +332,10 @@ section{
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
-    }*/
+    }
 }
 .contactar{
-/*    @media only screen and (max-width: $bp_extralarge)
+    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/BackgroundContacto1200.jpg) no-repeat top center;
     background-size: cover;
@@ -343,7 +351,7 @@ section{
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
-    }*/
+    }
 }
 .desarrollo{
 /*    @media only screen and (max-width: $bp_extralarge)
@@ -362,10 +370,10 @@ section{
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
-    }*/
+    }
 }
 .somos{
-/*    @media only screen and (max-width: $bp_extralarge)
+    @media only screen and (max-width: $bp_extralarge)
     {
     background: url(images/responsive/FondoSomos1200.jpg) no-repeat top right;
     background-size: cover;
@@ -381,8 +389,8 @@ section{
     {
     background: url(images/sky.jpg) center center no-repeat fixed;
     background-size: cover;
-    }*/
-}
+    }
+}*/
 
 /*_ _ _ _ _ _ _ _ _/ ROW & COL \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
 
@@ -514,9 +522,10 @@ section{
                 color: rgba(25,46,129,.9);
                 text-shadow: 1px -1px 1px rgba(0,0,0,.9) inset;
             }
-/*            @media only screen and (max-width: 688px){
-                padding: 0;
-            }*/
+            @media only screen and (max-width: 320px) {
+                font-size: 1em;
+                text-indent: -20px;
+            }
         }
         h4:hover
         {
@@ -826,13 +835,5 @@ section{
     a:active{
         box-shadow: 0 0 1px rgba(255,255,255,.4) inset,
                     0 1px 3px rgba(0,0,0,.6) inset;
-    }
-}
-
-@media only screen and (max-width: $bp_large)
-{
-.instruccion, .desarrollo, .cursos, .contacto, .somos{
-        background: url(images/sky.jpg) center center no-repeat fixed;
-        background-size: cover;
     }
 }
