@@ -72,6 +72,12 @@
       margin: 0 auto;
     }
   }
+  .marco{
+    @media only screen and (max-width: $bp_medium){
+        position: relative;
+        left: -14%;
+    }
+  }
 }
 
 .flip-items,

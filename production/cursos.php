@@ -211,7 +211,7 @@
 
         <div class="paper col4 curss">
           <h4>
-            <a data-destino="#superar_miedoVolar">superar el miedo a volar</a>
+            <a data-destino="#superar_miedoVolar">curso superar el miedo a volar</a>
           </h4>
           <ul id="superar_miedoVolar">
 

@@ -267,33 +267,48 @@ section{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; position:fixed;
+    background-size: cover;
     }
 }
 
 @media only screen and (min-width: 688px){
     .instruccion{
         background: url(images/responsive/BackgroundInstruccion.jpg) no-repeat center left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
 
     .cursos{
         background: url(images/responsive/BackgroundCursos.jpg) no-repeat top center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
 
     .contactar{
         background: url(images/responsive/BackgroundContacto.jpg) no-repeat top right fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
 
     .desarrollo{
         background: url(images/responsive/BackgroundDesarrollo.jpg) no-repeat top center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
 
     .somos{
         background: url(images/responsive/FondoSomos.jpg) no-repeat top right fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
         /*background-color: rgba(0,0,0,.9);*/
     }
@@ -589,7 +604,12 @@ section{
         background: -moz-radial-gradient(white, rgba(49,58,226,.7));
         background: -o-radial-gradient(white, rgba(49,58,226,.7));
         background: radial-gradient(white, rgba(49,58,226,.7));
-        h4{font-size: .9em;}
+        h4{
+            font-size: .9em;
+        }
+        span{
+            font-weight: 600;
+        }
     }
 
     .desplegado

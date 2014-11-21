@@ -45,7 +45,7 @@
             </div>
             <div class="paper col8">
               <h4>
-                <a data-destino="#alquilerSimulador_pilotos">servicio de alquiler simulador 737 NG para pilotos profesionales</a>
+                <a data-destino="#alquilerSimulador_pilotos">pilotos comerciales</a>
               </h4>
               <ul id="alquilerSimulador_pilotos">
                 <?php
@@ -62,7 +62,7 @@
             </div>
             <div class="paper col8">
               <h4>
-                <a data-destino="#alquilerSimulador_profesionales">Servicio de alquiler simulador 737 NG para profesionales del mundo aeronáutico</a>
+                <a data-destino="#alquilerSimulador_profesionales">pilotos aeronáuticos</a>
               </h4>
               <ul id="alquilerSimulador_profesionales">
                 <?php
