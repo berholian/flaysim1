@@ -503,13 +503,6 @@ section{
             width: 95%;
             margin: 0 1.04167%;
         }
-/*        @media only screen and (max-width: $bp_medium)
-        {
-            ol, h3
-            {
-                display: none;
-            }
-        }*/
     }
 
 
@@ -566,6 +559,11 @@ section{
 /*                text-shadow: 0 0 1px rgba(51,51,51,0.9);*/
                 -webkit-font-smoothing:antialiased!important;
                 padding: 1em;
+            }
+            @media only screen and (max-width: 466px)
+            {
+                font-size: .6em;
+                p{font-size: .8em;}
             }
         }
         .enlace_galery{

@@ -74,7 +74,7 @@ $(document).ready(function(){
 
       var flipTablet = '<div class="galeria">componentes reales</div> <ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/flysim_galerys/Componentes/Foto1Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto2Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto3Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto4Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto5Reales420.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-      var flipDesk = '<div class="galeria">componentes reales</div> <ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/flysim_galerys/Componentes/Sport-5_630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto2Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Sport-5_630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto4Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Sport-5_630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipDesk = '<div class="galeria">componentes reales</div> <ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/flysim_galerys/Componentes/Foto1Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto2Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto3Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto4Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto5Reales630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
       var winWidth=$('html').width();
 
@@ -132,7 +132,7 @@ $(document).ready(function(){
 
 /*----------Q font-size "adjust" (body)  ---------------
 
-    function setFontSize()
+  function setFontSize()
     {
         var winWidth=$('html').width();
                     switch (winWidth) {

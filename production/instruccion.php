@@ -62,7 +62,7 @@
             </div>
             <div class="paper col8">
               <h4>
-                <a data-destino="#alquilerSimulador_profesionales">pilotos aeronáuticos</a>
+                <a data-destino="#alquilerSimulador_profesionales">profesionales aeronáuticos</a>
               </h4>
               <ul id="alquilerSimulador_profesionales">
                 <?php
