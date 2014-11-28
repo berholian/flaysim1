@@ -562,8 +562,12 @@ section{
             }
             @media only screen and (max-width: 466px)
             {
-                font-size: .6em;
-                p{font-size: .8em;}
+                font-size: .8em;
+                padding: 0;
+                p{
+                    font-size: .9em;
+                    padding: 0;
+                }
             }
         }
         .enlace_galery{
@@ -610,13 +614,14 @@ section{
         }
     }
 
-    .desplegado
-    {
+    .desplegado{
         width: 90%;
         margin: 0 auto;
         position: relative;
         z-index: 10000;
-/*        box-shadow: 0 2px 30px rgba(44,166,217,.4);*/
+@media only screen and (max-width: 466px) {
+    margin: 0;
+}
     }
 
     article p
@@ -667,7 +672,7 @@ section{
             width: 95.91667%;
         }
     }
-    @media only screen and ( max-width: $bp_medium   )
+    @media only screen and ( max-width: $bp_medium )
     {
         .col4, .col3
         {
