@@ -6,7 +6,7 @@
 form
 {
     display: block;
-    width: 81.5%;
+    width: 58.8%;
     margin: 0 auto;
     padding: 1em 3%;
 /*    background-color: rgba(0,0,0,.8);*/
@@ -98,39 +98,48 @@ form
     }
     span.success
     {
-      color: green;
+        color: green;
     }
 
     span.error
     {
-      color: red;
-    }
-
-@media screen and (max-width: $bp_medium )
-{
-    width: 100%
-    ul
-    {
-        width: 100%;
-        margin: .1em auto;
-    }
-
-    label{
-        font-size: 1.2em;
-    }
-    input
-    {
-        width: 100%;
-        height: 2em;
-        font-size: 45px;
-    }
-
-    .actioner
-    {
-        margin: .5em auto .5em;
-        width: 100%!important;
-        font-size: 45px;
-        text-transform: capitalize;
+        color: red;
     }
 }
+
+@media only screen and (max-width : 480px) {
+
+    form{
+        width: 93%;
+        ul
+        {
+            width: 100%;
+            margin: .1em auto;
+        }
+
+        label{
+            font-size: 1.2em;
+        }
+        input
+        {
+            width: 100%;
+            /*height: 1.2em;*/
+            font-size: 1em;
+        }
+        textarea
+        {
+        margin: 1em auto;
+        width: 100%;
+        height: 145px;
+        font-size: .8em;
+        color: inherit;
+        }
+        .actioner
+        {
+            margin: .5em auto .5em;
+            width: 100%!important;
+            font-size: 45px;
+            text-transform: capitalize;
+        }
+    }
 }
