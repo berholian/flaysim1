@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="icon" href="images/favicon1.png">
-  <title>contacto flysim</title>
+  <title>contact flysim</title>
 </head>
 
 <body class="parallax-bg contactar">
-<!--  <div class="contactar"></div>-->
+  <div class="leng">
+    <div class="es"></div>
+    <div class="en"></div>
+  </div>
 
   <?php include('header.php') ?>
 
   <section>
-    <h2 >contacto</h2>
+    <h2 >contact</h2>
     <div class="hero">
       <div class="row">
         <div class="map">
@@ -31,19 +34,19 @@
           <span class="msg"></span>
         </li>
         <li>
-          <label>Nombre : </label>
+          <label>name : </label>
           <input type="text" name="nombre" value="" required/>
         </li>
         <li>
-          <label>Tlfn : </label>
+          <label>phone : </label>
           <input type="tel" name="tel">
         </li>
         <li>
-          <label>correo@ : </label>
+          <label>mail@ : </label>
           <input type="text" name="email" >
         </li>
         <li>
-            <textarea rows="3" placeholder='Solicite información' name="consulta"></textarea>
+            <textarea rows="3" placeholder='consult' name="consulta"></textarea>
           </li>
         <li>
           <input class="actioner" type="submit" value="confirm"/>

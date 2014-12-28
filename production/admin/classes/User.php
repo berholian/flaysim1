@@ -305,7 +305,7 @@ class User{
         $headers .= "Content-type: text/html;  charset=utf-8\r\n";
 
         //dirección del remitente
-        $headers .= "From: Jose <j.a.esteveza1@gmail.com>\r\n";
+        $headers .= "From: $data['email']\r\n";
        
         //dirección de respuesta, si queremos  que sea distinta que la del remitente
         //$headers .= "Reply-To: info@remitente.com\r\n";
@@ -314,12 +314,16 @@ class User{
         //$headers .= "Return-path: holahola@loquesea.com\r\n";
 
         //direcciones que recibirán copia
-        //$headers .= "Cc: info@remitente.com\r\n";
+        $headers .= "Cc: j.a.esteveza1@gmail.com\r\n";
 
         //direcciones que recibirán copia oculta
         //$headers .= "Bcc: pepe@pepe.com,juan@juan.com\r\n";
        
         mail($param["destinatario"],$param["asunto"],$param["cuerpo"],$headers);
+        //cambios
+        //primero probar con:
+        
+        //mail('berholiann@gmail.com','prueba','contenido_prueba');
     }
 
     public function switchCss(){
