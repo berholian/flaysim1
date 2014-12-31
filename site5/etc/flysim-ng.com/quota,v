@@ -1,0 +1,24 @@
+head	1.1;
+access;
+symbols;
+locks
+	flysimng:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2014.12.12.17.47.34;	author flysimng;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@@

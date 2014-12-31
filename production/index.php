@@ -9,6 +9,10 @@
   </head>
 
   <body class="parallax-bg" onload="init()">
+    <div class="leng">
+      <div class="es"></div>
+      <div class="en"></div>
+    </div>
 
       <div class="logoCarte"></div>
 
@@ -39,9 +43,11 @@
       <section class="contacto">
 
         <ol>
-          <li>--*********--</li>
-          <li>jpuset@flaysim.com</li>
-          <li>+33 1 322 45 65</li>
+          <li>            </li>
+          <li>
+            <a href="mailto:flysim-ng@flysim-ng.com">flysim-ng@flysim-ng.com</a>
+          </li>
+          <li href="tel:+34669024288">+34 669 024 288</li>
 <!--          <div class="contact">
             <a href="contacto.php">contacto</a>
           </div>-->
@@ -65,7 +71,7 @@
 
       <div class="develop">
 
-        <div class="copyrigth">©2014 FlySIM
+        <div class="copyrigth">©2014 FlySIM-NG
           <span>-*-*-*-*-*-</span>
         </div>
 

@@ -27,7 +27,7 @@
                     <label>password: </label>
                     <input type="text" name="pass" value="">
                     <input type="submit" value="login">
-                    <span>la ille de fragance</span>
+                    <span>flySim-NG</span>
                 </form>
             </section>
         </div>

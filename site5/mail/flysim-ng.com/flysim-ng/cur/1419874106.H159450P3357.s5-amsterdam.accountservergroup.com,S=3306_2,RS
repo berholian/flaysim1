@@ -1,0 +1,69 @@
+Return-path: <listocopiar@gmail.com>
+Envelope-to: flysim-ng@flysim-ng.com
+Delivery-date: Mon, 29 Dec 2014 18:28:26 +0100
+Received: from mail-wi0-f179.google.com ([209.85.212.179]:45766)
+	by s5-amsterdam.accountservergroup.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.82)
+	(envelope-from <listocopiar@gmail.com>)
+	id 1Y5e7E-0000rr-Qu
+	for flysim-ng@flysim-ng.com; Mon, 29 Dec 2014 18:28:25 +0100
+Received: by mail-wi0-f179.google.com with SMTP id ex7so22721111wid.0
+        for <flysim-ng@flysim-ng.com>; Mon, 29 Dec 2014 09:28:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:from:content-type:message-id:date:to
+         :content-transfer-encoding:mime-version;
+        bh=chM1MyqJpfJttqvSY1jo2gd28Bz1lpP420xxJVW80eU=;
+        b=tOk4F/MVbTaWdo/Cn2ibCFYA4arslVSl4raFQjLsJxyc6RqK/dyj4zSYet4r1aRK0y
+         tk3YfJSUTydSV4RLOMDnUsbrR8KcNTE45GLCrVe37xyDjr5NV+bkLLewDRx7qM/mh9M7
+         EGXK+PGJn421DGNiPd8rkIC/ZqMnkKAyzwFRgyrgatpg60iseFZLcb5j0+cj3ihqkhVr
+         LnG46yh/5inr49NA9vJR5rWFO3PZhj+n0THtgKIKpzPpx0kNZC8AIgVlW258+FeXLnYi
+         9g4VikgO7VSQ9OFPvHU7gfliYBlCwGoHxL8DMN/ULFtfYBMrjiV9SAb79R8XkoBGVjYe
+         OLew==
+X-Received: by 10.194.90.229 with SMTP id bz5mr25536wjb.63.1419874104255;
+        Mon, 29 Dec 2014 09:28:24 -0800 (PST)
+Received: from [10.85.252.231] ([31.4.206.183])
+        by mx.google.com with ESMTPSA id ej10sm43608599wib.1.2014.12.29.09.28.22
+        for <flysim-ng@flysim-ng.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 29 Dec 2014 09:28:23 -0800 (PST)
+Subject: Prueba5
+From: Miguel Angel Estevez <listocopiar@gmail.com>
+Content-Type: text/plain;
+	charset=utf-8
+X-Mailer: iPhone Mail (10B350)
+Message-Id: <3F09B1BA-4E7C-48EA-80C7-B75FF6DE737F@gmail.com>
+Date: Mon, 29 Dec 2014 18:28:22 +0100
+To: Jaime tuset Simulador 737 <flysim-ng@flysim-ng.com>
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+X-Spam-Status: No, score=-0.8
+X-Spam-Score: -7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "s5-amsterdam.accountservergroup.com", has
+ identified this incoming email as possible spam.  The original message
+ has been attached to this so you can view it (if it isn't spam) or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Miguel Ángel Estévez [...] 
+ 
+ Content analysis details:   (-0.8 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (listocopiar[at]gmail.com)
+ -0.7 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+                             trust
+                             [209.85.212.179 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+
+
+Miguel =C3=81ngel Est=C3=A9vez=

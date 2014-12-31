@@ -70,16 +70,17 @@
 .iconfont.twitter:before 
 {
     content: '\e805';
-    font-size: 119%;
+    font-size: 118%;
+    margin-right: 8px;
+    margin-left: 2px;
+    margin-top: -10px;
+    padding-top: 0;
     position: relative;
-    top: 2px;
+    top: 1.5px;
 } /* '' */
 
 .iconfont.facebook:before { content: '\e804'; } /* '' */
 
 .iconfont.googleplus:before { content: '\e803'; } /* '' */
 
-.iconfont.mail:before 
-{ 
-    content: '\e806';
-} /* '' */
+.iconfont.mail:before { content: '\e806'; margin-left: 4px;} /* '' */

@@ -120,7 +120,7 @@ class User{
 
         //instancia el objeto de la clase mysqli con los datos de la variable externa
         $db = new mysqli($db_params['host'], $db_params['user'], $db_params['pass'], $db_params['db']);
-//        $db = new mysqli('mysql.hostinger.es', 'u133937059_flysi', 'uilleann', 'u133937059_flysi');
+//        $db = new mysqli('flysim-ng.com', 'flysim-ng_flysi', 'uilleann', 'flysim-ng_flysi');
 
         if($db->connect_errno > 0){
             //si hay error de conexión lo guarda en el log
@@ -305,7 +305,7 @@ class User{
         $headers .= "Content-type: text/html;  charset=utf-8\r\n";
 
         //dirección del remitente
-        $headers .= "From: $data['email']\r\n";
+        //$headers .= "From: $data['email']\r\n";esto está mal compprobarlo del original
        
         //dirección de respuesta, si queremos  que sea distinta que la del remitente
         //$headers .= "Reply-To: info@remitente.com\r\n";

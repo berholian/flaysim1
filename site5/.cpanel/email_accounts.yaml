@@ -1,0 +1,12 @@
+--- 
+__version: '2.1'
+flysim-ng.com: 
+  account_count: 1
+  accounts: 
+    flysim-ng: 
+      disk_mtime: '1419865084'
+      diskquota: 0
+      diskused: 1777
+  disk_mtime: '1419874465'
+  passwd_mtime: '1419874476'
+  quota_mtime: '1419874476'

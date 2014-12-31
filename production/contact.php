@@ -9,10 +9,6 @@
 </head>
 
 <body class="parallax-bg contactar">
-  <div class="leng">
-    <div class="es"></div>
-    <div class="en"></div>
-  </div>
 
   <?php include('header.php') ?>
 

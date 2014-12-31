@@ -28,9 +28,11 @@ footer
         li
         {
             display: inline-block;
+            background-color: rgba(49,58,226,.3);
             margin: 0 auto;
             padding: 5px;
             font-size: 1em;
+            border-radius: 3px;
             /*border-top: 1px solid rgba(132,87,147,.8);
             border-right: 1px solid rgba(132,87,147,.8);
             border-bottom: 1px solid rgba(51,26,59,.8);
@@ -57,7 +59,7 @@ footer
 
         li:hover
         {
-            background-color: rgba(49,58,226,.1);   
+            background-color: rgba(49,58,226,.5);   
         }
     }
 
