@@ -12,7 +12,7 @@
     echo "error";
   }else{
     echo "ok";
-    mail('j.a.esteveza1@gmail.com','prueba','contenido_prueba');
+    mail('flysim-ng@flysim-ng.com','contacto',$database);
   }
 
 ?>

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon1.png">
     <meta charset="UTF-8">
-    <title>simuladores personalizados flysim</title>
+    <title>custom simulators flysim</title>
   </head>
 
   <body class="parallax-bg desarrollo">
@@ -15,7 +15,7 @@
       <?php include('header.php') ?>
 
     <section>
-      <h2>desarrollo</h2>
+      <h2>development</h2>
       <!-- flipster-->
       <div id="Main-Content">
         <div class="Container">
@@ -23,7 +23,7 @@
           <div class="flipster" id="simPer">
 
             <div class="volver">
-              <a href="desarrollo.php">volver</a>
+              <a href="desarrollo.php">back</a>
             </div>
           </div>
           <!-- End Flipster List -->

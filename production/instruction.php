@@ -5,16 +5,16 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon1.png">
-    <title>instrucción flysim</title>
+    <title>instruction flysim</title>
   </head>
 
   <body class="parallax-bg instruccion">
 <!--    <div class="instruccion"></div>-->
 
-    <?php include('header.php') ?>
+    <?php include('header_en.php') ?>
 
     <section>
-      <h2>instrucción</h2>
+      <h2>instruction</h2>
         <div class="row carta">
             <?php
                 include('admin/inc/config.php');
@@ -23,36 +23,36 @@
 
           <div class="paper col8">
             <h4>
-                <a data-destino="#descripcion">descripción</a>
+                <a data-destino="#overview">overview</a>
             </h4>
-            <ul id="descripcion">
+            <ul id="overview">
 
               <div class="descripcion"></div>
 
                 <?php
                     $user = new User();
-                    $descripcion = $user->getMenu('descripcion');
-                    foreach ($descripcion as $curso) {
+                    $overview = $user->getMenu('overview');
+                    foreach ($overview as $curso) {
                         $template = file_get_contents('templates/menu_item.html');
                         $template = str_replace('#name#', $curso["name"], $template);
                         $template = str_replace('#description#', $curso["description"], $template);
                         echo $template;
                     }
                 ?>
-                <div class="companys"></div>
+              <div class="companys"></div>
 
             </ul>
           </div>
 
           <div class="paper col8">
             <h4>
-              <a data-destino="#alquilerSimulador_pilotos">pilotos comerciales</a>
+              <a data-destino="#cpl_atpl">CPL-ATPL</a>
             </h4>
-            <ul id="alquilerSimulador_pilotos">
+            <ul id="cpl_atpl">
               <?php
                 $user = new User();
-                $alquilerSimulador_pilotos = $user->getMenu('alquilerSimulador_pilotos');
-                foreach ($alquilerSimulador_pilotos as $monografico) {
+                $cpl_atpl = $user->getMenu('cpl_atpl');
+                foreach ($cpl_atpl as $monografico) {
                     $template = file_get_contents('templates/menu_item.html');
                     $template = str_replace('#name#', $monografico["name"], $template);
                     $template = str_replace('#description#', $monografico["description"], $template);
@@ -64,13 +64,13 @@
 
           <div class="paper col8">
             <h4>
-              <a data-destino="#alquilerSimulador_profesionales">profesionales aeronáuticos</a>
+              <a data-destino="#AEAMT">Aeronautical Engineers and Aircraft Maintenance Technicians</a>
             </h4>
-            <ul id="alquilerSimulador_profesionales">
+            <ul id="AEAMT">
               <?php
                 $user = new User();
-                $alquilerSimulador_profesionales = $user->getMenu('alquilerSimulador_profesionales');
-                foreach ($alquilerSimulador_profesionales as $monografico) {
+                $AEAMT = $user->getMenu('AEAMT');
+                foreach ($AEAMT as $monografico) {
                     $template = file_get_contents('templates/menu_item.html');
                     $template = str_replace('#name#', $monografico["name"], $template);
                     $template = str_replace('#description#', $monografico["description"], $template);

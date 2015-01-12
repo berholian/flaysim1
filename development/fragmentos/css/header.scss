@@ -144,6 +144,48 @@ padding:20px;
 margin:0 auto;
 }
 
+.leng_es{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 125000;
+    a{
+        width: 50px;
+        height: 30px;
+        background: url(images/flag_en.png) no-repeat center center;
+        background-size: 50%;
+        position: absolute;
+        z-index: 125000;
+/*        top: 20px;
+        right: 30px;
+        background: red;*/
+        img{ background-position: center;}
+    }
+}
+
+.leng_en{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 125000;
+    a{
+        width: 50px;
+        height: 30px;
+        background: url(images/flag_es.png) no-repeat center center;
+        background-size: 50%;
+        position: absolute;
+        z-index: 125000;
+/*        top: 20px;
+        right: 30px;
+        background: red;*/
+        img{ background-position: center;}
+    }
+}
+
 /*.cloud1, .cloud2, .cloud3, .cloud4{
 position:fixed;
 width:2000px;

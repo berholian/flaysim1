@@ -9,9 +9,8 @@
   </head>
 
   <body class="parallax-bg" onload="init()">
-    <div class="leng">
-      <div class="es"></div>
-      <div class="en"></div>
+    <div class="leng_es">
+      <a href="home_en.php"></a>
     </div>
 
       <div class="logoCarte"></div>

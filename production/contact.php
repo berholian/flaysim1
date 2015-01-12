@@ -10,7 +10,7 @@
 
 <body class="parallax-bg contactar">
 
-  <?php include('header.php') ?>
+  <?php include('header_en.php') ?>
 
   <section>
     <h2 >contact</h2>

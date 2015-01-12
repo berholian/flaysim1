@@ -46,7 +46,7 @@
             <textarea rows="3" placeholder='Solicite información' name="consulta"></textarea>
           </li>
         <li>
-          <input class="actioner" type="submit" value="confirm"/>
+          <input class="actioner" type="submit" value="confirm">
           <input class="actioner" type="reset" value="resset">
         </li>
       </ul>

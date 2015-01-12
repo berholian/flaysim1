@@ -5,18 +5,17 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
-    <title>flysim index</title>
+    <title>flysim home_en</title>
   </head>
 
   <body class="parallax-bg" onload="init()">
-    <div class="leng">
-      <div class="es"></div>
-      <div class="en"></div>
+    <div class="leng_en">
+      <a href="index.php"></a>
     </div>
 
-      <div class="logoCarte"></div>
+    <div class="logoCarte"></div>
 
-    <?php include('header_home.php') ?>
+    <?php include('header_home_en.php') ?>
 
       <div class="carte"></div>
 
