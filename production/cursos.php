@@ -31,6 +31,27 @@
 
         <div class="paper col4 curss">
           <h4>
+            <a data-destino="#JOC">Curso Orientación Jet (JOC)
+</a>
+          </h4>
+          <ul id="JOC">
+
+            <?php
+                $user = new User();
+                $JOC = $user->getMenu('JOC');
+                foreach ($JOC as $curso) {
+                    $template = file_get_contents('templates/menu_item.html');
+                    $template = str_replace('#name#', $curso["name"], $template);
+                    $template = str_replace('#description#', $curso["description"], $template);
+                    echo $template;
+                }
+            ?>
+
+          </ul>
+        </div>
+
+        <div class="paper col4 curss">
+          <h4>
             <a data-destino="#iniciacion_vueloVirtual">iniciación al vuelo virtual</a>
           </h4>
           <ul id="iniciacion_vueloVirtual">

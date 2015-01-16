@@ -46,7 +46,7 @@
           <li>
             <a href="mailto:flysim-ng@flysim-ng.com">flysim-ng@flysim-ng.com</a>
           </li>
-          <li>+33 1 322 45 65</li>
+          <li>+34 669 024 288</li>
 <!--          <div class="contact">
             <a href="contacto.php">contacto</a>
           </div>-->
@@ -63,7 +63,7 @@
             <a class="iconfont googleplus" href="https://plus.google.com/"></a>
           </li>
           <li>
-            <a class="iconfont mail" href=""></a>
+            <a class="iconfont linkedin-squared" href="https://es.linkedin.com/"></a>
           </li>
         </ul>
       </section>

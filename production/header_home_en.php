@@ -5,7 +5,7 @@
       		<a href="instruction.php">instruction</a>
       	</li>
       	<li>
-      		<a href="curses.php">curses</a>
+      		<a href="curses.php">courses</a>
       	</li>
       	<li>
       		<a href="development.php">development</a>

@@ -13,14 +13,14 @@
 
 /*----------------------/ nav_en $medium \-----------------------------------------*/
 
-  var navTablet = '<ul><li class="tablet inf"><a href="instruction.php">instruction</a></li><li class="tablet first"><a href="curses.php">curses</a></li><li class="tablet"><a href="development.php">development</a></li><li class="tablet inf"><a href="contact.php">contact</a></li><li class="tablet fin"><a href="about_as.php">about as</a></li></ul>';
+  var navTablet_en = '<ul><li class="tablet inf"><a href="instruction.php">instruction</a></li><li class="tablet first"><a href="curses.php">courses</a></li><li class="tablet"><a href="development.php">development</a></li><li class="tablet inf"><a href="contact.php">contact</a></li><li class="tablet fin"><a href="about_as.php">about as</a></li></ul>';
   
   var anchoPantalla = window.innerWidth;
-  var botonNav = document.querySelector('.nav_en ul');
+  var botonNav_en = document.querySelector('.nav_en ul');
 
   if( anchoPantalla>360 )
   {
-    document.querySelector('.nav_en').innerHTML = navTablet;
+    document.querySelector('.nav_en').innerHTML = navTablet_en;
   }
 
 /*-------------------/   nav action+mini  \------------------------------------*/

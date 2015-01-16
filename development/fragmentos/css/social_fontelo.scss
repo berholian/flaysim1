@@ -74,6 +74,7 @@
     margin-right: 8px;
     margin-left: 2px;
     margin-top: -10px;
+    margin-bottom: -0.5px;
     padding-top: 0;
     position: relative;
     top: 1.5px;
@@ -84,3 +85,16 @@
 .iconfont.googleplus:before { content: '\e803'; } /* '' */
 
 .iconfont.mail:before { content: '\e806'; margin-left: 4px;} /* '' */
+
+.iconfont.linkedin-squared:before
+{
+    content: '\e800';
+    font-size: 118%;
+    margin-right: 8px;
+    margin-left: 2px;
+    margin-top: -10px;
+    margin-bottom: -0.5px;
+    padding-top: 0;
+    position: relative;
+    top: 1.5px;
+} /* '' */

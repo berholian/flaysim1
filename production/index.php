@@ -63,7 +63,7 @@
             <a class="iconfont googleplus" href="https://plus.google.com/"></a>
           </li>
           <li>
-            <a class="iconfont mail" href=""></a>
+            <a class="iconfont linkedin-squared" href="https://es.linkedin.com/"></a>
           </li>
         </ul>
       </section>
