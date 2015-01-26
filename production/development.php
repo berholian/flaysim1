@@ -39,7 +39,7 @@
                 }
             ?>
             <li class="enlace_galery">
-              <a href="sim_personaliz-flipster.php">galery</a>
+              <a href="custom_simulators-flipster.php">galery</a>
             </li>
           </ul>
         </div>
@@ -61,7 +61,7 @@
                 }
             ?>
             <li class="enlace_galery">
-              <a href="mantenimiento_ampliacion-flipster.php">galery</a>
+              <a href="maintenance_expansion-flipster.php">galery</a>
             </li>
           </ul>
         </div>
@@ -83,7 +83,7 @@
                 }
             ?>
             <li class="enlace_galery">
-              <a href="componentes_reales-flipster.php">galery</a>
+              <a href="real_components-flipster.php">galery</a>
             </li>
 
           </ul>

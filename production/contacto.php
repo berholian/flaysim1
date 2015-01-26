@@ -40,7 +40,7 @@
         </li>
         <li>
           <label>correo@ : </label>
-          <input type="text" name="email" >
+          <input type="email" name="email" >
         </li>
         <li>
             <textarea rows="3" placeholder='Solicite información' name="consulta"></textarea>

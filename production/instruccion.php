@@ -79,6 +79,24 @@
               ?>
             </ul>
           </div>
+
+          <div class="paper col8">
+            <h4>
+              <a data-destino="#sim_paks">sim packs</a>
+            </h4>
+            <ul id="sim_paks">
+              <?php
+                $user = new User();
+                $sim_paks = $user->getMenu('sim_paks');
+                foreach ($sim_paks as $monografico) {
+                    $template = file_get_contents('templates/menu_item.html');
+                    $template = str_replace('#name#', $monografico["name"], $template);
+                    $template = str_replace('#description#', $monografico["description"], $template);
+                    echo $template;
+                }
+              ?>
+            </ul>
+          </div>
         </div>
       </section>
 

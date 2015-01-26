@@ -57,13 +57,13 @@
             <a class="iconfont twitter" href="https://twitter.com/"></a>
           </li>
           <li>
-            <a class="iconfont facebook" href="https://www.facebook.com/"></a>
+            <a class="iconfont facebook" href="https://es-es.facebook.com/pages/Flysim-ng/256237214408236"></a>
           </li>
           <li>
             <a class="iconfont googleplus" href="https://plus.google.com/"></a>
           </li>
           <li>
-            <a class="iconfont linkedin-squared" href="https://es.linkedin.com/"></a>
+            <a class="iconfont linkedin-squared" href="https://es.linkedin.com/in/flysimngsimuladoresdevuelo"></a>
           </li>
         </ul>
       </section>
@@ -102,7 +102,7 @@
     <script src="js/lib/jquery.easing.min.js"></script>-->
 <!--    <script src="js/main_scrollpath.min.js"></script>-->
 <!--    <script src="js/jquery.scrollpath.min.js"></script>-->
-    <script src="js/jquery-1.7.1.min.js"></script>
+<!--    <script src="js/jquery-1.7.1.min.js"></script>-->
     <script src="js/jarallax-0.2.min.js"></script>
     <script src="js/jarallax-0.2.3b.min.js"></script>
 <!--    <script src="js/main.min.js"></script>-->

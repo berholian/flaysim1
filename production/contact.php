@@ -23,7 +23,8 @@
       </div>
     </div>
 
-    <form id="reserva_form" action="reservas.php" method= "post">
+    <form id="reserva_form" action="reservas.php" >
+
 
       <ul>
         <li>
@@ -35,24 +36,26 @@
         </li>
         <li>
           <label>phone : </label>
-          <input type="tel" name="tel">
+          <input type="tel" name="tel" >
         </li>
         <li>
           <label>mail@ : </label>
-          <input type="text" name="email" >
+          <input type="email" name="email" required>
         </li>
         <li>
             <textarea rows="3" placeholder='consult' name="consulta"></textarea>
           </li>
         <li>
-          <input class="actioner" type="submit" value="confirm"/>
-          <input class="actioner" type="reset" value="resset">
+          <input id="submit_ajax" class="actioner" type="submit" value="confirm"/>
+          <!--<input class="actioner" type="reset" value="resset">-->
         </li>
       </ul>
-      
+
     </form>
   </section>
+
   <script src="js/jquery-2.0.3.min.js"></script>
   <script src="js/varios.min.js"></script>
+
 </body>
 </html>

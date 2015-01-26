@@ -2,8 +2,10 @@
 
 $(document).ready(function(){
 
+//  var campos=$("#reserva_form input");
+
     $("#reserva_form").submit(function(e){
-      
+
         e.preventDefault();
 
         var form = $(this);
@@ -17,6 +19,7 @@ $(document).ready(function(){
                 $("span.msg").html( "Sus datos se han guardado correctamente" );
                 $("span.msg").removeClass("error");
                 $("span.msg").addClass("success");
+//                campos.val()="";
             }else{
                 $("span.msg").html( "No se han podido guardar sus datos. Inténtelo más tarde." );
                 $("span.msg").removeClass("success");
@@ -112,11 +115,11 @@ $(document).ready(function(){
 /*--------/ flipster-responsive sim_personaliz \-----------------------------------------*/
 
   function setGalerySimPer(){
-      var flipMv = '<div class="galeria">simuladores personalizados</div> <ul class="marco" style="width:210px!important;height:150px!important;-webkit-padding-start: 0px!important;"> <li><img src="images/flysim_galerys/Simuladores/Fotos1simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos2simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos3simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos4simus210.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus210.jpg"></li> </ul> <div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipMv = '<div class="galeria">simuladores personalizados</div> <ul class="marco" style="width:210px!important;height:150px!important;-webkit-padding-start: 0px!important;"> <li><img src="images/flysim_galerys/Simuladores/Fotos1simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos2simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos3simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos4simus210.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus210.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos6simus210.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos7simus210.jpg"></li> </ul> <div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-      var flipTablet = '<div class="galeria">simuladores personalizados</div> <ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/flysim_galerys/Simuladores/Fotos1simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos2simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos3simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos4simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus420.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipTablet = '<div class="galeria">simuladores personalizados</div> <ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/flysim_galerys/Simuladores/Fotos1simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos2simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos3simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos4simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos6simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos7simus420.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
-      var flipDesk = '<div class="galeria">simuladores personalizados</div> <ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/flysim_galerys/Simuladores/Fotos1simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos2simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos3simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos4simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
+      var flipDesk = '<div class="galeria">simuladores personalizados</div> <ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/flysim_galerys/Simuladores/Fotos1simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos2simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos3simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos4simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos6simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos7simus630.jpg"></li></ul><div class="volver"><a href="desarrollo.php">volver</a></div>';
 
       var winWidth=$('html').width();
 
@@ -126,6 +129,77 @@ $(document).ready(function(){
             $('.flipster#simPer').html( flipTablet );
           }else{
             $('.flipster#simPer').html( flipDesk );
+          }
+        }
+
+
+
+
+
+
+
+
+
+
+/*----------------------/ flipster-responsive (english-block) componentes-reales\-----------------------------------------*/
+
+  function setGaleryCompRealEn(){
+      var flipMv = '<div class="galeria">real boeing 737 hardware </div> <ul class="marco" style="width:210px!important;height:150px!important;"><li><img src="images/flysim_galerys/Componentes/Foto1Reales210.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto2Reales210.jpg"></li> <li><img src="images/flysim_galerys/Componentes/Foto3Reales210.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto4Reales210.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto5Reales210.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var flipTablet = '<div class="galeria">real boeing 737 hardware </div> <ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/flysim_galerys/Componentes/Foto1Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto2Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto3Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto4Reales420.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto5Reales420.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var flipDesk = '<div class="galeria">real boeing 737 hardware </div> <ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/flysim_galerys/Componentes/Foto1Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto2Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto3Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto4Reales630.jpg"></li><li><img src="images/flysim_galerys/Componentes/Foto5Reales630.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var winWidth=$('html').width();
+
+        if (winWidth<=564) {
+            $('.flipster#compReal_en').html( flipMv );
+          }else if (winWidth>564 && winWidth<1500) {
+            $('.flipster#compReal_en').html( flipTablet );
+          }else{
+            $('.flipster#compReal_en').html( flipDesk );
+          }
+        }
+
+
+/*---------/ flipster-responsive (english-block) mantenimiento_ampliación \-----------------------------------------*/
+
+  function setGaleryMantAmpEn(){
+      var flipMv = '<div class="galeria">maintenance and updates</div> <ul class="marco" style="width:210px!important;height:150px!important"><li><img src="images/flysim_galerys/Mantenimiento/Foto1Manteni210.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto2Manteni210.jpg"></li> <li><img src="images/flysim_galerys/Mantenimiento/Foto3Manteni210.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto4Manteni210.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto5Manteni210.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var flipTablet = '<div class="galeria">maintenance and updates</div> <ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/flysim_galerys/Mantenimiento/Foto1Manteni420.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto2Manteni420.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto3Manteni420.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto4Manteni420.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto5Manteni420.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var flipDesk = '<div class="galeria">maintenance and updates</div> <ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/flysim_galerys/Mantenimiento/Foto1Manteni630.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto2Manteni630.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto3Manteni630.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto4Manteni630.jpg"></li><li><img src="images/flysim_galerys/Mantenimiento/Foto5Manteni630.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var winWidth=$('html').width();
+
+        if (winWidth<=564) {
+            $('.flipster#mantAmp_en').html( flipMv );
+          }else if (winWidth>564 && winWidth<1500) {
+            $('.flipster#mantAmp_en').html( flipTablet );
+          }else{
+            $('.flipster#mantAmp_en').html( flipDesk );
+          }
+        }
+
+
+/*--------/ flipster-responsive (english-block) sim_personaliz \-----------------------------------------*/
+
+  function setGalerySimPerEn(){
+      var flipMv = '<div class="galeria">customized simulators on demand</div> <ul class="marco" style="width:210px!important;height:150px!important;-webkit-padding-start: 0px!important;"> <li><img src="images/flysim_galerys/Simuladores/Fotos1simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos2simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos3simus210.jpg"></li> <li><img src="images/flysim_galerys/Simuladores/Fotos4simus210.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus210.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos6simus210.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos7simus210.jpg"></li> </ul> <div class="volver"><a href="development.php">back</a></div>';
+
+      var flipTablet = '<div class="galeria">customized simulators on demand</div> <ul class="marco" style="width:420px!important;height:300px!important"><li><img src="images/flysim_galerys/Simuladores/Fotos1simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos2simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos3simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos4simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos6simus420.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos7simus420.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var flipDesk = '<div class="galeria">customized simulators on demand</div> <ul class="marco" style="width:630px!important;height:450px!important"><li><img src="images/flysim_galerys/Simuladores/Fotos1simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos2simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos3simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos4simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos5simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos6simus630.jpg"></li><li><img src="images/flysim_galerys/Simuladores/Fotos7simus630.jpg"></li></ul><div class="volver"><a href="development.php">back</a></div>';
+
+      var winWidth=$('html').width();
+
+        if (winWidth<=564) {
+            $('.flipster#simPer_en').html( flipMv );
+          }else if (winWidth>564 && winWidth<1500) {
+            $('.flipster#simPer_en').html( flipTablet );
+          }else{
+            $('.flipster#simPer_en').html( flipDesk );
           }
         }
 

@@ -25,20 +25,20 @@
 
 /*-------------------/   nav action+mini  \------------------------------------*/
 /*alert("running");*/
-var desplegable = document.querySelector('#desple');
+var desple = document.querySelector('#desple');
 var minimenu = document.querySelector('.iconfont.mini');
 
 minimenu.addEventListener('click', despliegaMenu);
 
 function despliegaMenu (e)
 {
-  if(desplegable.style.display == "block"){
+  if(desple.style.display == "block"){
     
-    desplegable.style.display = "none";
+    desple.style.display = "none";
     minimenu.style.height = "3em";
 
   }else{
-    desplegable.style.display = "block";
+    desple.style.display = "block";
     minimenu.style.height = "22em";
   }
 }

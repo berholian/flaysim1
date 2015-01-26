@@ -1,6 +1,6 @@
 
     <div class="iconfont mini"><span>menu</span>
-      <ul id="desple">
+      <ul id="desplegable">
       	<li>
       		<a href="instruccion.php">instrucción</a>
       	</li>
